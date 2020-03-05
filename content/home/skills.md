@@ -15,21 +15,39 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "map-pin"
+  icon_pack = "fas"
+  name = "FOSS4G"
+  description = "100%"
+  
+[[feature]]
+  icon = "tint"
+  icon_pack = "fas"
+  name = "Water Management"
+  description = "70%"
+
+[[feature]]
+  icon = "water"
+  icon_pack = "fas"
+  name = "Hydraulic modeling"
+  description = "60%"
+
+[[feature]]
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
+  name = "Python"
   description = "100%"  
+
+[[feature]]
+  icon = "js"
+  icon_pack = "fab"
+  name = "JavaScript"
+  description = "100%" 
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  icon = "java"
+  icon_pack = "fab"
+  name = "java"
+  description = "100%" 
 
 +++

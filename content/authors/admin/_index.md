@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Jin IGARASHI
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Senior GIS Engineer & Consultant
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Freelance
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am skilled GIS engineer, especially am interested in GIS for water management.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Geographic Information System (GIS)
+- Non-Revenue Water(NRW) management
+- Minor foreign language - Maasai, Swahili, etc.
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: Bachelor of Arts in Chinese and Korean history
+    institution: Tokai University, Japan
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Chinese language, SCHOOL OF CHINESE AS A SECOND LANGUAGE
+    institution: Beijing University, China
+    year: 2007
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +41,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+- icon: facebook
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.facebook.com/jin.igarashi
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/jinigarashi
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/JinIgarashi
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,10 +63,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Engineers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS.
