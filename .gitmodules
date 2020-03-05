@@ -1,3 +1,8 @@
 [submodule "themes/academic"]
 	path = themes/academic
-	url = https://github.com/gcushen/hugo-academic.git
+	url = git@github.com:JinIgarashi/academic-kickstart.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:JinIgarashi/JinIgarashi.github.io.git
+	branch = master
