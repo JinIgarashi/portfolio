@@ -36,12 +36,7 @@ date_format = "Jan 2006"
   date_start = "2017-04-01"
   date_end = "2019-12-31"
   description = """
-  Conducted the followings projects funded by Japan International Cooperation Agency (JICA).
-  - The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project) (06/2018-12/2019)
-  - Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand (11/2018-11/2019)
-  - Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda” (10/2017-11/2018)
-
-  Conducted training workshops for data collection and sharing with FOSS4G applications, then designed & created GIS database and data sharing platform for rural water supply management in RWASOM project. Collaborated with Rwandan colleagues to complete mapping all of water supply systems in the country. The system in Rwanda uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS. 
+  As an expert, I joined the several projects funded by Japan International Cooperation Agency (JICA).
   """
 
   [[experience]]
@@ -52,12 +47,7 @@ date_format = "Jan 2006"
   date_start = "2014-04-01"
   date_end = "2016-09-30"
   description = """
-  Worked as a GIS specialist funded by JICA and conducted the following activities.
-  - Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).
-  - Designed and developed GIS database & WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.
-  - Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.
-  - Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.
-  - Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.
+  Worked as a GIS specialist funded by JICA and conducted GIS mapping and some improvements of Non-Revenue Water management.
   """
 
   [[experience]]
@@ -68,13 +58,7 @@ date_format = "Jan 2006"
   date_start = "2009-04-01"
   date_end = "2017-03-31"
   description = """
-  Designed and developed following GIS applications. 
-  - the development of HD map for autonomous vehicle (ArcGIS Server, Python, Django REST framework).
-  - the system of mapping and simulating location of ships’ movement in Singapore (Leafletjs).
-  - Web-GIS system for the Real Property Registration system in Ministry of Justice of Japan (Mapserver, OpenLayers, Oracle).
-  - An Android application for health care management (Java).
-  - An area marketing system by using MapInfo.
-  - Logistics and distribution management system with Dijkstra routing algorism (VB.NET, SQL Server, MS Access).
+  Conducted software developments, especially for GIS system for total 6 years.
   """
 
 +++

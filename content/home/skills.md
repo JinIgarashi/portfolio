@@ -17,37 +17,69 @@ subtitle = ""
 [[feature]]
   icon = "map-pin"
   icon_pack = "fas"
-  name = "FOSS4G"
-  description = "100%"
+  name = "GIS Application"
+  description = """
+  QGIS
+
+  QField
+
+  ArcGIS
+  """
+
+[[feature]]
+  icon = "server"
+  icon_pack = "fas"
+  name = "GIS Server"
+  description = """
+  QGIS Server/Lizmap
+
+  MapServer
+
+  GeoServer
+
+  Mapbox Vector Tile
+
+  ArcGIS Server
+  """
   
 [[feature]]
   icon = "tint"
   icon_pack = "fas"
-  name = "Water Management"
-  description = "70%"
+  name = "Water"
+  description = """
+  Non-Revenue Water Management
+
+  Hydraulic modeling - EPANET
+
+  Asset Management
+  """
 
 [[feature]]
-  icon = "water"
+  icon = "project-diagram"
   icon_pack = "fas"
-  name = "Hydraulic modeling"
-  description = "60%"
+  name = "Programing"
+  description = """
+  Python
 
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
-  description = "100%"  
-
-[[feature]]
-  icon = "js"
-  icon_pack = "fab"
-  name = "JavaScript"
-  description = "100%" 
+  JavaScript
+  
+  Java
+  
+  VB.NET
+  """ 
   
 [[feature]]
-  icon = "java"
-  icon_pack = "fab"
-  name = "java"
-  description = "100%" 
+  icon = "database"
+  icon_pack = "fas"
+  name = "database"
+  description = """
+  PostgreSQL/PostGIS
+
+  SQL Server
+  
+  Oracle
+  
+  MS Access
+  """ 
 
 +++

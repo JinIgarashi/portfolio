@@ -14,8 +14,8 @@ role: Senior GIS Engineer & Consultant
 
 # Organizations/Affiliations
 organizations:
-- name: Freelance
-  url: ""
+- name: WaQuAC-Net (Water Quality Asian Cooperation Network)
+  url: "http://www.waquac.net/english"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am skilled GIS engineer, especially am interested in GIS for water management.
@@ -42,15 +42,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+- icon: github
+  icon_pack: fab
+  link: https://github.com/JinIgarashi
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/jin.igarashi
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jinigarashi
-- icon: github
+- icon: telegram
   icon_pack: fab
-  link: https://github.com/JinIgarashi
+  link: "https://telegram.me/@jinigarashi"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -58,13 +61,13 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "igarashi.jin@water-gis.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Engineers
-- Visitors
+- Engineer
+- Consultant
 ---
 
 Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS.
