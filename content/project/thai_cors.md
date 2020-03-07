@@ -3,8 +3,8 @@
 
 title: "Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand"
 subtitle: ""
-summary: ""
-authors: []
+summary: "This project focused to survey the information about estalishment of CORS data centre in Thailand."
+authors: ["Jin Igarashi"]
 tags: ["Thailand", "CORS"]
 categories: []
 date: 2018-11-01T22:11:16+09:00

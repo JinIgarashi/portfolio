@@ -3,9 +3,9 @@
 
 title: "[FOSS4G2019]Case Study of Non-Revenue Water Management of Narok water in Kenya"
 subtitle: ""
-summary: ""
+summary: "A usecase how FOSS4G can contribute to manageme water supply in Kanya"
 authors: ["Jin Igarashi", "Ronoh Kennedy"]
-tags: ["FOSS$G"]
+tags: ["FOSS4G"]
 categories: []
 date: 2019-08-28T22:24:22+09:00
 lastmod: 2020-03-06T22:24:22+09:00

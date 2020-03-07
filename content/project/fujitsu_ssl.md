@@ -3,9 +3,9 @@
 
 title: "Software developments in Fujitsu"
 subtitle: ""
-summary: ""
-authors: []
-tags: []
+summary: "I started my GIS career as software developer in Fujitsu in Japan."
+authors: ["Jin Igarashi"]
+tags: ["GIS"]
 categories: []
 date: 2009-04-01T22:15:19+09:00
 lastmod: 2020-03-06T22:15:19+09:00

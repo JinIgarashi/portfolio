@@ -22,6 +22,7 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
+echo "Creating custom domain setting"
 echo "water-gis.com" > ./public/CNAME
 
 echo "Updating gh-pages branch"

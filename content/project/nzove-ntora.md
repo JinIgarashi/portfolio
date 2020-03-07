@@ -3,8 +3,8 @@
 
 title: "Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda"
 subtitle: ""
-summary: ""
-authors: []
+summary: "This project focused to upgrade main water transmission pipeline from Nzobe WTP to Ntora reservoir in Kigali, Rwanda."
+authors: ["Jin Igarashi"]
 tags: ["Water", "Rwanda"]
 categories: []
 date: 2017-10-01T22:05:50+09:00

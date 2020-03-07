@@ -3,9 +3,9 @@
 
 title: "[WaQuAC-NET Newsletter Vol41] GIS and Water Supply"
 subtitle: ""
-summary: ""
+summary: "I introduced my strugglings how GIS can aoproach improving water management in case of activities in Narok water, Kenya."
 authors: []
-tags: ["WaQuAC-NET"]
+tags: ["WaQuAC-NET", "Water", "GIS", "Kenya"]
 categories: []
 date: 2019-07-16T23:01:52+09:00
 lastmod: 2020-03-06T23:01:52+09:00

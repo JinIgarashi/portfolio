@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The GIS project in Narok Water"
-subtitle: "GIS & NRW as JICA Volunteer"
-summary: ""
-authors: []
+title: "The GIS project in Narok Water, Kenya"
+subtitle: ""
+summary: "Worked for GIS & NRW as JICA Volunteer"
+authors: ["Jin Igarashi"]
 tags: ["GIS","Water", "Kenya"]
 categories: []
 date: 2014-04-01T08:45:17+09:00

@@ -2,8 +2,8 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 80  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
 subtitle = ""
@@ -19,33 +19,53 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "HSK - Chinese Proficiency Test"
+  organization_url = "http://www.chinesetest.cn"
+  title = "HSK Grade 9"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = "./files/certificates/200705_HSK.pdf"
+  date_start = "2007-04-16"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "FASID - Fundation for Advanced Studies on International Development"
+  organization_url = "https://www.fasid.or.jp/english/"
+  title = "PCM Participatory Planing"
+  url = "https://www.fasid.or.jp/pcm/"
+  certificate_url = "./files/certificates/201705_pcm_pp.pdf"
+  date_start = "2017-05-18"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = ""
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "FASID - Fundation for Advanced Studies on International Development"
+  organization_url = "https://www.fasid.or.jp/english/"
+  title = "PCM Monitoring Evaluation"
+  url = "https://www.fasid.or.jp/pcm/"
+  certificate_url = "./files/certificates/201706_pcm_me.pdf"
+  date_start = "2017-06-23"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "IPA - Information Technology Promotion Agency, Japan(情報処理推進機構)"
+  organization_url = "https://www.jitec.ipa.go.jp"
+  title = "Fundamental Information Technology Engineer Examination（基本情報技術者試験）"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = "./files/certificates/200911_fitee.pdf"
+  date_start = "2009-11-16"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "IPA - Information Technology Promotion Agency, Japan(情報処理推進機構)"
+  organization_url = "https://www.jitec.ipa.go.jp"
+  title = "Information Technology Passport Examination（ITパスポート）"
+  url = ""
+  certificate_url = "./files/certificates/200905_it_passport.pdf"
+  date_start = "2009-05-26"
+  date_end = ""
   description = ""
 
 +++

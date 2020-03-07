@@ -3,7 +3,7 @@
 
 title: "[FOSS4G2019]Case Study of Data Collection & Data Sharing for Rural Water Supply Management in Rwanda"
 subtitle: ""
-summary: ""
+summary: "An example of usages of FOSS4G application for Rural Water Supply management in Rwanda."
 authors: ["Jin Igarashi", "Larissa Dusabe"]
 tags: ["FOSS4G"]
 categories: []

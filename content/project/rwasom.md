@@ -3,8 +3,8 @@
 
 title: "The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)"
 subtitle: ""
-summary: ""
-authors: []
+summary: "This project focused capacity building of operation and maintenance for rural water supply management in Rwanda. I joined as GIS expert."
+authors: ["Jin Igarashi"]
 tags: ["Water", "GIS", "Rwanda"]
 categories: []
 date: 2018-06-01T22:09:24+09:00
