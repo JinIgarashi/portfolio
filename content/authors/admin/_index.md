@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:info@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
   link: https://github.com/JinIgarashi
