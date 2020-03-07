@@ -17,7 +17,7 @@ subtitle = ""
 [[feature]]
   icon = "map-pin"
   icon_pack = "fas"
-  name = "GIS Application"
+  name = "GIS Desktop"
   description = """
   QGIS
 
@@ -45,7 +45,7 @@ subtitle = ""
 [[feature]]
   icon = "tint"
   icon_pack = "fas"
-  name = "Water"
+  name = "WATER"
   description = """
   Non-Revenue Water Management
 
@@ -57,7 +57,7 @@ subtitle = ""
 [[feature]]
   icon = "project-diagram"
   icon_pack = "fas"
-  name = "Programing"
+  name = "PROGRAMING"
   description = """
   Python
 
@@ -71,7 +71,7 @@ subtitle = ""
 [[feature]]
   icon = "database"
   icon_pack = "fas"
-  name = "database"
+  name = "DATABASE"
   description = """
   PostgreSQL/PostGIS
 
@@ -80,6 +80,24 @@ subtitle = ""
   Oracle
   
   MS Access
+  """ 
+
+  [[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = "LANGUAGE"
+  description = """
+  Japanese
+
+  English
+
+  Chinese
+
+  Swahili
+
+  Maasai
+
+  Korean
   """ 
 
 +++
