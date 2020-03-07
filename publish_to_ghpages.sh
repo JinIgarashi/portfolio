@@ -22,7 +22,7 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-echo "water-gis.com" > CNAME
+echo "water-gis.com" > ./public/CNAME
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
