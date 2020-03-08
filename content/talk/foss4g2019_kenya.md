@@ -36,4 +36,6 @@ NARWASSCO, currently uses FOSS4G to do data collection and data utilization for 
 
 Our interesting is how water company use GIS inventory data to reduce Non-Revenue Water (NRW). NRW means physical losses(leakage) and commercial losses(meter reading error, illegal connection, etc.). We think GIS technology can contribute a lot of things for water supply services, so we would like to share our experience and get some idea from participants of FOSS4G conference.
 
-See the video [here](https://media.ccc.de/v/bucharest-135-case-study-of-non-revenue-water-management-of-narok-water-in-kenya)
+<iframe width="512" height="288" src="https://media.ccc.de/v/bucharest-135-case-study-of-non-revenue-water-management-of-narok-water-in-kenya/oembed" frameborder="0" allowfullscreen></iframe>
+
+See the video from [here](https://media.ccc.de/v/bucharest-135-case-study-of-non-revenue-water-management-of-narok-water-in-kenya)

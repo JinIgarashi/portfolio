@@ -39,4 +39,6 @@ Now WASAC has started to map all of water facilities data in rural area under su
 
 We spent the minimum budget to conduct our mapping and data sharing without customizing FOSS4G so much. This our approaches might be very useful for other users in developing countries. So we would like to share our experience and approach of FOSS4G in Rwanda.
 
-See the video [here](https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda)
+<iframe width="512" height="288" src="https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda/oembed" frameborder="0" allowfullscreen></iframe>
+
+See the video from [here](https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda)

@@ -28,6 +28,9 @@ image:
 projects: []
 ---
 
-I did a presentation about "GIS and Water Supply" as an activity of WAQUAC-NET.
+I did a presentation about "GIS and Water Supply" as an activity of WAQUAC-NET. 
+
+if you can read Japanese, please also look my presentation from [here](https://water-gis.com/files/20190716_waquac_presentation.pdf).
 
 Please see my posts in the newsletter from [here](http://www.waquac.net/english/pdf/newsletter_vol.41_en.pdf).
+
