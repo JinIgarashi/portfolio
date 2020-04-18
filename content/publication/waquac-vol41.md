@@ -6,7 +6,7 @@ subtitle: ""
 summary: "I introduced my strugglings how GIS can aoproach improving water management in case of activities in Narok water, Kenya."
 authors: []
 tags: ["WaQuAC-NET", "Water", "GIS", "Kenya"]
-categories: []
+categories: ["WaQuAC-NET"]
 date: 2019-07-16T23:01:52+09:00
 lastmod: 2020-03-06T23:01:52+09:00
 featured: false

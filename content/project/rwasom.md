@@ -6,7 +6,7 @@ subtitle: ""
 summary: "This project focused capacity building of operation and maintenance for rural water supply management in Rwanda. I joined as GIS expert."
 authors: ["Jin Igarashi"]
 tags: ["Water", "GIS", "Rwanda"]
-categories: []
+categories: ["JICA"]
 date: 2018-06-01T22:09:24+09:00
 lastmod: 2020-03-06T22:09:24+09:00
 featured: false

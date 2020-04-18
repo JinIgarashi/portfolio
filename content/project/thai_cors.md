@@ -6,7 +6,7 @@ subtitle: ""
 summary: "This project focused to survey the information about estalishment of CORS data centre in Thailand."
 authors: ["Jin Igarashi"]
 tags: ["Thailand", "CORS"]
-categories: []
+categories: ["JICA"]
 date: 2018-11-01T22:11:16+09:00
 lastmod: 2020-03-06T22:11:16+09:00
 featured: false

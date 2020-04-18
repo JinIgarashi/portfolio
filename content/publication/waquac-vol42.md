@@ -6,7 +6,7 @@ subtitle: ""
 summary: "I posted about Tsunami Disaster of 3.11 in Tohoku region of Japan. I also wrote my observation of Bangkhen WTP in Bangkok, Thailand."
 authors: []
 tags: ["WaQuAC-NET", "Tsunami", "3.11", "Tohoku", "Bangkok", "Water"]
-categories: []
+categories: ["WaQuAC-NET"]
 date: 2019-10-16T23:09:22+09:00
 lastmod: 2020-03-06T23:09:22+09:00
 featured: false

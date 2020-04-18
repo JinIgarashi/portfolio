@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Worked for GIS & NRW as JICA Volunteer"
 authors: ["Jin Igarashi"]
 tags: ["GIS","Water", "Kenya"]
-categories: []
+categories: ["JICA", "Volunteer"]
 date: 2014-04-01T08:45:17+09:00
 lastmod: 2020-03-06T08:45:17+09:00
 featured: false

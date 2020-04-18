@@ -6,7 +6,7 @@ subtitle: ""
 summary: "I overviewed what I conducted in Narok Water while I stayed for 2 years and 6 month in Kenya."
 authors: []
 tags: ["WaQuAC-NET", "Water", "GIS", "Kenya"]
-categories: []
+categories: ["WaQuAC-NET"]
 date: 2017-07-15T22:53:04+09:00
 lastmod: 2020-03-06T22:53:04+09:00
 featured: false

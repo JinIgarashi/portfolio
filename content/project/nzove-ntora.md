@@ -6,7 +6,7 @@ subtitle: ""
 summary: "This project focused to upgrade main water transmission pipeline from Nzobe WTP to Ntora reservoir in Kigali, Rwanda."
 authors: ["Jin Igarashi"]
 tags: ["Water", "Rwanda"]
-categories: []
+categories: ["JICA"]
 date: 2017-10-01T22:05:50+09:00
 lastmod: 2020-03-06T22:05:50+09:00
 featured: false
