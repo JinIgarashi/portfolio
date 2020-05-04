@@ -70,4 +70,4 @@ user_groups:
 - Consultant
 ---
 
-Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS.
+Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS. Now, I started to work as freelance to develop GIS applications such as Mapbox Vector Tile.
