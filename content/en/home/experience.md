@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "ONE COMPATH CO., LTD."
   company_url = "https://onecompath.com"
   location = "Tokyo, Japan"
-  date_start = "2019-01-17"
+  date_start = "2020-01-17"
   date_end = ""
   description = """
   Develop and operate the most popular web map service in Japan which is called “MAPION”. The system uses Tile Map Service and Mapbox Vector Tile service on Amazon Web Service (AWS). 

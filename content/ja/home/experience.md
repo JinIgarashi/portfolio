@@ -22,7 +22,7 @@ date_format = "2006年1月"
   company = "株式会社ONE COMPATH（ワン・コンパス）"
   company_url = "https://onecompath.com"
   location = "東京"
-  date_start = "2019-01-17"
+  date_start = "2020-01-17"
   date_end = ""
   description = """
   地図マピオンの地図配信の開発・運用をしています。
