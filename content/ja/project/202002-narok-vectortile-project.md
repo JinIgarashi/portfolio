@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "ルワンダ国キガリ市ンゾベーノトラ総帥感染強化計画協力準備調査"
+title: "水道局向けベクタータイルマップオープンソースプロジェクト"
 subtitle: ""
-summary: "ルワンダ国キガリ市最大の送水幹線のリプレースを行うプロジェクトに参画しました"
+summary: "PostgreSQL/PostGISのデータから簡単にMapbox Vector Tileアプリを作成するためのオープンソースソフトウェアを開発するプロジェクトです"
 authors: ["Jin Igarashi"]
-tags: ["Water", "Rwanda"]
-categories: ["JICA"]
-date: 2017-10-01T22:05:50+09:00
-lastmod: 2020-03-06T22:05:50+09:00
+tags: []
+categories: []
+date: 2020-02-01T00:00:00+09:00
+lastmod: 2020-06-18T20:34:23+09:00
 featured: false
 draft: false
 
@@ -27,7 +27,3 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
-期間: 2017年10月 〜 2018年11月
-
-カウンターパート: Water and Sanitation Corporation Ltd, Rwanda

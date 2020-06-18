@@ -41,13 +41,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:info@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
   link: https://github.com/JinIgarashi
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/jin.igarashi
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/igarashi.jin
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/j_igarashi
@@ -64,7 +67,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "igarashi.jin@water-gis.com"
+#email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
