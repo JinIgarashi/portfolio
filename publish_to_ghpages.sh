@@ -20,7 +20,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
+env HUGO_ENV="production" hugo
 
 echo "Creating custom domain setting"
 echo "water-gis.com" > ./public/CNAME
