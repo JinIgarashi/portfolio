@@ -27,3 +27,13 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+I developed a simple [open source tools](https://github.com/watergis/awesome-vector-tiles) to create and deploy vectortiles easily.
+
+Currently, the following water services providers are using my tools.
+
+1. [Water Supply Map for Narok Water, KENYA](https://narok.water-gis.com): since June 2020.
+2. [Water Supply Map for WASAC RWSS, RWANDA](https://rural.water-gis.com): since July 2020.
+3. [Water Supply Map for Nakuru Water, KENYA](https://nakuru.water-gis.com): since August 2020.
+
+This tool is using direct SQL to create vectortiles from your PostGIS database. So, my tool can adopt any PostGIS database easily. If there is already PostGIS in your organizaiton, it is so fast to be able to host your vectorties. But please also contact me if you do not have PostGIS database yet. I will support your organization to develop PostGIS database and adopt it for vectortiles.
