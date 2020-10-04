@@ -19,11 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Software engineer"
+  company = "MIERUNE, Inc."
+  company_url = "https://mierune.co.jp"
+  location = "Hokkaido, Japan"
+  date_start = "2020-10-01"
+  date_end = ""
+  description = """
+  Develop GIS applications by using FOSS4G software. 
+  """
+
+[[experience]]
+  title = "Software engineer"
   company = "ONE COMPATH CO., LTD."
   company_url = "https://onecompath.com"
   location = "Tokyo, Japan"
   date_start = "2020-01-17"
-  date_end = ""
+  date_end = "2020-09-30"
   description = """
   Develop and operate the most popular web map service in Japan which is called “MAPION”. The system uses Tile Map Service and Mapbox Vector Tile service on Amazon Web Service (AWS). 
   """
