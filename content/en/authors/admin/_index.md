@@ -76,8 +76,8 @@ user_groups:
 - Consultant
 ---
 
-Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS. Now, I started to work as freelance to develop GIS applications such as Mapbox Vector Tile.
+Jin IGARASHI is senior software engineer specializing in GIS field with 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa for water supply management by using GIS. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted  trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS. Since 2020, I am involved in the development of Mapbox Vector Tiles application, and I am personally contributing my own open source projects for water utilities in Eastern Africa.
 
-If you would like to support my open source activities for water services providers in Africa, please make donattion through `Github sponsor`.
+If you would like to support my [open source activities](https://docs.water-gis.com/en/) for water services providers in Africa, please make donattion through `Github sponsor`.
 
 <iframe src="https://github.com/sponsors/JinIgarashi/button" title="Sponsor JinIgarashi" height="35" width="116" style="border: 0;"></iframe>

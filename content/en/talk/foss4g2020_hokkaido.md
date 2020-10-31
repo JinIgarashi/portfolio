@@ -7,8 +7,8 @@ summary: "A presentation at FOSS4G Hokkaido on 26 Sep 2020."
 authors: ["Jin Igarashi"]
 tags: ["FOSS4G"]
 categories: []
-date: 2019-09-26T11:55:00+09:00
-lastmod: 2019-09-26T11:55:00+09:00
+date: 2020-09-26T11:55:00+09:00
+lastmod: 2020-09-26T11:55:00+09:00
 featured: false
 draft: false
 
