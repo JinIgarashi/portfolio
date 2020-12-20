@@ -14,7 +14,9 @@ role: GISエンジニア＆コンサルタント
 
 # Organizations/Affiliations
 organizations:
-- name: WaQuAC-Net会員
+- name: MIERUNE, Inc.
+  url: "https://mierune.co.jp"
+- name: WaQuAC-Net (Water Quality Asian Cooperation Network)
   url: "http://www.waquac.net/english"
 
 # Short bio (displayed in user profile at end of posts)
