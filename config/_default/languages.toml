@@ -19,7 +19,7 @@
     url = "#about"
     weight = 1
   [[ja.menu.main]]
-    name = "ブログ"
+    name = "投稿"
     url = "#posts"
     weight = 2
   [[ja.menu.main]]
