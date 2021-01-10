@@ -19,14 +19,18 @@
     url = "#about"
     weight = 1
   [[ja.menu.main]]
+    name = "ブログ"
+    url = "#posts"
+    weight = 2
+  [[ja.menu.main]]
     name = "プロジェクト"
     url = "#projects"
-    weight = 2
+    weight = 3
   [[ja.menu.main]]
     name = "執筆活動"
     url = "#publications"
-    weight = 3
+    weight = 4
 #  [[ja.menu.main]]
 #    name = "連絡先"
 #    url = "#contact"
-#    weight = 4
+#    weight = 5
