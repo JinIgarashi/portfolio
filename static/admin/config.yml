@@ -4,7 +4,7 @@ backend:
 media_folder: 'static/img/'
 public_folder: 'img'
 collections:
-  - name: en-posts
+  - name: en_posts
     label: Posts
     label_singular: Post
     folder: 'en/content/post'
@@ -57,7 +57,7 @@ collections:
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: ja-posts
+  - name: ja_posts
     label: Posts
     label_singular: Post
     folder: 'ja/content/post'
