@@ -7,8 +7,8 @@ collections:
   - name: authors
     label: Authors
     label_singular: Author
-    folder: 'content/authors'
-    path: '{{slug}}/_index'
+    folder: 'content/en/authors'
+    path: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Display name (such as your full name)", name: "title", widget: "string"}
@@ -77,7 +77,7 @@ collections:
     label: Posts
     label_singular: Post
     folder: 'content/en/post'
-    path: '{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -129,7 +129,7 @@ collections:
     label: Projects
     label_singular: Project
     folder: 'content/en/project'
-    path: '{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -197,7 +197,7 @@ collections:
     label: Talks
     label_singular: Talk
     folder: 'content/en/talk'
-    path: '{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -273,7 +273,7 @@ collections:
   - name: pages
     label: "Pages"
     files:
-      - file: "content/privacy.md"
+      - file: "content/en/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
         fields:
