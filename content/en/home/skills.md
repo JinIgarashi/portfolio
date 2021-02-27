@@ -17,11 +17,13 @@ subtitle = ""
 [[feature]]
   icon = "map-pin"
   icon_pack = "fas"
-  name = "GIS Desktop"
+  name = "GIS"
   description = """
   QGIS
 
   QField
+
+  Input
 
   ArcGIS
   """
@@ -38,6 +40,8 @@ subtitle = ""
   GeoServer
 
   Mapbox Vector Tile
+
+  United Nation Vector Tile Toolkits
 
   ArcGIS Server
   """
