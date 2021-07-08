@@ -68,4 +68,14 @@ date_format = "2006年1月"
   date_end = ""
   description = ""
 
+  [[item]]
+  organization = "British Council"
+  organization_url = "hhttps://www.britishcouncil.org/"
+  title = "IELTS Overall 6.5 (CEFR B2)"
+  url = "https://www.eiken.or.jp/ielts/"
+  certificate_url = "../files/certificates/20210320_IELTS.pdf"
+  date_start = "2021-03-20"
+  date_end = ""
+  description = ""
+
 +++
