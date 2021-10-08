@@ -29,6 +29,9 @@ interests:
 
 education:
   courses:
+  - course: MSc Water, Sanitation and Health Engineering
+    institution: University of Leeds, United Kingdom
+    year: 2021/2022
   - course: Bachelor of Arts in Chinese and Korean history
     institution: Tokai University, Japan
     year: 2009

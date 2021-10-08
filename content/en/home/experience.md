@@ -19,11 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Software engineer"
+  company = "Geolonia Inc."
+  company_url = "https://geolonia.com"
+  location = "Japan"
+  date_start = "2021-08-01"
+  date_end = ""
+  description = """
+  Development of Open Source GIS Software regarding to vector tiles as a part time
+  """
+
+[[experience]]
+  title = "Software engineer"
+  company = "Ocean Eyes Co., Ltd."
+  company_url = "https://oceaneyes.co.jp/en"
+  location = "Japan"
+  date_start = "2021-06-01"
+  date_end = ""
+  description = """
+  Development of WebGIS application as a freelancer
+  """
+
+[[experience]]
+  title = "Software engineer"
   company = "MIERUNE, Inc."
   company_url = "https://mierune.co.jp"
   location = "Hokkaido, Japan"
   date_start = "2020-10-01"
-  date_end = ""
+  date_end = "2021-08-15"
   description = """
   Develop GIS applications by using FOSS4G software. 
   """
