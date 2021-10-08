@@ -23,7 +23,7 @@ echo "Generating site"
 env HUGO_ENV="production" hugo
 
 echo "Creating custom domain setting"
-echo "water-gis.com" > ./public/CNAME
+echo "jin-igarashi.me" > ./public/CNAME
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
