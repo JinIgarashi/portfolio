@@ -28,10 +28,10 @@ interests:
 - マイナーな外国語（マサイ語、スワヒリ語など）
 
 education:
+  courses:
   - course: MSc Water, Sanitation and Health Engineering
     institution: リーズ大学（英国）
     year: 2021/2022
-  courses:
   - course: 文学部歴史学科東洋史専攻
     institution: 東海大学
     year: 2009
