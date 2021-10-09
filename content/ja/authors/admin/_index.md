@@ -14,8 +14,8 @@ role: GISエンジニア＆コンサルタント
 
 # Organizations/Affiliations
 organizations:
-- name: MIERUNE, Inc.
-  url: "https://mierune.co.jp"
+- name: GIS for Water
+  url: "https://water-gis.com"
 - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
   url: "http://www.waquac.net/english"
 
@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:info@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
   link: https://github.com/JinIgarashi
@@ -81,7 +81,7 @@ user_groups:
 - Consultant
 ---
 
-日本と東アフリカを中心に10年以上経験のあるGISエンジニアです。富士通グループにてGISエンジニアとしてのキャリアをスタートし、その後、JICAの青年海外協力隊でケニアの水道局に派遣されGISの活動を行いました。帰国後は、一旦前職に復職しましたが、途上国に関わりたいという思いから、国際航業で開発コンサルタントとして再スタートしました。主にJICAのODAでルワンダを中心に水道関係の業務をこないました。ルワンダの技プロでのGIS活動についてFOSS4G 2019＠ルーマニアにて発表するなど、オープンソースのGIS技術に興味があります。2020年よりMapboxベクトルタイルの開発に関わり始め、個人的に東アフリカの水道事業体向けにオープンソースプロジェクトを開発運用しています。またQGISの関連ドキュメントやQGISモバイル版のQFieldやInputの日本語への翻訳を行うなどしています。
+日本と東アフリカを中心に10年以上経験のあるGISエンジニアです。富士通グループにてGISエンジニアとしてのキャリアをスタートし、その後、JICAの青年海外協力隊でケニアの水道局に派遣されGISの活動を行いました。帰国後は、一旦前職に復職しましたが、途上国に関わりたいという思いから、国際航業で開発コンサルタントとして再スタートしました。主にJICAのODAでルワンダを中心に水道関係の業務をこないました。ルワンダの技プロでのGIS活動についてFOSS4G 2019＠ルーマニアにて発表するなど、オープンソースのGIS技術に興味があります。2020年よりMapboxベクトルタイルの開発に関わり始め、個人的に東アフリカの水道事業体向けにオープンソースプロジェクトを開発運用しています。またQGISの関連ドキュメントやQGISモバイル版のQFieldやInputの日本語への翻訳を行うなどしています。現在は2021年9月から英国のリーズ大学の修士課程で水衛生学を学んでいます。
 
 もしアフリカの水道事業体を支援する[オープンソース活動](https://water-gis.com/ja/)を支援されたい場合は以下の`Githubスポンサー`よりお願いいたします。
 

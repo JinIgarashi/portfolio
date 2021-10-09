@@ -14,8 +14,8 @@ role: Senior GIS Engineer & Consultant
 
 # Organizations/Affiliations
 organizations:
-- name: MIERUNE, Inc.
-  url: "https://mierune.co.jp"
+- name: GIS for Water
+  url: "https://water-gis.com"
 - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
   url: "http://www.waquac.net/english"
 
@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:info@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:igarashi.jin@water-gis.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
   link: https://github.com/JinIgarashi

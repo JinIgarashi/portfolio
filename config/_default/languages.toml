@@ -11,7 +11,7 @@
 [ja]
   languageCode = "ja-JP"
   contentDir = "content/ja"
-  title = "GIS for Water"
+  title = "JIN IGARASHI"
   [ja.params]
     description = "水分野を中心に活動するGISエンジニアのポートフォリオです"
   [[ja.menu.main]]
@@ -30,7 +30,7 @@
     name = "執筆活動"
     url = "#publications"
     weight = 4
-#  [[ja.menu.main]]
-#    name = "連絡先"
-#    url = "#contact"
-#    weight = 5
+  [[ja.menu.main]]
+    name = "CV"
+    url = "../files/cv_jin_igarashi.pdf"
+    weight = 6
