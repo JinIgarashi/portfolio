@@ -34,7 +34,7 @@ date_format = "2006年1月"
   company_url = "https://oceaneyes.co.jp"
   location = "日本"
   date_start = "2021-06-01"
-  date_end = ""
+  date_end = "2021-11-30"
   description = """
   フリーランスにて、地図アプリの開発支援
   """

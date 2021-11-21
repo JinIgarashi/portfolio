@@ -65,7 +65,7 @@ subtitle = ""
   description = """
   Python
 
-  JavaScript
+  JavaScript (Vuejs)
   
   Java
   

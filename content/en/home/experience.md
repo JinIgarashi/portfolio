@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   company_url = "https://oceaneyes.co.jp/en"
   location = "Japan"
   date_start = "2021-06-01"
-  date_end = ""
+  date_end = "2021-11-30"
   description = """
   Development of WebGIS application as a freelancer
   """
