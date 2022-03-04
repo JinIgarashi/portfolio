@@ -18,12 +18,23 @@ date_format = "2006年1月"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "GISコンサルタント"
+  company = "国連開発計画（UNDP）"
+  company_url = "https://www.undp.org"
+  location = "ニューヨーク（イギリスからリモート勤務）"
+  date_start = "2021-12-01"
+  date_end = ""
+  description = """
+  UNDPのCrisis BureauのSDG Integration TeamでGIS基盤開発をしています。
+  """
+
+[[experience]]
   title = "ソフトウェアエンジニア"
   company = "株式会社Geolonia"
   company_url = "https://geolonia.com"
   location = "日本"
   date_start = "2021-08-01"
-  date_end = ""
+  date_end = "2022-03-31"
   description = """
   非常勤で、地図配信にかかるオープンソースGISソフトウェアの開発
   """

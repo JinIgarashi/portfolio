@@ -14,6 +14,10 @@ role: Senior GIS Engineer & Consultant
 
 # Organizations/Affiliations
 organizations:
+- name: MSc Water, Sanitation and Health Engineering (21/22), University of Leeds
+  url: "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
+- name: United Nations Development Programme (UNDP)
+  url: "https://undp.org"
 - name: GIS for Water
   url: "https://water-gis.com"
 - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
@@ -29,9 +33,6 @@ interests:
 
 education:
   courses:
-  - course: MSc Water, Sanitation and Health Engineering
-    institution: University of Leeds, United Kingdom
-    year: 2021/2022
   - course: Bachelor of Arts in Chinese and Korean history
     institution: Tokai University, Japan
     year: 2009

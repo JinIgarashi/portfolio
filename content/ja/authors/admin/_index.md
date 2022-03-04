@@ -14,6 +14,10 @@ role: GISエンジニア＆コンサルタント
 
 # Organizations/Affiliations
 organizations:
+- name: リーズ大学修士課程（MSc水衛生工学21/22）
+  url: "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
+- name: 国連開発計画 (UNDP)
+  url: "https://undp.org"
 - name: GIS for Water
   url: "https://water-gis.com"
 - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
@@ -29,9 +33,6 @@ interests:
 
 education:
   courses:
-  - course: MSc Water, Sanitation and Health Engineering
-    institution: リーズ大学（英国）
-    year: 2021/2022
   - course: 文学部歴史学科東洋史専攻
     institution: 東海大学
     year: 2009
