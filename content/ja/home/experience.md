@@ -25,7 +25,7 @@ date_format = "2006年1月"
   date_start = "2021-12-01"
   date_end = ""
   description = """
-  UNDPのCrisis BureauのSDG Integration TeamでGIS基盤開発をしています。
+  UNDPのBureau for Policy and Programme SupportのSDG Integration TeamでGIS基盤開発をしています。
   """
 
 [[experience]]

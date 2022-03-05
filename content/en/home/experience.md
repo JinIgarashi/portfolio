@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2021-12-01"
   date_end = ""
   description = """
-  Develop GIS platform in SDG Integration Team, Crisis Bureau
+  Develop GIS platform in SDG Integration Team, Bureau for Policy and Programme Support
   """
 
 [[experience]]
