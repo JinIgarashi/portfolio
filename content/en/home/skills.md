@@ -15,6 +15,20 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
+  icon = "tint"
+  icon_pack = "fas"
+  name = "WATER"
+  description = """
+  Water, Sanitation and Hygiene promotion (WaSH)
+
+  Non-Revenue Water Management
+
+  Hydraulic modeling - EPANET
+
+  Asset Management
+  """
+
+[[feature]]
   icon = "map-pin"
   icon_pack = "fas"
   name = "GIS"
@@ -44,18 +58,6 @@ subtitle = ""
   United Nation Vector Tile Toolkits
 
   ArcGIS Server
-  """
-  
-[[feature]]
-  icon = "tint"
-  icon_pack = "fas"
-  name = "WATER"
-  description = """
-  Non-Revenue Water Management
-
-  Hydraulic modeling - EPANET
-
-  Asset Management
   """
 
 [[feature]]

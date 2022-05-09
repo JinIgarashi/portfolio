@@ -78,4 +78,44 @@ date_format = "2006年1月"
   date_end = ""
   description = ""
 
+  [[item]]
+  organization = "UN & UN agencies"
+  organization_url = "https://un.org/"
+  title = "Prevention of sexual harassment and abuse of authority (2021 version)"
+  url = "https://agora.unicef.org/course/info.php?id=28780"
+  certificate_url = "../files/certificates/202111_PSHAA.pdf"
+  date_start = "2021-11-30"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "UNICEF"
+  organization_url = "https://unicef.org/"
+  title = "Prevention of sexual exploitation and abuse (PSEA)"
+  url = "https://agora.unicef.org/course/info.php?id=7380"
+  certificate_url = "../files/certificates/202111_PSEA.pdf"
+  date_start = "2021-11-30"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "United Nations Department of Safety and Security"
+  organization_url = "https://dss.un.org/"
+  title = "BSAFE"
+  url = "https://training.dss.un.org/thematicarea/category?id=6"
+  certificate_url = "../files/certificates/202111_BSAFE.pdf"
+  date_start = "2021-11-30"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "United Nations Development Programme (UNDP) and the Oxford Poverty and Human Development Initiative (OPHI)"
+  organization_url = "https://undp.org/"
+  title = "Designing a Multidimensional Poverty Index"
+  url = "https://www.learningfornature.org/"
+  certificate_url = "../files/certificates/202204_MPI.pdf"
+  date_start = "2022-03-14"
+  date_end = "2022-04-29"
+  description = ""
+
 +++

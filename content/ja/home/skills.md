@@ -15,6 +15,20 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
+  icon = "tint"
+  icon_pack = "fas"
+  name = "WATER"
+  description = """
+  Water, Sanitation and Hygiene promotion (WaSH)
+
+  Non-Revenue Water Management
+
+  Hydraulic modeling - EPANET
+
+  Asset Management
+  """
+
+[[feature]]
   icon = "map-pin"
   icon_pack = "fas"
   name = "GIS"
@@ -44,18 +58,6 @@ subtitle = ""
   国連ベクトルタイルツールキット
 
   ArcGIS Server
-  """
-  
-[[feature]]
-  icon = "tint"
-  icon_pack = "fas"
-  name = "水分野"
-  description = """
-　無収水管理（NRW）
-
-  水理計算・管網解析 - EPANET
-
-  アセットマネジメント
   """
 
 [[feature]]

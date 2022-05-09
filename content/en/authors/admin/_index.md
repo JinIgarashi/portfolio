@@ -28,6 +28,7 @@ bio: I am skilled GIS engineer, especially am interested in GIS for water manage
 
 interests:
 - Geographic Information System (GIS)
+- Water, Sanitation and Hygiene promotion (WaSH)
 - Non-Revenue Water(NRW) management
 - Minor foreign language - Maasai, Swahili, etc.
 
@@ -82,7 +83,9 @@ user_groups:
 - Consultant
 ---
 
-Jin IGARASHI is Senior software engineer specializing in GIS field more than 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa (Kenya and Rwanda) for water supply management as GIS specialist. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted trainings for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS. I am also heavily involved in FOSS4G community, now I am mainly contributing to translate FOSS4G software such as QGIS/QField, Input, Lizmap to Japanese language. Also, recently, I joined United Nations Vector Tile Toolkit team, hence I developed my own open source software for water utilities in developing countries. Currently, I am a MSc student in University of Leeds, United Kingdom studying water, sanitation and health engineering since September 2021. In addition, I started working in UNDP as an individual GIS consultant from December 2021.
+Jin IGARASHI is Senior software engineer specializing in GIS, water and sanitation fields more than 10 years of work experience in Japan and Eastern Africa. Developed various GIS applications in Fujitsu at the beginning of my career in Japan. Then, worked in Eastern Africa (Kenya and Rwanda) for water supply management as GIS specialist. Developed GIS systems for assets management of water supply facilities and Non-Revenue Water management and conducted training for FOSS4G (Free and Open Source for Geospatial) applications such as QGIS and PostGIS. I am also heavily involved in FOSS4G community, now I am mainly contributing to translate FOSS4G software such as QGIS/QField, Input, Lizmap to Japanese language. Furthermore, I am contributing Japanese language translation of some hydrology training courses in GISOpenCourseWare powered by IHE Delft institute. Also, I joined United Nations Vector Tile Toolkit team, and am developing my own GIS open source software for water utilities in developing countries.
+
+Since I started to be involved in water projects in the East Africa region, I became interested in studying water and sanitation engineering. Hence, I am currently a MSc water, sanitation and health engineering student at the University of Leeds since September 2021. In my master’s dissertation, I am researching about full lifecycle costs of urban sanitation systems in Narok town of Kenya as an example. I am interested in working in the water sector in developing countries by applying GIS/the skills and experience of GIS/ICT.
 
 If you would like to support my [open source activities](https://water-gis.com/en/) for water services providers in Africa, please make donattion through `Github sponsor`.
 
