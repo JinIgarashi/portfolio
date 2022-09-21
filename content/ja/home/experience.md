@@ -29,6 +29,7 @@ date_format = "2006年1月"
   UNDPのBureau for Policy and Programme SupportのSDG Integration TeamでGIS基盤開発をしています。
 
   個人コンサルタント - GISコンサルタント (パートタイム) 2021年12月から2022年9月まで
+  
   IPSA-9短期 - GIS Developer (フルタイム) 2022年9月から現在まで
   """
 

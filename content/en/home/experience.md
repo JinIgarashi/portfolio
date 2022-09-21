@@ -29,6 +29,7 @@ date_format = "Jan 2006"
   Develop GIS platform in SDG Integration Team, Bureau for Policy and Programme Support
 
   Individual contractor - GIS Consultant (part time) from December 2021 to September 2022
+  
   IPSA-9 Short term - GIS Developer (full time) from September 2022 to the present
   """
 
