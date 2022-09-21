@@ -118,4 +118,24 @@ date_format = "2006年1月"
   date_end = "2022-04-29"
   description = ""
 
+  [[item]]
+  organization = "OSGEO"
+  organization_url = "https://osgeo.org/"
+  title = "Giswater introduction paritipation certificate"
+  url = "https://2022.foss4g.org/"
+  certificate_url = "../files/certificates/20220823_FOSS4G_giswater_workshop_Participation certificate.pdf"
+  date_start = "2022-08-23"
+  date_end = "2022-08-23"
+  description = ""
+
+  [[item]]
+  organization = "OSGEO"
+  organization_url = "https://osgeo.org/"
+  title = "FOSS4G 2022 Firenze paritipation certificate"
+  url = "https://2022.foss4g.org/"
+  certificate_url = "../files/certificates/20220822_FOSS4G2022_Participation certificate.pdf"
+  date_start = "2022-08-22"
+  date_end = "2022-08-28"
+  description = ""
+
 +++

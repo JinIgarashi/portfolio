@@ -18,7 +18,7 @@ date_format = "2006年1月"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "GISコンサルタント"
+  title = "GIS Developer"
   company = "国連開発計画（UNDP）"
   company_url = "https://www.undp.org"
   company_logo = "undp"
@@ -27,6 +27,9 @@ date_format = "2006年1月"
   date_end = ""
   description = """
   UNDPのBureau for Policy and Programme SupportのSDG Integration TeamでGIS基盤開発をしています。
+
+  個人コンサルタント - GISコンサルタント (パートタイム) 2021年12月から2022年9月まで
+  IPSA-9短期 - GIS Developer (フルタイム) 2022年9月から現在まで
   """
 
 [[experience]]

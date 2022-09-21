@@ -34,6 +34,9 @@ interests:
 
 education:
   courses:
+  - course: MSc Water, Sanitation and Health Engineering (水衛生工学修士)
+    institution: 英国リーズ大学
+    year: 2022
   - course: 文学部歴史学科東洋史専攻
     institution: 東海大学
     year: 2009
