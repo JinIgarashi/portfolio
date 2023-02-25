@@ -5,52 +5,83 @@ admin_path:
 webhook_url:
 sections:
 - type: directory
-  path: content/home
-  label: Home
+  path: content/en/home
+  label: Home English
   create: all
   match: "**/*"
 - type: directory
-  path: content/post
-  label: Blog posts
+  path: content/en/post
+  label: Blog posts English
   create: all
   match: "**/*"
   templates:
   - blog-post
 - type: directory
-  path: content/project
-  label: Projects
+  path: content/en/project
+  label: Projects English
   create: all
   match: "**/*"
 - type: directory
-  path: content/talk
-  label: Events
+  path: content/en/talk
+  label: Talks English
   create: all
   match: "**/*"
   templates:
     - event
 - type: directory
-  path: content/publication
-  label: Publications
+  path: content/en/publication
+  label: Publications English
   create: all
   match: "**/*"
+
+- type: directory
+  path: content/ja/home
+  label: Home Japanese
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ja/post
+  label: Blog posts Japanese
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: content/ja/project
+  label: Projects Japanese
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ja/talk
+  label: Talks Japanese
+  create: all
+  match: "**/*"
+  templates:
+    - event
+- type: directory
+  path: content/ja/publication
+  label: Publications Japanese
+  create: all
+  match: "**/*"
+
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
-upload_dir: static/img
-public_path: "/img"
+upload_dir: static/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.58.2
+  - HUGO_VERSION=0.83.1
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.58.2
+version: 0.83.1
