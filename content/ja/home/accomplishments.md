@@ -141,10 +141,10 @@ date_format = "2006年1月"
   [[item]]
   organization = "University of Leeds"
   organization_url = "https://www.leeds.ac.uk"
-  title = "Certificates for MSc(Eng) Water, Sanitation and Health Engineering"
+  title = "MSc(Eng) Water, Sanitation and Health Engineering"
   url = "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
   certificate_url = "../files/certificates/202211_msc_jin_igarashi.pdf"
-  date_start = "2021-09-14"
+  date_start = "2022-11-24"
   date_end = "2022-11-24"
   description = "Statement of MSc award and academic transcript"
 
