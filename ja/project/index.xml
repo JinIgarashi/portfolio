@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/project/</link><atom:link href="https://jin-igarashi.me/ja/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2023</copyright><image><url>https://jin-igarashi.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jin-igarashi.me/ja/project/</link></image><item><title>Inputモバイルアプリの日本語翻訳</title><link>https://jin-igarashi.me/ja/project/202101-input/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202101-input/</guid><description>&lt;p>2021年1月からiOSとAndroidで使えるモバイルアプリの&lt;a href="https://inputapp.io" target="_blank" rel="noopener">Input&lt;/a>を英語から日本語に翻訳する作業を始めました。&lt;/p>
+&lt;p>日本ではiPhone/iPadを使うユーザーが非常に多いにも関わらず、長い間QGISのモバイルソリューションは不在のままでした。ようやくInputアプリを日本のコミュニティ向けに日本語に翻訳できました。これにより、日本のユーザーはQFieldかInputと複数の選択肢をモバイルで持てるようになりました。&lt;/p></description></item><item><title>水道局向けベクタータイルマップオープンソースプロジェクト</title><link>https://jin-igarashi.me/ja/project/202002-narok-vectortile-project/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202002-narok-vectortile-project/</guid><description>&lt;p>ベクタータイルを簡単に作成し、ホストできる&lt;a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">オープンソースのツール&lt;/a>を開発しました。&lt;/p>
+&lt;p>現在時点で、以下の３つの水道事業体でこのツールは使用されています。&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">Water Supply Map for Narok Water, KENYA&lt;/a>: since June 2020.&lt;/li>
+&lt;li>&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">Water Supply Map for WASAC RWSS, RWANDA&lt;/a>: since July 2020.&lt;/li>
+&lt;li>&lt;a href="https://nakuru.water-gis.com" target="_blank" rel="noopener">Water Supply Map for Nakuru Water, KENYA&lt;/a>: since August 2020.&lt;/li>
+&lt;/ol>
+&lt;p>このツールはSQLを使用してダイレクトにPostGISからベクタータイルを作成しますので、あらゆるデザインのPostGISに容易に適用できます。もし既にPostGISを使用している場合は迅速に開発に着手できます。仮にデータベースをまだお持ちでない場合でもご相談いただければ、データベースの設計とベクタータイルへの設定をサポートさせていただきます。&lt;/p></description></item><item><title>QFieldの日本語翻訳</title><link>https://jin-igarashi.me/ja/project/201909-qfield/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201909-qfield/</guid><description>&lt;p>2019年9月からAndroidのモバイルマッピングアプリである&lt;a href="https://qfield.org" target="_blank" rel="noopener">QField&lt;/a>の英語から日本語への翻訳を担当し始めました。&lt;/p>
+&lt;p>FOSS4G 2019 Bucharestのコードスプリントで、Matthias (OpenGIS.ch) さんとお会いしたのがきっかけでQFieldプロジェクトに関わることになりました。 QFieldはとても優れたAndroidのモバイルマッピングアプリで、QGISとの互換性も申し分ないです。日本語への翻訳を通して、日本人のより多くの方にもQFieldを現場で使っていただけたらと感じています。&lt;/p>
+&lt;p>&lt;a href="https://qfield.org/docs/ja/" target="_blank" rel="noopener">こちら&lt;/a>のページで私の翻訳してドキュメントをご覧いただけます。&lt;/p></description></item><item><title>全地球航法衛星システムの整備による社会実験フィールドの構築に関する情報収集・確認調査</title><link>https://jin-igarashi.me/ja/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201811-thai_cors/</guid><description>&lt;p>期間: 201811月 〜 2019年11月&lt;/p>
+&lt;p>カウンターパート: タイ国政府&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
+&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
+&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>期間: 2017年10月 〜 2018年11月&lt;/p>
+&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
+&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+&lt;ul>
+&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
+&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
+&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
+&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
+&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
+&lt;/ul></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>期間: 20094月 〜 2017年3月&lt;/p>
+&lt;p>以下のようなGISを中心とするシステムの開発を行いました&lt;/p>
+&lt;ul>
+&lt;li>HDマップの開発 (ArcGIS Server, Python, Django REST framework).&lt;/li>
+&lt;li>船舶の運行をモニタリングするシステムの技術調査 (Leafletjs).&lt;/li>
+&lt;li>不動産登記の地図情報システムにかかる技術調査 (Mapserver, OpenLayers, Oracle).&lt;/li>
+&lt;li>Androidでのヘルスケアアプリの開発 (Java).&lt;/li>
+&lt;li>MapInfoを使ったエリアマーケティングアプリ.&lt;/li>
+&lt;li>配送管理システムの開発 (VB.NET, SQL Server, MS Access).&lt;/li>
+&lt;/ul></description></item></channel></rss>

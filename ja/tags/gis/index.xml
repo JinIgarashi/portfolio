@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GIS | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/gis/</link><atom:link href="https://jin-igarashi.me/ja/tags/gis/index.xml" rel="self" type="application/rss+xml"/><description>GIS</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2023</copyright><lastBuildDate>Sat, 18 Apr 2020 10:55:15 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>GIS</title><link>https://jin-igarashi.me/ja/tags/gis/</link></image><item><title>[WaQuAC-NET Newsletter Vol44]ミャンマーのヤンゴンとマンダレーの水道視察と、ルワンダのカウンターパートのイノセントさんのインタビュー</title><link>https://jin-igarashi.me/ja/publication/waquac-vol44/</link><pubDate>Sat, 18 Apr 2020 10:55:15 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol44/</guid><description>&lt;p>会報44号において以下の２本の記事を投稿しました。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ヤンゴンとマンダレーの水道施設を視察した際に感じたこと&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ルワンダのカウンターパートのイノセントさんが北九州市で研修を受けていたときに実施したインタビューについて&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.44.pdf" target="_blank" rel="noopener">こちら&lt;/a>から会報をご覧いただけます。&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol41] GISと水道について</title><link>https://jin-igarashi.me/ja/publication/waquac-vol41/</link><pubDate>Tue, 16 Jul 2019 23:01:52 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol41/</guid><description>&lt;p>WAQUAC-NETの活動の中でGISと水道について発表をしました。&lt;/p>
+&lt;p>&lt;a href="https://water-gis.com/files/20190716_waquac_presentation.pdf" target="_blank" rel="noopener">こちら&lt;/a>から発表資料をご覧いただけます。&lt;/p>
+&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.41.pdf" target="_blank" rel="noopener">こちら&lt;/a>から投稿内容もご覧下さい.&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
+&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
+&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol33 ] ナロックでのGIS活動について</title><link>https://jin-igarashi.me/ja/publication/waquac-vol33/</link><pubDate>Sat, 15 Jul 2017 22:53:04 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol33/</guid><description>&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.33.pdf" target="_blank" rel="noopener">こちら&lt;/a>のサイトからご覧ください。&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
+&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+&lt;ul>
+&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
+&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
+&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
+&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
+&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
+&lt;/ul></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>期間: 20094月 〜 2017年3月&lt;/p>
+&lt;p>以下のようなGISを中心とするシステムの開発を行いました&lt;/p>
+&lt;ul>
+&lt;li>HDマップの開発 (ArcGIS Server, Python, Django REST framework).&lt;/li>
+&lt;li>船舶の運行をモニタリングするシステムの技術調査 (Leafletjs).&lt;/li>
+&lt;li>不動産登記の地図情報システムにかかる技術調査 (Mapserver, OpenLayers, Oracle).&lt;/li>
+&lt;li>Androidでのヘルスケアアプリの開発 (Java).&lt;/li>
+&lt;li>MapInfoを使ったエリアマーケティングアプリ.&lt;/li>
+&lt;li>配送管理システムの開発 (VB.NET, SQL Server, MS Access).&lt;/li>
+&lt;/ul></description></item></channel></rss>

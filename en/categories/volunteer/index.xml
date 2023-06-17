@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/en/categories/volunteer/</link><atom:link href="https://jin-igarashi.me/en/categories/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2023</copyright><lastBuildDate>Tue, 01 Apr 2014 08:45:17 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/en/categories/volunteer/</link></image><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>Period: April 2014 to September 2016&lt;/p>
+&lt;p>Client: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
+&lt;p>Worked as a GIS specialist funded by JICA and conducted the following activities.&lt;/p>
+&lt;ul>
+&lt;li>Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).&lt;/li>
+&lt;li>Designed and developed GIS database &amp;amp; WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.&lt;/li>
+&lt;li>Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.&lt;/li>
+&lt;li>Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.&lt;/li>
+&lt;li>Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.&lt;/li>
+&lt;/ul></description></item></channel></rss>
