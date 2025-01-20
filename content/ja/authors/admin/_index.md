@@ -34,6 +34,9 @@ interests:
 
 education:
   courses:
+  - course: MSc Computer Science with Artificial Intelligence
+    institution: 英国ヨーク大学
+    year: 2024年1月から2026年1月
   - course: MSc Water, Sanitation and Health Engineering (水衛生工学修士)
     institution: 英国リーズ大学
     year: 2022

@@ -34,6 +34,9 @@ interests:
 
 education:
   courses:
+  - course: MSc Computer Science with Artificial Intelligence
+    institution: University of York, United Kingdom
+    year: Jan 2024 - Jan 2026
   - course: MSc Water, Sanitation and Health Engineering
     institution: University of Leeds, United Kingdom
     year: 2022
