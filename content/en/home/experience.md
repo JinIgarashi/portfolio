@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "United Nations Development Programme（UNDP）"
   company_url = "https://www.undp.org"
   company_logo = "undp"
-  location = "New York (Work remotely from UK)"
+  location = "New York (Work remotely from UK/Japan)"
   date_start = "2021-12-01"
   date_end = ""
   description = """
@@ -30,7 +30,9 @@ date_format = "Jan 2006"
 
   Individual contractor - GIS Consultant (part time) from December 2021 to September 2022
   
-  IPSA-9 Short term - GIS Developer (full time) from September 2022 to the present
+  IPSA-9 Short term - GIS Developer (full time) from September 2022 to July 2023
+
+  IPSA-9 - Full Stack GIS Developer (full time) from August2023 to the present
   """
 
 [[experience]]

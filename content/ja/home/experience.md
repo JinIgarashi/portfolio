@@ -22,7 +22,7 @@ date_format = "2006年1月"
   company = "国連開発計画（UNDP）"
   company_url = "https://www.undp.org"
   company_logo = "undp"
-  location = "ニューヨーク（イギリスからリモート勤務）"
+  location = "ニューヨーク（イギリス/日本からリモート勤務）"
   date_start = "2021-12-01"
   date_end = ""
   description = """
@@ -30,7 +30,9 @@ date_format = "2006年1月"
 
   個人コンサルタント - GISコンサルタント (パートタイム) 2021年12月から2022年9月まで
   
-  IPSA-9短期 - GIS Developer (フルタイム) 2022年9月から現在まで
+  IPSA-9短期 - GIS Developer (フルタイム) 2022年9月から2023年7月まで
+
+  IPSA-9 - フルスタックGIS Developer (フルタイム) 2023年8月から現在
   """
 
 [[experience]]

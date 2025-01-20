@@ -37,7 +37,7 @@ subtitle = ""
 
   QField
 
-  Input
+  Mergin Maps
 
   ArcGIS
   """
@@ -53,7 +53,9 @@ subtitle = ""
 
   GeoServer
 
-  Mapbox Vector Tile
+  Mapbox/Maplibre Vector Tile
+
+  Tiling server (titiler / pg_tileserv)
 
   国連ベクトルタイルツールキット
 
@@ -67,11 +69,13 @@ subtitle = ""
   description = """
   Python
 
-  JavaScript (Vuejs)
+  JavaScript / TypeScript
+
+  Svelte/Sveltekit
   
   Java
-  
-  VB.NET
+
+  クラウド (Azure, AWS)
   """ 
   
 [[feature]]
