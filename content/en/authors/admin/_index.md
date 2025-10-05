@@ -14,10 +14,10 @@ role: Senior GIS Engineer & Consultant
 
 # Organizations/Affiliations
 organizations:
+- name: Fracta
+  url: "https://fracta.ai"
 - name: MSc Water, Sanitation and Health Engineering (21/22), University of Leeds
   url: "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
-- name: United Nations Development Programme (UNDP)
-  url: "https://undp.org"
 - name: GIS for Water
   url: "https://water-gis.com"
 - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
@@ -95,6 +95,6 @@ During my master’s dissertation, I researched the full lifecycle costs of urba
 
 Began my career developing various GIS applications at Fujitsu in Japan. Subsequently, worked in Eastern Africa (Kenya and Rwanda) on water asset management and Non-Revenue Water (NRW) management as a GIS specialist in Japan International Cooperation Agency (JICA) projects. During this time, I established a sustainable approach to maintaining geospatial applications for managing water assets by developing open-source software on GitHub. I maintain personal partnerships with water utilities in Kenya and Rwanda to continue supporting their WASH efforts as a volunteer.
 
-Transitioned back to the software engineering industry after JICA projects, focusing on developing geospatial software in various companies in Japan before being enrolled at the University of Leeds for my master in 2021. Since December 2021, I started working for UNDP to develop new web-based open-source geospatial applications to assist non-geospatial skilled UNDP staff and policymakers in easily visualizing and analyzing spatial datasets.
+Transitioned back to the software engineering industry after JICA projects, focusing on developing geospatial software in various companies in Japan before being enrolled at the University of Leeds for my master in 2021. I worked for UNDP from December 2021 to August 2025. In UNDP, I developed new web-based open-source geospatial applications to assist non-geospatial skilled UNDP staff and policymakers in easily visualizing and analyzing spatial datasets. Since September 2025, I started new role at Fracta to develop and maintain software for water utilities mainly in USA and Japan.
 
 I am passionate about driving innovation in the WASH field due to my background in information technologies and WASH experience.

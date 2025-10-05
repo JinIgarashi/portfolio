@@ -38,6 +38,6 @@ UNDP GeoHub is a repository of a wide array of data sets of the most recent time
 
 Geohub ecosystem consists of sveltekit & maplibre based frontend web applications and various FOSS4G software in the backend side. PostgreSQL/PostGIS, titiler, pg_tileserv and martin are deployed in Azure Kubernetes (AKS) to provide advanced visualisation and analysis for users. All source code is published in Github with an open-source license.
 
-- [abstract] (https://talks.osgeo.org/foss4g-2023/talk/8TFHPG/)
+the abstract is available [this page](https://talks.osgeo.org/foss4g-2023/talk/8TFHPG/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JCgNnMAtCI4?si=382QBrFSW12EFZ6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

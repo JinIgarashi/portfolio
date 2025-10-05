@@ -18,13 +18,27 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Software Engineer"
+  company = "Fracta"
+  company_url = "https://fracta.ai"
+  company_logo = "fracta"
+  location = "Remote (work from Japan)"
+  date_start = "2025-09-01"
+  date_end = ""
+  description = """
+  Fracta is a software company using artificital intelligence to develop a service to detect the risk of water and sewer pipeline maintainability in the world wide (mainly in USA and Japan).
+
+  I am working in the engineering team of Fracta, responsible to develop new features, maintain the system in full stack as a software engineer.
+  """
+
+[[experience]]
   title = "GIS Developer"
   company = "United Nations Development Programme（UNDP）"
   company_url = "https://www.undp.org"
   company_logo = "undp"
   location = "New York (Work remotely from UK/Japan)"
   date_start = "2021-12-01"
-  date_end = ""
+  date_end = "2025-08-31"
   description = """
   Develop GIS platform in SDG Integration Team, Bureau for Policy and Programme Support
 
@@ -32,7 +46,7 @@ date_format = "Jan 2006"
   
   IPSA-9 Short term - GIS Developer (full time) from September 2022 to July 2023
 
-  IPSA-9 - Full Stack GIS Developer (full time) from August2023 to the present
+  IPSA-9 - Full Stack GIS Developer (full time) from August2023 to August 2025
   """
 
 [[experience]]

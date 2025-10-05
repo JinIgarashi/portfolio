@@ -18,13 +18,25 @@ date_format = "2006年1月"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "ソフトウェアエンジニア"
+  company = "Fracta"
+  company_url = "https://fracta-jp.com/"
+  company_logo = "fracta"
+  location = "Remote (work from Japan)"
+  date_start = "2025-09-01"
+  date_end = ""
+  description = """
+  エンジニアチームに所属し、ソフトウェアの新機能の開発、バグフィックス、メンテナンスなどをフルスタックで行っています。
+  """
+
+[[experience]]
   title = "GIS Developer"
   company = "国連開発計画（UNDP）"
   company_url = "https://www.undp.org"
   company_logo = "undp"
   location = "ニューヨーク（イギリス/日本からリモート勤務）"
   date_start = "2021-12-01"
-  date_end = ""
+  date_end = "2025-08-31"
   description = """
   UNDPのBureau for Policy and Programme SupportのSDG Integration TeamでGIS基盤開発をしています。
 
@@ -32,7 +44,7 @@ date_format = "2006年1月"
   
   IPSA-9短期 - GIS Developer (フルタイム) 2022年9月から2023年7月まで
 
-  IPSA-9 - フルスタックGIS Developer (フルタイム) 2023年8月から現在
+  IPSA-9 - フルスタックGIS Developer (フルタイム) 2023年8月から2025年8月まで
   """
 
 [[experience]]
