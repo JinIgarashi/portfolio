@@ -148,4 +148,14 @@ date_format = "Jan 2006"
   date_end = "2022-11-24"
   description = "Statement of MSc award and academic transcript"
 
+  [[item]]
+  organization = "OSGeo Japan"
+  organization_url = "https://www.osgeo.jp/"
+  title = "FOSS4G Hiroshima 2026 attendance certificate"
+  url = "https://2026.foss4g.org/"
+  certificate_url = "../files/certificates/20260905_FOSS4G2026_certificate.pdf"
+  date_start = "2026-08-30"
+  date_end = "2026-09-05"
+  description = ""
+
 +++

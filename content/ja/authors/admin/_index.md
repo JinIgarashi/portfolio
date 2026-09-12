@@ -36,7 +36,7 @@ education:
   courses:
   - course: MSc Computer Science with Artificial Intelligence
     institution: 英国ヨーク大学
-    year: 2024年1月から2026年1月
+    year: 2024年1月から2026年8月
   - course: MSc Water, Sanitation and Health Engineering (水衛生工学修士)
     institution: 英国リーズ大学
     year: 2022
@@ -58,21 +58,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/JinIgarashi
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/jin.igarashi
-- icon: instagram
-  icon_pack: fab
-  link: https://www.instagram.com/igarashi.jin
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/j_igarashi
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jinigarashi
-- icon: telegram
+- icon: twitter
   icon_pack: fab
-  link: "https://telegram.me/@jinigarashi"
+  link: https://twitter.com/j_igarashi
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
