@@ -3,12 +3,12 @@
 
 title: "Software developments in Fujitsu"
 subtitle: ""
-summary: "I started my GIS career as software developer in Fujitsu in Japan."
+summary: "Started my GIS career as a software engineer at Fujitsu, developing GIS systems such as HD maps for autonomous vehicles and WebGIS for the Ministry of Justice of Japan."
 authors: ["Jin Igarashi"]
 tags: ["GIS"]
 categories: []
 date: 2009-04-01T22:15:19+09:00
-lastmod: 2020-03-06T22:15:19+09:00
+lastmod: 2026-09-13T00:00:00+09:00
 featured: false
 draft: false
 
@@ -28,12 +28,23 @@ image:
 projects: []
 ---
 
-Period: April 2009 to March 2017
+**Period:** April 2009 – March 2017 (on leave from April 2014 to September 2016 while working in Kenya)
 
-Designed and developed following GIS applications. 
-  - the development of HD map for autonomous vehicle (ArcGIS Server, Python, Django REST framework).
-  - the system of mapping and simulating location of ships’ movement in Singapore (Leafletjs).
-  - Web-GIS system for the Real Property Registration system in Ministry of Justice of Japan (Mapserver, OpenLayers, Oracle).
-  - An Android application for health care management (Java).
-  - An area marketing system by using MapInfo.
-  - Logistics and distribution management system with Dijkstra routing algorism (VB.NET, SQL Server, MS Access).
+**Organization:** FUJITSU SOCIAL SCIENCE LABORATORY, LTD., Japan
+
+I started my career as a software engineer at Fujitsu Social Science Laboratory, where I designed and developed a wide range of business systems. Most of them were GIS related, which became the foundation of my career as a GIS engineer.
+
+## Main systems
+
+| System | Technologies |
+|---|---|
+| HD map development for autonomous vehicles | ArcGIS Server, Python, Django REST framework |
+| Mapping and simulating the movement of ships in Singapore | Leaflet |
+| WebGIS for the Real Property Registration system of the Ministry of Justice of Japan | MapServer, OpenLayers, Oracle |
+| Android application for health care management | Java |
+| Area marketing system | MapInfo |
+| Logistics and distribution management system with Dijkstra's routing algorithm | VB.NET, SQL Server, MS Access |
+
+## Skills
+
+VB.NET, Java, Python, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle
