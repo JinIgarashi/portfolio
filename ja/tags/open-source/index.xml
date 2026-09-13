@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/open-source/</link><atom:link href="https://jin-igarashi.me/ja/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Open Source</title><link>https://jin-igarashi.me/ja/tags/open-source/</link></image><item><title>FOSS4G 2026 広島 現地実行委員会（LOC）</title><link>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2025年10月 〜 2026年9月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> FOSS4G 2026 広島 現地実行委員会（OSGeo）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>、&lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">運営組織&lt;/a>&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>FOSS4G（Free and Open Source Software for Geospatial）は、OSGeo財団（Open Source Geospatial Foundation）が毎年開催する地理空間オープンソースソフトウェアの国際カンファレンスです。2026年は広島で開催されました。現地実行委員会（LOC）のボランティアメンバーとして、カンファレンスの準備と運営に携わりました。&lt;/p>
+&lt;h2 id="担当">担当&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PR / Communication（広報）:&lt;/strong> カンファレンスの広報やコミュニティへの情報発信&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate（参加者対応）:&lt;/strong> カンファレンス参加者・代表者のサポート&lt;/li>
+&lt;/ul>
+&lt;h2 id="カンファレンスでの発表">カンファレンスでの発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw ワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>maplibre-gl-terradraw &amp; Terra Draw</title><link>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年9月 〜 現在&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">GitHub (watergis/maplibre-gl-terradraw)&lt;/a> · &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> · &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">Terra Drawワークショップ&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>MapboxとMapLibreでは長い間、描画機能に&lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a>が使われてきました。しかし現在は活発にメンテナンスされておらず、MapLibreで使うことが難しくなってきています。&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a>は主要なWeb地図ライブラリ（MapLibre、Mapbox、Leaflet、OpenLayers、Google Maps、ArcGIS）に対して統一されたAPIを持つ描画ライブラリですが、その機能をMapLibreで最大限に活用するには多くの設定が必要です。&lt;/p>
+&lt;h2 id="開発したもの">開発したもの&lt;/h2>
+&lt;p>1行のコードで設定済みの描画機能を追加できるMapLibreプラグイン &lt;strong>maplibre-gl-terradraw&lt;/strong> を開発しました。&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>アイコン設定済みのTerra Drawの全描画モード（ポイント、ライン、ポリゴン、矩形、円、フリーハンドなど）&lt;/li>
+&lt;li>地物の選択・編集・削除、描画した地物のダウンロード&lt;/li>
+&lt;li>Terra Drawのオプションやスタイルのカスタマイズ&lt;/li>
+&lt;li>&lt;strong>計測コントロール&lt;/strong>: ラインの距離やポリゴンの面積の計測、ラスタDEM（MapLibre Terrain、TerrainRGB、Terrarium）からの標高取得&lt;/li>
+&lt;/ul>
+&lt;p>Terra Draw本体へのコントリビュートや、開発者向けハンズオンワークショップ教材のメンテナンスも行っています。&lt;/p>
+&lt;h2 id="発表ワークショップ">発表・ワークショップ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20250718_foss4g2025/">FOSS4G Europe 2025 Mostar: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251118_foss4g2025_terradraw_workshop/">FOSS4G 2025 Auckland: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251119_foss4g2025_maplibre-gl-terradraw/">FOSS4G 2025 Auckland: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">FOSS4G 2026 Hiroshima: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">FOSS4G 2026 Hiroshima: Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>TypeScript, MapLibre GL JS, Terra Draw, Vite&lt;/p></description></item><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/ja/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年11月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a>（BSD-3-Clause）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RAPIDAは、危機への迅速な対応のための半自動の地理空間分析ツールです。自然災害などの危機が発生した際に、厳選されたグローバルな地理空間データセットから対象地域のゾーン統計を計算し、人口・資産・経済への影響（エクスポージャー）を素早く評価します。結果はUNDP GeoHubを通じて共有でき、意思決定者がすぐに活用できます。&lt;/p>
+&lt;h2 id="機能">機能&lt;/h2>
+&lt;ul>
+&lt;li>OpenStreetMapとOCHAから行政界データを取得・整備&lt;/li>
+&lt;li>対象地域について複数の要素を評価:
+&lt;ul>
+&lt;li>&lt;strong>人口:&lt;/strong> WorldPop（constrained, UN-adjusted）&lt;/li>
+&lt;li>&lt;strong>建物:&lt;/strong> Google、Microsoft、OpenStreetMapの建物フットプリントを統合&lt;/li>
+&lt;li>&lt;strong>送配電網:&lt;/strong> 予測モデルによるグローバルな配電網&lt;/li>
+&lt;li>&lt;strong>道路:&lt;/strong> GRIPグローバル道路データセット&lt;/li>
+&lt;li>&lt;strong>土地利用:&lt;/strong> Sentinel-2画像とGoogle Dynamic Worldモデル&lt;/li>
+&lt;li>&lt;strong>社会経済:&lt;/strong> 剥奪指数（Deprivation Index）、相対的富裕指数（RWI）、GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>UNDPのAzureストレージでのプロジェクト管理と&lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>への公開&lt;/li>
+&lt;li>ノートブックや可視化のためのJupyterHubとの連携&lt;/li>
+&lt;li>使いやすいコマンドラインインターフェース: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/ja/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年12月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）政策・プログラム支援局 SDG Integration Team&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISコンサルタント → フルスタックGISデベロッパー&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>UNDPはデータドリブンな組織への変革を加速するために組織全体のデータ戦略を策定しており、その中で地理空間データは重要な役割を担っています。しかし、各国事務所に分散したデータのサイロ化、相互運用性の欠如、インフラやノウハウの不足などにより、地理空間データの大規模な活用は進んでいませんでした。GeoHubはこれらの課題を解決するため、Data Futures Exchange（DFx）の一部として開発されました。&lt;/p>
+&lt;h2 id="geohubとは">GeoHubとは&lt;/h2>
+&lt;p>GeoHubは、開発分野の業務を支援するための地理空間データとサービスの統合的なエコシステムです。GISの専門知識を持たないUNDP職員や政策立案者が、以下のことを簡単に行えます。&lt;/p>
+&lt;ul>
+&lt;li>衛星画像や時空間モデルデータを含む多様なデータセットの検索・可視化・ダウンロード&lt;/li>
+&lt;li>データアップロードパイプラインによる独自データの登録&lt;/li>
+&lt;li>動的な統計の算出やラスタ解析の実行&lt;/li>
+&lt;li>地図の作成とコミュニティへの共有&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ">アーキテクチャ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>フロントエンド:&lt;/strong> SvelteKitとMapLibre GL JSによるWebアプリケーション&lt;/li>
+&lt;li>&lt;strong>バックエンド:&lt;/strong> Azure Kubernetes Service（AKS）上にデプロイしたPostgreSQL/PostGIS、titiler、pg_tileservなどのFOSS4Gソフトウェア&lt;/li>
+&lt;li>&lt;strong>クラウド:&lt;/strong> Azure App Service、Blob Storage、PubSub&lt;/li>
+&lt;li>&lt;strong>データ:&lt;/strong> Cloud Optimized GeoTIFF、ベクタータイル、STACカタログ&lt;/li>
+&lt;li>ソースコードはすべてオープンソースライセンスでGitHubに公開&lt;/li>
+&lt;/ul>
+&lt;h2 id="主に開発した機能">主に開発した機能&lt;/h2>
+&lt;ul>
+&lt;li>GeoHubの各ページへ誘導するランディングページ&lt;/li>
+&lt;li>ソーシャルログイン（GitHub認証、UN B2C認証）&lt;/li>
+&lt;li>データアップロードパイプライン&lt;/li>
+&lt;li>データセット・地図のユーザー権限管理&lt;/li>
+&lt;li>MapLibreによるデータ可視化のUI/UX改善&lt;/li>
+&lt;li>ラスタ解析機能（titilerアルゴリズム）&lt;/li>
+&lt;li>保存したMapLibreスタイルから静的地図画像を生成するStatic Image API&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoHubと連携する危機評価ツール&lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>もご覧ください。&lt;/p>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item></channel></rss>

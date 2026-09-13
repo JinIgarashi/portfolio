@@ -1,10 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/categories/volunteer/</link><atom:link href="https://jin-igarashi.me/ja/categories/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Tue, 01 Apr 2014 08:45:17 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/ja/categories/volunteer/</link></image><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
-&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/categories/volunteer/</link><atom:link href="https://jin-igarashi.me/ja/categories/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/ja/categories/volunteer/</link></image><item><title>FOSS4G 2026 広島 現地実行委員会（LOC）</title><link>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2025年10月 〜 2026年9月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> FOSS4G 2026 広島 現地実行委員会（OSGeo）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>、&lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">運営組織&lt;/a>&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>FOSS4G（Free and Open Source Software for Geospatial）は、OSGeo財団（Open Source Geospatial Foundation）が毎年開催する地理空間オープンソースソフトウェアの国際カンファレンスです。2026年は広島で開催されました。現地実行委員会（LOC）のボランティアメンバーとして、カンファレンスの準備と運営に携わりました。&lt;/p>
+&lt;h2 id="担当">担当&lt;/h2>
 &lt;ul>
-&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
-&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
-&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
-&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;strong>PR / Communication（広報）:&lt;/strong> カンファレンスの広報やコミュニティへの情報発信&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate（参加者対応）:&lt;/strong> カンファレンス参加者・代表者のサポート&lt;/li>
+&lt;/ul>
+&lt;h2 id="カンファレンスでの発表">カンファレンスでの発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw ワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>&lt;strong>配属先:&lt;/strong> Narok Water and Sewerage Services Co., Ltd.（NARWASSCO：ナロック上下水道公社）, ケニア&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISスペシャリスト（JICA青年海外協力隊）&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>ナロック上下水道公社は、ケニアのナロックおよびオロルルンガの町に給水する水道事業体です。東アフリカの多くの水道事業体と同様に無収水（NRW）率が高く、配水管網や顧客の正確な地図も整備されていませんでした。国際協力機構（JICA）の青年海外協力隊のGISスペシャリストとして派遣され、水道資産管理と無収水対策のためのGISの導入を行いました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>配水管網のマッピング:&lt;/strong> Trimble GPS、ArcPad、QGISを用いて、ナロックとオロルルンガの配水管網全体（総延長約300km）をマッピングしました。&lt;/li>
+&lt;li>&lt;strong>GISデータベースとWebGIS:&lt;/strong> PostGIS、MapServer、Leafletを用いてGISデータベースとWebGISを設計・開発しました。料金システムと連携し、料金徴収の改善に貢献しています。&lt;/li>
+&lt;li>&lt;strong>無収水対策:&lt;/strong> 無収水の分析・削減のためにDMA（District Metered Area：配水ブロック）を作成しました。&lt;/li>
+&lt;li>&lt;strong>人材育成:&lt;/strong> ケニア人の同僚に技術移転を行うための研修を実施しました。構築したGISは現在も継続して活用されています。&lt;/li>
+&lt;li>&lt;strong>他の水道事業体へのコンサルティング:&lt;/strong> ケニア国内の7つの水道事業体（Nyeri Water、Kabarnet Water、Kapsabet Water、Nakuru Water、Nakuru Rural Water、Naivasha Water、Mavoko Water）に対し、GIS業務のコンサルティングを行いました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="その後">その後&lt;/h2>
+&lt;p>帰国後もボランティアとしてナロック上下水道公社との個人的なパートナーシップを続けています。GISはその後&lt;a href="../202002-narok-vectortile-project/">オープンソースのベクタータイル&lt;/a>（&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>）で刷新され、活動の成果はFOSS4G 2019 BucharestやFOSS4G 2021で発表しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: ケニア・ナロック水道公社の無収水管理の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: 無収水に対するFOSS4G活用のインパクト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>水インフラのデータ収集, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item></channel></rss>

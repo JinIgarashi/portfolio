@@ -1,14 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JICA | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/categories/jica/</link><atom:link href="https://jin-igarashi.me/ja/categories/jica/index.xml" rel="self" type="application/rss+xml"/><description>JICA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Thu, 01 Nov 2018 22:11:16 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>JICA</title><link>https://jin-igarashi.me/ja/categories/jica/</link></image><item><title>全地球航法衛星システムの整備による社会実験フィールドの構築に関する情報収集・確認調査</title><link>https://jin-igarashi.me/ja/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201811-thai_cors/</guid><description>&lt;p>期間: 201811月 〜 2019年11月&lt;/p>
-&lt;p>カウンターパート: タイ国政府&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>期間: 2017年10月 〜 2018年11月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
-&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JICA | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/categories/jica/</link><atom:link href="https://jin-igarashi.me/ja/categories/jica/index.xml" rel="self" type="application/rss+xml"/><description>JICA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Thu, 01 Nov 2018 22:11:16 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>JICA</title><link>https://jin-igarashi.me/ja/categories/jica/</link></image><item><title>全地球航法衛星システムの整備による社会実験フィールドの構築に関する情報収集・確認調査</title><link>https://jin-igarashi.me/ja/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201811-thai_cors/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年11月 〜 2019年11月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> タイ国政府&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> 開発コンサルタント（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>CORS（電子基準点）を用いたGNSS（全球測位衛星システム）測位は高精度な位置情報を提供し、測量や精密農業、自動運転などの基盤となります。本調査では、CORSデータセンターを含む、タイ王国におけるGNSSシステム開発のための実験フィールドの整備に関する情報を収集しました。&lt;/p>
+&lt;h2 id="担当業務">担当業務&lt;/h2>
 &lt;ul>
-&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
-&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
-&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
-&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>CORSデータセンターの整備に関する情報の調査・整理&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>GNSS/CORS, 地理空間情報システム, システム調査&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年6月 〜 2019年12月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GIS専門家（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RWASOMプロジェクトは、ルワンダの地方給水施設の運営維持管理能力の強化を目的としたプロジェクトです。給水施設の運営維持管理には、施設の位置や状態に関する信頼できる情報が不可欠ですが、全国規模では整備されていませんでした。GIS専門家として、地方給水管理のためのGISデータベースとデータ共有プラットフォームの構築を担当しました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>研修:&lt;/strong> ルワンダ人の同僚を対象に、FOSS4Gアプリケーション（QGIS, QField）を用いたデータ収集・データ共有の研修を実施しました。&lt;/li>
+&lt;li>&lt;strong>全国マッピング:&lt;/strong> ルワンダ人の同僚と協力し、QFieldとGarmin GPSを用いて全国すべての地方給水システムのマッピングを完了させました。&lt;/li>
+&lt;li>&lt;strong>GISデータベース:&lt;/strong> 地方給水管理のためのPostGISデータベースを設計・構築しました。&lt;/li>
+&lt;li>&lt;strong>データ共有プラットフォーム:&lt;/strong> 関係者がデータにアクセスできるよう、Lizmap/QGIS Serverによるデータ共有プラットフォームを開発しました。&lt;/li>
+&lt;li>&lt;strong>持続性:&lt;/strong> ライセンス費用なしでWASACが運用を続けられるよう、オープンソースソフトウェアのみを使用しました。データはその後ベクタータイルとして&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>で公開されています。&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: ルワンダの地方給水管理のためのデータ収集とデータ共有の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: ルワンダの地方給水管理におけるQGIS, QField, ベクタータイルの活用&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: ルワンダにおけるFOSS4Gを用いた地方給水マッピング&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, 地理空間データ収集, 研修&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2017年10月 〜 2018年11月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> 開発コンサルタント（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>ンゾベ-ントラ幹線送水管は、ンゾベ浄水場からントラ配水池へ浄水を送る、ルワンダの首都キガリ市の主要な送水ラインの一つです。本準備調査は、人口が増加するキガリ市の給水を改善するため、幹線送水管の増強・強化計画を策定するために実施されました。&lt;/p>
+&lt;h2 id="担当業務">担当業務&lt;/h2>
+&lt;ul>
+&lt;li>既存の給水施設および管路の地理空間データの収集・整理&lt;/li>
+&lt;li>EPANETによる水理解析を含む、水インフラの設計・計画の支援&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>地理空間データ収集, EPANET, 給水, 水インフラの設計・計画, QGIS&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>&lt;strong>配属先:&lt;/strong> Narok Water and Sewerage Services Co., Ltd.（NARWASSCO：ナロック上下水道公社）, ケニア&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISスペシャリスト（JICA青年海外協力隊）&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>ナロック上下水道公社は、ケニアのナロックおよびオロルルンガの町に給水する水道事業体です。東アフリカの多くの水道事業体と同様に無収水（NRW）率が高く、配水管網や顧客の正確な地図も整備されていませんでした。国際協力機構（JICA）の青年海外協力隊のGISスペシャリストとして派遣され、水道資産管理と無収水対策のためのGISの導入を行いました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>配水管網のマッピング:&lt;/strong> Trimble GPS、ArcPad、QGISを用いて、ナロックとオロルルンガの配水管網全体（総延長約300km）をマッピングしました。&lt;/li>
+&lt;li>&lt;strong>GISデータベースとWebGIS:&lt;/strong> PostGIS、MapServer、Leafletを用いてGISデータベースとWebGISを設計・開発しました。料金システムと連携し、料金徴収の改善に貢献しています。&lt;/li>
+&lt;li>&lt;strong>無収水対策:&lt;/strong> 無収水の分析・削減のためにDMA（District Metered Area：配水ブロック）を作成しました。&lt;/li>
+&lt;li>&lt;strong>人材育成:&lt;/strong> ケニア人の同僚に技術移転を行うための研修を実施しました。構築したGISは現在も継続して活用されています。&lt;/li>
+&lt;li>&lt;strong>他の水道事業体へのコンサルティング:&lt;/strong> ケニア国内の7つの水道事業体（Nyeri Water、Kabarnet Water、Kapsabet Water、Nakuru Water、Nakuru Rural Water、Naivasha Water、Mavoko Water）に対し、GIS業務のコンサルティングを行いました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="その後">その後&lt;/h2>
+&lt;p>帰国後もボランティアとしてナロック上下水道公社との個人的なパートナーシップを続けています。GISはその後&lt;a href="../202002-narok-vectortile-project/">オープンソースのベクタータイル&lt;/a>（&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>）で刷新され、活動の成果はFOSS4G 2019 BucharestやFOSS4G 2021で発表しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: ケニア・ナロック水道公社の無収水管理の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: 無収水に対するFOSS4G活用のインパクト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>水インフラのデータ収集, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item></channel></rss>

@@ -1,33 +1,228 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | JIN IGARASHI</title><link>https://jin-igarashi.me/en/project/</link><atom:link href="https://jin-igarashi.me/en/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jin-igarashi.me/en/project/</link></image><item><title>Japanese Translation for Input mobile app</title><link>https://jin-igarashi.me/en/project/202101-input/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202101-input/</guid><description>&lt;p>I started to translate iOS and Android mobile mapping application - &lt;a href="https://inputapp.io" target="_blank" rel="noopener">Input&lt;/a> from English to Japanese since January 2021.&lt;/p>
-&lt;p>In Japan, there are a lot of users who are using iPhone and iPad, however there is no longer available for mobile solution of QGIS in Japan. I finally translated Input app to Japanese language for QGIS community in Japan. Now Japanese users have multipul choices either QField or Input for mobile.&lt;/p></description></item><item><title>Open Source Project for Water Vector Tile app</title><link>https://jin-igarashi.me/en/project/202002-narok-vectortile-project/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202002-narok-vectortile-project/</guid><description>&lt;p>I developed a simple &lt;a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">open source tools&lt;/a> to create and deploy vectortiles easily.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | JIN IGARASHI</title><link>https://jin-igarashi.me/en/project/</link><atom:link href="https://jin-igarashi.me/en/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jin-igarashi.me/en/project/</link></image><item><title>FOSS4G 2026 Hiroshima Local Organizing Committee</title><link>https://jin-igarashi.me/en/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> October 2025 – September 2026&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> FOSS4G 2026 Hiroshima Local Organizing Committee (OSGeo)&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>, &lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">Organizers&lt;/a>&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>FOSS4G (Free and Open Source Software for Geospatial) is the global annual conference of the Open Source Geospatial Foundation (OSGeo). The 2026 edition was held in Hiroshima, Japan. I served as a volunteer member of the Local Organizing Committee (LOC) to prepare and run the conference.&lt;/p>
+&lt;h2 id="roles">Roles&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PR / Communication:&lt;/strong> promoted the conference and communicated with the community&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate:&lt;/strong> supported conference participants and delegates&lt;/li>
+&lt;/ul>
+&lt;h2 id="talks-at-the-conference">Talks at the conference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>maplibre-gl-terradraw &amp; Terra Draw</title><link>https://jin-igarashi.me/en/project/202409-maplibre-gl-terradraw/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202409-maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> September 2024 – present&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">GitHub (watergis/maplibre-gl-terradraw)&lt;/a> · &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> · &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">Terra Draw workshops&lt;/a>&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>For a long time, both Mapbox and MapLibre relied on &lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a> to provide drawing functionality. However, it is no longer actively maintained, and it has become increasingly difficult to use with MapLibre. &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> is a drawing library with a unified API for most web mapping libraries (MapLibre, Mapbox, Leaflet, OpenLayers, Google Maps and ArcGIS), but integrating its full functionality into MapLibre still requires a lot of configuration.&lt;/p>
+&lt;h2 id="what-i-built">What I built&lt;/h2>
+&lt;p>I developed &lt;strong>maplibre-gl-terradraw&lt;/strong>, a MapLibre plugin that adds a pre-configured drawing feature with a single line of code:&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>All Terra Draw modes (point, line, polygon, rectangle, circle, freehand, etc.) with pre-configured icons&lt;/li>
+&lt;li>Selecting, editing and deleting features, and downloading drawn features&lt;/li>
+&lt;li>Customizable Terra Draw options and styles&lt;/li>
+&lt;li>&lt;strong>Measure control&lt;/strong> to measure line distances and polygon areas, and to query elevation from raster DEM sources (MapLibre Terrain, TerrainRGB and Terrarium)&lt;/li>
+&lt;/ul>
+&lt;p>I also contribute to Terra Draw itself and maintain hands-on workshop materials for developers.&lt;/p>
+&lt;h2 id="talks--workshops">Talks &amp;amp; workshops&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20250718_foss4g2025/">FOSS4G Europe 2025 Mostar: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251118_foss4g2025_terradraw_workshop/">FOSS4G 2025 Auckland: Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251119_foss4g2025_maplibre-gl-terradraw/">FOSS4G 2025 Auckland: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">FOSS4G 2026 Hiroshima: Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">FOSS4G 2026 Hiroshima: Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tech-stack">Tech stack&lt;/h2>
+&lt;p>TypeScript, MapLibre GL JS, Terra Draw, Vite&lt;/p></description></item><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/en/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> November 2024 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP)&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a> (BSD-3-Clause)&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>RAPIDA is a semi-automated geospatial analysis tool for rapid crisis response. When a crisis such as a natural disaster happens, it quickly assesses the exposure of people, assets and the economy within an area of interest by computing zonal statistics from curated global geospatial datasets. The results can be shared through UNDP GeoHub so that decision makers can use them right away.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Fetches and curates administrative boundaries from OpenStreetMap and OCHA&lt;/li>
+&lt;li>Assesses multiple exposure components over an area of interest:
+&lt;ul>
+&lt;li>&lt;strong>Population:&lt;/strong> WorldPop (constrained, UN-adjusted)&lt;/li>
+&lt;li>&lt;strong>Buildings:&lt;/strong> merged Google, Microsoft and OpenStreetMap building footprints&lt;/li>
+&lt;li>&lt;strong>Electrical grid:&lt;/strong> predictive global distribution networks&lt;/li>
+&lt;li>&lt;strong>Roads:&lt;/strong> GRIP global roads dataset&lt;/li>
+&lt;li>&lt;strong>Land use:&lt;/strong> Sentinel-2 imagery with the Google Dynamic World model&lt;/li>
+&lt;li>&lt;strong>Socioeconomic:&lt;/strong> deprivation index, relative wealth index and GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Project management on UNDP Azure storage and publishing to &lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>&lt;/li>
+&lt;li>Integration with JupyterHub for notebooks and visualization&lt;/li>
+&lt;li>Rich command line interface: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tech-stack">Tech stack&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>Full lifecycle costs of urban sanitation in Narok, Kenya (CACTUS)</title><link>https://jin-igarashi.me/en/project/202206-cactus-narok-sanitation/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202206-cactus-narok-sanitation/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> 2021 – 2022 (MSc dissertation)&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> School of Civil Engineering, University of Leeds, United Kingdom&lt;/p>
+&lt;p>&lt;strong>Project:&lt;/strong> CACTUS (Climate and Costs in Urban Sanitation), funded by the Bill &amp;amp; Melinda Gates Foundation&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>For my MSc (Eng) in Water, Sanitation and Health Engineering (passed with distinction), I researched the full lifecycle costs of urban sanitation systems under the CACTUS project. A case study of Narok town, Kenya was conducted to estimate the cost of the urban sanitation system over the whole sanitation value chain — containment, emptying, transport, treatment and end-use/disposal.&lt;/p>
+&lt;p>The study built on my long-term partnership with Narok Water and Sewerage Services Co., Ltd., where I previously worked as a &lt;a href="../201404narok-water/">GIS specialist&lt;/a>.&lt;/p>
+&lt;h2 id="outputs">Outputs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../publication/naroktown-sfd/">Shit-flow diagram (SFD) Lite report in Narok town, Kenya&lt;/a> — published at sfd.susana.org, showing the latest sanitation situation in the municipality (October 2022)&lt;/li>
+&lt;li>&lt;a href="../../publication/narok-cactus-paper/">Does &amp;ldquo;Low Cost&amp;rdquo; Urban Sanitation Exist? Lessons from a Global Data Set&lt;/a> — Igarashi, J. et al. (2023), &lt;em>Environmental Science &amp;amp; Technology&lt;/em>, &lt;a href="https://doi.org/10.1021/acs.est.3c05731" target="_blank" rel="noopener">DOI: 10.1021/acs.est.3c05731&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Sanitation cost analysis, sanitation value chain, fieldwork &amp;amp; data collection, SFD&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/en/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> December 2021 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP), SDG Integration Team, Bureau for Policy and Programme Support&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Consultant → Full Stack GIS Developer&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>UNDP has developed a corporate data strategy to accelerate its transformation into a data-driven organization, and geospatial data plays an important role in it. However, the large-scale adoption of geospatial data had been obstructed by data silos across country offices, lack of interoperability, and limited infrastructure and know-how. GeoHub was developed as a part of the Data Futures Exchange (DFx) to solve these issues.&lt;/p>
+&lt;h2 id="what-is-geohub">What is GeoHub?&lt;/h2>
+&lt;p>GeoHub is a centralized ecosystem of geospatial data and services to support development work. It allows users without geospatial skills — UNDP staff and policymakers — to:&lt;/p>
+&lt;ul>
+&lt;li>search, visualize and download a wide array of datasets, including satellite imagery and spatio-temporal model data&lt;/li>
+&lt;li>upload their own datasets through a data upload pipeline&lt;/li>
+&lt;li>compute dynamic statistics and run raster analytics&lt;/li>
+&lt;li>create maps and share them with the community easily&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture">Architecture&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> SvelteKit and MapLibre GL JS web applications&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> PostgreSQL/PostGIS, titiler, pg_tileserv and other FOSS4G software deployed on Azure Kubernetes Service (AKS)&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Azure App Service, Blob Storage, PubSub&lt;/li>
+&lt;li>&lt;strong>Data:&lt;/strong> Cloud Optimized GeoTIFF, vector tiles and STAC catalogues&lt;/li>
+&lt;li>All source code is published on GitHub under an open-source license&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-features-i-developed">Main features I developed&lt;/h2>
+&lt;ul>
+&lt;li>Landing page to direct users to each part of GeoHub&lt;/li>
+&lt;li>Social login (GitHub authentication and UN B2C authentication)&lt;/li>
+&lt;li>Data upload pipeline&lt;/li>
+&lt;li>User permission management for datasets and maps&lt;/li>
+&lt;li>UI/UX improvements for data visualization with MapLibre&lt;/li>
+&lt;li>Raster analytical features (titiler algorithms)&lt;/li>
+&lt;li>Static image API to generate static map images from a saved MapLibre style&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>See also &lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>, a crisis assessment tool integrated with GeoHub.&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item><item><title>Japanese Translation for Input mobile app</title><link>https://jin-igarashi.me/en/project/202101-input/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202101-input/</guid><description>&lt;p>I started to translate iOS and Android mobile mapping application - &lt;a href="https://inputapp.io" target="_blank" rel="noopener">Input&lt;/a> from English to Japanese since January 2021.&lt;/p>
+&lt;p>In Japan, there are a lot of users who are using iPhone and iPad, however there had been no Japanese mobile solution for QGIS on iOS for a long time. I finally translated Input app to Japanese language for QGIS community in Japan. Now Japanese users have multiple choices either QField or Input for mobile.&lt;/p></description></item><item><title>Open Source Project for Water Vector Tile app</title><link>https://jin-igarashi.me/en/project/202002-narok-vectortile-project/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202002-narok-vectortile-project/</guid><description>&lt;p>I developed a simple &lt;a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">open-source tool&lt;/a> to create and deploy vector tiles easily.&lt;/p>
 &lt;p>Currently, the following water services providers are using my tools.&lt;/p>
 &lt;ol>
 &lt;li>&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">Water Supply Map for Narok Water, KENYA&lt;/a>: since June 2020.&lt;/li>
 &lt;li>&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">Water Supply Map for WASAC RWSS, RWANDA&lt;/a>: since July 2020.&lt;/li>
 &lt;li>&lt;a href="https://nakuru.water-gis.com" target="_blank" rel="noopener">Water Supply Map for Nakuru Water, KENYA&lt;/a>: since August 2020.&lt;/li>
 &lt;/ol>
-&lt;p>This tool is using direct SQL to create vectortiles from your PostGIS database. So, my tool can adopt any PostGIS database easily. If there is already PostGIS in your organizaiton, it is so fast to be able to host your vectorties. But please also contact me if you do not have PostGIS database yet. I will support your organization to develop PostGIS database and adopt it for vectortiles.&lt;/p></description></item><item><title>Japanese Translation for QField mobile app</title><link>https://jin-igarashi.me/en/project/201909-qfield/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201909-qfield/</guid><description>&lt;p>I started to translate Android mobile mapping application - &lt;a href="https://qfield.org" target="_blank" rel="noopener">QField&lt;/a> from English to Japanese since September 2019.&lt;/p>
-&lt;p>I met Mr. Matthias (OpenGIS.ch) at code sprint of FOSS4G 2019 Bucharest, then I got involved QField project. QField is great tool and very much compatible with QGIS. I wish I can constribute to Japan&amp;rsquo;s QGIS community to use it more and more in field.&lt;/p>
-&lt;p>You can see some of my translation from &lt;a href="https://qfield.org/docs/ja/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand</title><link>https://jin-igarashi.me/en/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201811-thai_cors/</guid><description>&lt;p>Period: November 2018 to November 2019&lt;/p>
-&lt;p>Client: The Gevernment of Thailand&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>Period: June 2018 to December 2019&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>Conducted training workshops for data collection and sharing with FOSS4G applications, then designed &amp;amp; created GIS database and data sharing platform for rural water supply management in RWASOM project. Collaborated with Rwandan colleagues to complete mapping all of water supply systems in the country. The system in Rwanda uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS.&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>Period: October 2017 to November 2018&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>Period: April 2014 to September 2016&lt;/p>
-&lt;p>Client: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>Worked as a GIS specialist funded by JICA and conducted the following activities.&lt;/p>
+&lt;p>This tool is using direct SQL to create vector tiles from your PostGIS database. So, my tool can adopt any PostGIS database easily. If there is already PostGIS in your organization, you can host your vector tiles. But please also contact me if you do not have PostGIS database yet. I will support your organization to develop PostGIS database and adopt it for vector tiles.&lt;/p></description></item><item><title>Japanese Translation for QField mobile app</title><link>https://jin-igarashi.me/en/project/201909-qfield/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201909-qfield/</guid><description>&lt;p>I started to translate Android mobile mapping application - &lt;a href="https://qfield.org" target="_blank" rel="noopener">QField&lt;/a> from English to Japanese since September 2019.&lt;/p>
+&lt;p>I met Mr. Matthias (OpenGIS.ch) at code sprint of FOSS4G 2019 Bucharest, then I got involved in the QField project. QField is great tool and very much compatible with QGIS. I hope to contribute to Japan&amp;rsquo;s QGIS community to use it more and more in field.&lt;/p>
+&lt;p>You can see some of my translation from &lt;a href="https://qfield.org/docs/ja/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand</title><link>https://jin-igarashi.me/en/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201811-thai_cors/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> November 2018 – November 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> The Government of Thailand&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> Consultant, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>GNSS (Global Navigation Satellite System) positioning with CORS (Continuously Operating Reference Stations) enables highly accurate positioning, which is the basis of applications such as surveying, precision agriculture and autonomous driving. This survey collected information for establishing an experimental field for GNSS system development in Thailand, including a CORS data centre.&lt;/p>
+&lt;h2 id="my-contribution">My contribution&lt;/h2>
 &lt;ul>
-&lt;li>Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>Designed and developed GIS database &amp;amp; WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.&lt;/li>
-&lt;li>Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.&lt;/li>
-&lt;li>Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.&lt;/li>
-&lt;li>Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.&lt;/li>
-&lt;/ul></description></item><item><title>Software developments in Fujitsu</title><link>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</guid><description>&lt;p>Period: April 2009 to March 2017&lt;/p>
-&lt;p>Designed and developed following GIS applications.&lt;/p>
+&lt;li>Surveyed and organized information on the establishment of the CORS data centre.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>GNSS/CORS, geospatial information systems, system survey&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 2018 – December 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Expert, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The RWASOM project aimed to strengthen the capacity for operation and maintenance of rural water supply systems in Rwanda. Reliable information on where water supply facilities are located and in what condition they are is essential for their operation and maintenance, but it was not available nationwide. I joined the project as a GIS expert to establish a GIS database and data sharing platform for rural water supply management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
 &lt;ul>
-&lt;li>the development of HD map for autonomous vehicle (ArcGIS Server, Python, Django REST framework).&lt;/li>
-&lt;li>the system of mapping and simulating location of ships’ movement in Singapore (Leafletjs).&lt;/li>
-&lt;li>Web-GIS system for the Real Property Registration system in Ministry of Justice of Japan (Mapserver, OpenLayers, Oracle).&lt;/li>
-&lt;li>An Android application for health care management (Java).&lt;/li>
-&lt;li>An area marketing system by using MapInfo.&lt;/li>
-&lt;li>Logistics and distribution management system with Dijkstra routing algorism (VB.NET, SQL Server, MS Access).&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;strong>Training:&lt;/strong> Conducted training workshops on data collection and data sharing with FOSS4G applications (QGIS, QField) for Rwandan colleagues.&lt;/li>
+&lt;li>&lt;strong>Nationwide mapping:&lt;/strong> Collaborated with Rwandan colleagues to complete the mapping of all rural water supply systems in the country using QField and Garmin GPS.&lt;/li>
+&lt;li>&lt;strong>GIS database:&lt;/strong> Designed and created a PostGIS database for rural water supply management.&lt;/li>
+&lt;li>&lt;strong>Data sharing platform:&lt;/strong> Developed a data sharing platform using Lizmap/QGIS Server so that the data can be accessed by stakeholders.&lt;/li>
+&lt;li>&lt;strong>Sustainability:&lt;/strong> Used only open-source software so that WASAC can keep operating the system without license costs. The data was later published as vector tiles at &lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: Case study of data collection &amp;amp; data sharing for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: An implementation of FOSS4G - QGIS, QField and Vector Tiles for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: Rural water supply mapping by using FOSS4G application in Rwanda&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, geospatial data collection, training&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> October 2017 – November 2018&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> Consultant, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The Nzove-Ntora principal transmission pipeline carries treated water from the Nzove Water Treatment Plant to the Ntora reservoir, and is one of the main water supply lines for Kigali City, the capital of Rwanda. This preparatory survey was conducted to plan the upgrade and strengthening of the transmission pipeline, in order to improve the water supply to the growing city.&lt;/p>
+&lt;h2 id="my-contribution">My contribution&lt;/h2>
+&lt;ul>
+&lt;li>Collected and organized geospatial data of the existing water supply facilities and pipelines.&lt;/li>
+&lt;li>Supported the design and planning of the water infrastructure, including hydraulic analysis with EPANET.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Geospatial data collection, EPANET, water supply, design/planning of water infrastructure, QGIS&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2014 – September 2016&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> Narok Water and Sewerage Services Co., Ltd. (NARWASSCO), Kenya&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Specialist (JICA Volunteer)&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Narok Water and Sewerage Services Co., Ltd. is the water service provider for Narok and Ololulung&amp;rsquo;a towns in Kenya. Like many water utilities in Eastern Africa, it faced high Non-Revenue Water (NRW), and there were no accurate maps of its water distribution network and customers. I was dispatched as a GIS specialist by the Japan International Cooperation Agency (JICA) to introduce GIS for water asset and NRW management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Network mapping:&lt;/strong> Mapped the entire water distribution network, approximately 300 km of pipelines in total, in Narok and Ololulung&amp;rsquo;a towns using Trimble GPS, ArcPad and QGIS.&lt;/li>
+&lt;li>&lt;strong>GIS database &amp;amp; WebGIS:&lt;/strong> Designed and developed a GIS database and WebGIS using PostGIS, MapServer and Leaflet. The system is linked to the billing system, which helps improve revenue collection.&lt;/li>
+&lt;li>&lt;strong>NRW management:&lt;/strong> Created DMAs (District Metered Areas) to analyze and improve Non-Revenue Water management.&lt;/li>
+&lt;li>&lt;strong>Capacity building:&lt;/strong> Conducted training to transfer technical knowledge to Kenyan colleagues. The GIS system has been continuously used since it was developed.&lt;/li>
+&lt;li>&lt;strong>Consulting for other utilities:&lt;/strong> Consulted on GIS work for 7 water service providers in Kenya: Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water and Mavoko Water.&lt;/li>
+&lt;/ul>
+&lt;h2 id="afterwards">Afterwards&lt;/h2>
+&lt;p>I have kept a personal partnership with Narok Water as a volunteer. The GIS was later modernized with &lt;a href="../202002-narok-vectortile-project/">open-source vector tiles&lt;/a> (&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>), and the experience was presented at FOSS4G 2019 Bucharest and FOSS4G 2021.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: Case study of Non-Revenue Water management of Narok Water in Kenya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Data collection for water infrastructure, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item><item><title>Software developments in Fujitsu</title><link>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2009 – March 2017 (on leave from April 2014 to September 2016 while working in Kenya)&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> FUJITSU SOCIAL SCIENCE LABORATORY, LTD., Japan&lt;/p>
+&lt;p>I started my career as a software engineer at Fujitsu Social Science Laboratory, where I designed and developed a wide range of business systems. Most of them were GIS related, which became the foundation of my career as a GIS engineer.&lt;/p>
+&lt;h2 id="main-systems">Main systems&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>System&lt;/th>
+&lt;th>Technologies&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HD map development for autonomous vehicles&lt;/td>
+&lt;td>ArcGIS Server, Python, Django REST framework&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mapping and simulating the movement of ships in Singapore&lt;/td>
+&lt;td>Leaflet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WebGIS for the Real Property Registration system of the Ministry of Justice of Japan&lt;/td>
+&lt;td>MapServer, OpenLayers, Oracle&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Android application for health care management&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Area marketing system&lt;/td>
+&lt;td>MapInfo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Logistics and distribution management system with Dijkstra&amp;rsquo;s routing algorithm&lt;/td>
+&lt;td>VB.NET, SQL Server, MS Access&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>VB.NET, Java, Python, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle&lt;/p></description></item></channel></rss>

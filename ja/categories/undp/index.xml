@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UNDP | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/categories/undp/</link><atom:link href="https://jin-igarashi.me/ja/categories/undp/index.xml" rel="self" type="application/rss+xml"/><description>UNDP</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>UNDP</title><link>https://jin-igarashi.me/ja/categories/undp/</link></image><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/ja/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年11月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a>（BSD-3-Clause）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RAPIDAは、危機への迅速な対応のための半自動の地理空間分析ツールです。自然災害などの危機が発生した際に、厳選されたグローバルな地理空間データセットから対象地域のゾーン統計を計算し、人口・資産・経済への影響（エクスポージャー）を素早く評価します。結果はUNDP GeoHubを通じて共有でき、意思決定者がすぐに活用できます。&lt;/p>
+&lt;h2 id="機能">機能&lt;/h2>
+&lt;ul>
+&lt;li>OpenStreetMapとOCHAから行政界データを取得・整備&lt;/li>
+&lt;li>対象地域について複数の要素を評価:
+&lt;ul>
+&lt;li>&lt;strong>人口:&lt;/strong> WorldPop（constrained, UN-adjusted）&lt;/li>
+&lt;li>&lt;strong>建物:&lt;/strong> Google、Microsoft、OpenStreetMapの建物フットプリントを統合&lt;/li>
+&lt;li>&lt;strong>送配電網:&lt;/strong> 予測モデルによるグローバルな配電網&lt;/li>
+&lt;li>&lt;strong>道路:&lt;/strong> GRIPグローバル道路データセット&lt;/li>
+&lt;li>&lt;strong>土地利用:&lt;/strong> Sentinel-2画像とGoogle Dynamic Worldモデル&lt;/li>
+&lt;li>&lt;strong>社会経済:&lt;/strong> 剥奪指数（Deprivation Index）、相対的富裕指数（RWI）、GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>UNDPのAzureストレージでのプロジェクト管理と&lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>への公開&lt;/li>
+&lt;li>ノートブックや可視化のためのJupyterHubとの連携&lt;/li>
+&lt;li>使いやすいコマンドラインインターフェース: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/ja/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年12月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）政策・プログラム支援局 SDG Integration Team&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISコンサルタント → フルスタックGISデベロッパー&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>UNDPはデータドリブンな組織への変革を加速するために組織全体のデータ戦略を策定しており、その中で地理空間データは重要な役割を担っています。しかし、各国事務所に分散したデータのサイロ化、相互運用性の欠如、インフラやノウハウの不足などにより、地理空間データの大規模な活用は進んでいませんでした。GeoHubはこれらの課題を解決するため、Data Futures Exchange（DFx）の一部として開発されました。&lt;/p>
+&lt;h2 id="geohubとは">GeoHubとは&lt;/h2>
+&lt;p>GeoHubは、開発分野の業務を支援するための地理空間データとサービスの統合的なエコシステムです。GISの専門知識を持たないUNDP職員や政策立案者が、以下のことを簡単に行えます。&lt;/p>
+&lt;ul>
+&lt;li>衛星画像や時空間モデルデータを含む多様なデータセットの検索・可視化・ダウンロード&lt;/li>
+&lt;li>データアップロードパイプラインによる独自データの登録&lt;/li>
+&lt;li>動的な統計の算出やラスタ解析の実行&lt;/li>
+&lt;li>地図の作成とコミュニティへの共有&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ">アーキテクチャ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>フロントエンド:&lt;/strong> SvelteKitとMapLibre GL JSによるWebアプリケーション&lt;/li>
+&lt;li>&lt;strong>バックエンド:&lt;/strong> Azure Kubernetes Service（AKS）上にデプロイしたPostgreSQL/PostGIS、titiler、pg_tileservなどのFOSS4Gソフトウェア&lt;/li>
+&lt;li>&lt;strong>クラウド:&lt;/strong> Azure App Service、Blob Storage、PubSub&lt;/li>
+&lt;li>&lt;strong>データ:&lt;/strong> Cloud Optimized GeoTIFF、ベクタータイル、STACカタログ&lt;/li>
+&lt;li>ソースコードはすべてオープンソースライセンスでGitHubに公開&lt;/li>
+&lt;/ul>
+&lt;h2 id="主に開発した機能">主に開発した機能&lt;/h2>
+&lt;ul>
+&lt;li>GeoHubの各ページへ誘導するランディングページ&lt;/li>
+&lt;li>ソーシャルログイン（GitHub認証、UN B2C認証）&lt;/li>
+&lt;li>データアップロードパイプライン&lt;/li>
+&lt;li>データセット・地図のユーザー権限管理&lt;/li>
+&lt;li>MapLibreによるデータ可視化のUI/UX改善&lt;/li>
+&lt;li>ラスタ解析機能（titilerアルゴリズム）&lt;/li>
+&lt;li>保存したMapLibreスタイルから静的地図画像を生成するStatic Image API&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoHubと連携する危機評価ツール&lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>もご覧ください。&lt;/p>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item></channel></rss>

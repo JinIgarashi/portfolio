@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GIS | JIN IGARASHI</title><link>https://jin-igarashi.me/en/tags/gis/</link><atom:link href="https://jin-igarashi.me/en/tags/gis/index.xml" rel="self" type="application/rss+xml"/><description>GIS</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Sat, 18 Apr 2020 10:55:15 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>GIS</title><link>https://jin-igarashi.me/en/tags/gis/</link></image><item><title>[WaQuAC-NET Newsletter Vol44]Site visit of Yangon &amp; Mandalay water in Myanmar, and an interview from Rwanda</title><link>https://jin-igarashi.me/en/publication/waquac-vol44/</link><pubDate>Sat, 18 Apr 2020 10:55:15 +0900</pubDate><guid>https://jin-igarashi.me/en/publication/waquac-vol44/</guid><description>&lt;p>I published two articles on waquac-net newsletter vol.44.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GIS | JIN IGARASHI</title><link>https://jin-igarashi.me/en/tags/gis/</link><atom:link href="https://jin-igarashi.me/en/tags/gis/index.xml" rel="self" type="application/rss+xml"/><description>GIS</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>GIS</title><link>https://jin-igarashi.me/en/tags/gis/</link></image><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/en/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> November 2024 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP)&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a> (BSD-3-Clause)&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>RAPIDA is a semi-automated geospatial analysis tool for rapid crisis response. When a crisis such as a natural disaster happens, it quickly assesses the exposure of people, assets and the economy within an area of interest by computing zonal statistics from curated global geospatial datasets. The results can be shared through UNDP GeoHub so that decision makers can use them right away.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Fetches and curates administrative boundaries from OpenStreetMap and OCHA&lt;/li>
+&lt;li>Assesses multiple exposure components over an area of interest:
+&lt;ul>
+&lt;li>&lt;strong>Population:&lt;/strong> WorldPop (constrained, UN-adjusted)&lt;/li>
+&lt;li>&lt;strong>Buildings:&lt;/strong> merged Google, Microsoft and OpenStreetMap building footprints&lt;/li>
+&lt;li>&lt;strong>Electrical grid:&lt;/strong> predictive global distribution networks&lt;/li>
+&lt;li>&lt;strong>Roads:&lt;/strong> GRIP global roads dataset&lt;/li>
+&lt;li>&lt;strong>Land use:&lt;/strong> Sentinel-2 imagery with the Google Dynamic World model&lt;/li>
+&lt;li>&lt;strong>Socioeconomic:&lt;/strong> deprivation index, relative wealth index and GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Project management on UNDP Azure storage and publishing to &lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>&lt;/li>
+&lt;li>Integration with JupyterHub for notebooks and visualization&lt;/li>
+&lt;li>Rich command line interface: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tech-stack">Tech stack&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/en/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> December 2021 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP), SDG Integration Team, Bureau for Policy and Programme Support&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Consultant → Full Stack GIS Developer&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>UNDP has developed a corporate data strategy to accelerate its transformation into a data-driven organization, and geospatial data plays an important role in it. However, the large-scale adoption of geospatial data had been obstructed by data silos across country offices, lack of interoperability, and limited infrastructure and know-how. GeoHub was developed as a part of the Data Futures Exchange (DFx) to solve these issues.&lt;/p>
+&lt;h2 id="what-is-geohub">What is GeoHub?&lt;/h2>
+&lt;p>GeoHub is a centralized ecosystem of geospatial data and services to support development work. It allows users without geospatial skills — UNDP staff and policymakers — to:&lt;/p>
+&lt;ul>
+&lt;li>search, visualize and download a wide array of datasets, including satellite imagery and spatio-temporal model data&lt;/li>
+&lt;li>upload their own datasets through a data upload pipeline&lt;/li>
+&lt;li>compute dynamic statistics and run raster analytics&lt;/li>
+&lt;li>create maps and share them with the community easily&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture">Architecture&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> SvelteKit and MapLibre GL JS web applications&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> PostgreSQL/PostGIS, titiler, pg_tileserv and other FOSS4G software deployed on Azure Kubernetes Service (AKS)&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Azure App Service, Blob Storage, PubSub&lt;/li>
+&lt;li>&lt;strong>Data:&lt;/strong> Cloud Optimized GeoTIFF, vector tiles and STAC catalogues&lt;/li>
+&lt;li>All source code is published on GitHub under an open-source license&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-features-i-developed">Main features I developed&lt;/h2>
+&lt;ul>
+&lt;li>Landing page to direct users to each part of GeoHub&lt;/li>
+&lt;li>Social login (GitHub authentication and UN B2C authentication)&lt;/li>
+&lt;li>Data upload pipeline&lt;/li>
+&lt;li>User permission management for datasets and maps&lt;/li>
+&lt;li>UI/UX improvements for data visualization with MapLibre&lt;/li>
+&lt;li>Raster analytical features (titiler algorithms)&lt;/li>
+&lt;li>Static image API to generate static map images from a saved MapLibre style&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>See also &lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>, a crisis assessment tool integrated with GeoHub.&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol44]Site visit of Yangon &amp; Mandalay water in Myanmar, and an interview from Rwanda</title><link>https://jin-igarashi.me/en/publication/waquac-vol44/</link><pubDate>Sat, 18 Apr 2020 10:55:15 +0900</pubDate><guid>https://jin-igarashi.me/en/publication/waquac-vol44/</guid><description>&lt;p>I published two articles on waquac-net newsletter vol.44.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>My first visit to Myanmar and observed 2 water supply in Yangon and Mandalay&lt;/p>
@@ -9,9 +72,28 @@
 &lt;/ol>
 &lt;p>Please see my posts in the newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.44_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol41] GIS and Water Supply</title><link>https://jin-igarashi.me/en/publication/waquac-vol41/</link><pubDate>Tue, 16 Jul 2019 23:01:52 +0900</pubDate><guid>https://jin-igarashi.me/en/publication/waquac-vol41/</guid><description>&lt;p>I did a presentation about &amp;ldquo;GIS and Water Supply&amp;rdquo; as an activity of WAQUAC-NET.&lt;/p>
 &lt;p>if you can read Japanese, please also look my presentation from &lt;a href="https://water-gis.com/files/20190716_waquac_presentation.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
-&lt;p>Please see my posts in the newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.41_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>Period: June 2018 to December 2019&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>Conducted training workshops for data collection and sharing with FOSS4G applications, then designed &amp;amp; created GIS database and data sharing platform for rural water supply management in RWASOM project. Collaborated with Rwandan colleagues to complete mapping all of water supply systems in the country. The system in Rwanda uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS.&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol33 ] My Activities in Narok Water</title><link>https://jin-igarashi.me/en/publication/waquac-vol33/</link><pubDate>Sat, 15 Jul 2017 22:53:04 +0900</pubDate><guid>https://jin-igarashi.me/en/publication/waquac-vol33/</guid><description>&lt;p>Please see full of my post with pictures in newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.33_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>Please see my posts in the newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.41_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 2018 – December 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Expert, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The RWASOM project aimed to strengthen the capacity for operation and maintenance of rural water supply systems in Rwanda. Reliable information on where water supply facilities are located and in what condition they are is essential for their operation and maintenance, but it was not available nationwide. I joined the project as a GIS expert to establish a GIS database and data sharing platform for rural water supply management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Training:&lt;/strong> Conducted training workshops on data collection and data sharing with FOSS4G applications (QGIS, QField) for Rwandan colleagues.&lt;/li>
+&lt;li>&lt;strong>Nationwide mapping:&lt;/strong> Collaborated with Rwandan colleagues to complete the mapping of all rural water supply systems in the country using QField and Garmin GPS.&lt;/li>
+&lt;li>&lt;strong>GIS database:&lt;/strong> Designed and created a PostGIS database for rural water supply management.&lt;/li>
+&lt;li>&lt;strong>Data sharing platform:&lt;/strong> Developed a data sharing platform using Lizmap/QGIS Server so that the data can be accessed by stakeholders.&lt;/li>
+&lt;li>&lt;strong>Sustainability:&lt;/strong> Used only open-source software so that WASAC can keep operating the system without license costs. The data was later published as vector tiles at &lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: Case study of data collection &amp;amp; data sharing for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: An implementation of FOSS4G - QGIS, QField and Vector Tiles for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: Rural water supply mapping by using FOSS4G application in Rwanda&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, geospatial data collection, training&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol33 ] My Activities in Narok Water</title><link>https://jin-igarashi.me/en/publication/waquac-vol33/</link><pubDate>Sat, 15 Jul 2017 22:53:04 +0900</pubDate><guid>https://jin-igarashi.me/en/publication/waquac-vol33/</guid><description>&lt;p>Please see full of my post with pictures in newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.33_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>I worked at Narok Water and Sewerage Services Company Ltd (NARWASSCO) in the Republic of Kenya from April 2014 to September 2016. My assignment place is called Narok Town which is on the way to Maasai Mara National Reserve. The population is about 50,000, it is the multi- tribal town. The half of population is Maasai people, the others are mixed several tribes.&lt;/p>
 &lt;p>NARWASSCO is a water services providers (WSPs) of private company in Kenya, They contract the management of water service with Rift Valley Water Services Board (RVWSB). JICA carried out a grant aid project for augmentation of Narok water supply from February 2014 to April 2016. Now NARWASSCO has new water treatment plant (North WTP, 4,000m3/day) and new distribution pipes, so situation of water is much better.&lt;/p>
@@ -24,22 +106,63 @@
 &lt;p>Narok’s majority tribe is Maasai people, so I learned Maasai language from my teacher. Though he is 85 years old, he is very active, and went to take care of patients as a Maasai traditional doctor. Most of my workmates are also Maasai, so sometimes I visited their home. The life of Maasai is very simple. Their main food is milk from cow. They take blood with milk for taking vitamin and iron. They normally do not eat meat nor vegetable. Maasai people live with cow.&lt;/p>
 &lt;p>Their daily life starts from taking milk. After milking, they go to savanna to take care of cows until sunset. There is no electricity and water in Maasai village. I cannot forget the beautiful stars and lightning bugs when I saw at night in their village.&lt;/p>
 &lt;p>However, such a traditional life of Maasai might be lost after several years. Now the government of Kenya promotes to market lands so that Maasai would settle there. But, Maasai is nomadic people. Unless they can move freely, they cannot have a lot of cows and keep their traditional life. I hope my friends of Maasai can keep their traditional life style.&lt;/p>
-&lt;p>My 2 years and 6 months stay of Kenya was unbelievable experience for me. That experience taught me interesting of water jobs. Now, I am working at water and sanitation sector for developing countries as consultant. I want to make full use of my experience of Kenya for other countries.&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>Period: April 2014 to September 2016&lt;/p>
-&lt;p>Client: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>Worked as a GIS specialist funded by JICA and conducted the following activities.&lt;/p>
+&lt;p>My 2 years and 6 months stay of Kenya was unbelievable experience for me. That experience taught me interesting of water jobs. Now, I am working at water and sanitation sector for developing countries as consultant. I want to make full use of my experience of Kenya for other countries.&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2014 – September 2016&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> Narok Water and Sewerage Services Co., Ltd. (NARWASSCO), Kenya&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Specialist (JICA Volunteer)&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Narok Water and Sewerage Services Co., Ltd. is the water service provider for Narok and Ololulung&amp;rsquo;a towns in Kenya. Like many water utilities in Eastern Africa, it faced high Non-Revenue Water (NRW), and there were no accurate maps of its water distribution network and customers. I was dispatched as a GIS specialist by the Japan International Cooperation Agency (JICA) to introduce GIS for water asset and NRW management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
 &lt;ul>
-&lt;li>Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>Designed and developed GIS database &amp;amp; WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.&lt;/li>
-&lt;li>Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.&lt;/li>
-&lt;li>Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.&lt;/li>
-&lt;li>Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.&lt;/li>
-&lt;/ul></description></item><item><title>Software developments in Fujitsu</title><link>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</guid><description>&lt;p>Period: April 2009 to March 2017&lt;/p>
-&lt;p>Designed and developed following GIS applications.&lt;/p>
+&lt;li>&lt;strong>Network mapping:&lt;/strong> Mapped the entire water distribution network, approximately 300 km of pipelines in total, in Narok and Ololulung&amp;rsquo;a towns using Trimble GPS, ArcPad and QGIS.&lt;/li>
+&lt;li>&lt;strong>GIS database &amp;amp; WebGIS:&lt;/strong> Designed and developed a GIS database and WebGIS using PostGIS, MapServer and Leaflet. The system is linked to the billing system, which helps improve revenue collection.&lt;/li>
+&lt;li>&lt;strong>NRW management:&lt;/strong> Created DMAs (District Metered Areas) to analyze and improve Non-Revenue Water management.&lt;/li>
+&lt;li>&lt;strong>Capacity building:&lt;/strong> Conducted training to transfer technical knowledge to Kenyan colleagues. The GIS system has been continuously used since it was developed.&lt;/li>
+&lt;li>&lt;strong>Consulting for other utilities:&lt;/strong> Consulted on GIS work for 7 water service providers in Kenya: Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water and Mavoko Water.&lt;/li>
+&lt;/ul>
+&lt;h2 id="afterwards">Afterwards&lt;/h2>
+&lt;p>I have kept a personal partnership with Narok Water as a volunteer. The GIS was later modernized with &lt;a href="../202002-narok-vectortile-project/">open-source vector tiles&lt;/a> (&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>), and the experience was presented at FOSS4G 2019 Bucharest and FOSS4G 2021.&lt;/p>
 &lt;ul>
-&lt;li>the development of HD map for autonomous vehicle (ArcGIS Server, Python, Django REST framework).&lt;/li>
-&lt;li>the system of mapping and simulating location of ships’ movement in Singapore (Leafletjs).&lt;/li>
-&lt;li>Web-GIS system for the Real Property Registration system in Ministry of Justice of Japan (Mapserver, OpenLayers, Oracle).&lt;/li>
-&lt;li>An Android application for health care management (Java).&lt;/li>
-&lt;li>An area marketing system by using MapInfo.&lt;/li>
-&lt;li>Logistics and distribution management system with Dijkstra routing algorism (VB.NET, SQL Server, MS Access).&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: Case study of Non-Revenue Water management of Narok Water in Kenya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Data collection for water infrastructure, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item><item><title>Software developments in Fujitsu</title><link>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/en/project/200904-fujitsu_ssl/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2009 – March 2017 (on leave from April 2014 to September 2016 while working in Kenya)&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> FUJITSU SOCIAL SCIENCE LABORATORY, LTD., Japan&lt;/p>
+&lt;p>I started my career as a software engineer at Fujitsu Social Science Laboratory, where I designed and developed a wide range of business systems. Most of them were GIS related, which became the foundation of my career as a GIS engineer.&lt;/p>
+&lt;h2 id="main-systems">Main systems&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>System&lt;/th>
+&lt;th>Technologies&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HD map development for autonomous vehicles&lt;/td>
+&lt;td>ArcGIS Server, Python, Django REST framework&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mapping and simulating the movement of ships in Singapore&lt;/td>
+&lt;td>Leaflet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WebGIS for the Real Property Registration system of the Ministry of Justice of Japan&lt;/td>
+&lt;td>MapServer, OpenLayers, Oracle&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Android application for health care management&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Area marketing system&lt;/td>
+&lt;td>MapInfo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Logistics and distribution management system with Dijkstra&amp;rsquo;s routing algorithm&lt;/td>
+&lt;td>VB.NET, SQL Server, MS Access&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>VB.NET, Java, Python, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle&lt;/p></description></item></channel></rss>

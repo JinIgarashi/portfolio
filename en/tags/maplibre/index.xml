@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MapLibre | JIN IGARASHI</title><link>https://jin-igarashi.me/en/tags/maplibre/</link><atom:link href="https://jin-igarashi.me/en/tags/maplibre/index.xml" rel="self" type="application/rss+xml"/><description>MapLibre</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>MapLibre</title><link>https://jin-igarashi.me/en/tags/maplibre/</link></image><item><title>maplibre-gl-terradraw &amp; Terra Draw</title><link>https://jin-igarashi.me/en/project/202409-maplibre-gl-terradraw/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202409-maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> September 2024 – present&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">GitHub (watergis/maplibre-gl-terradraw)&lt;/a> · &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> · &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">Terra Draw workshops&lt;/a>&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>For a long time, both Mapbox and MapLibre relied on &lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a> to provide drawing functionality. However, it is no longer actively maintained, and it has become increasingly difficult to use with MapLibre. &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> is a drawing library with a unified API for most web mapping libraries (MapLibre, Mapbox, Leaflet, OpenLayers, Google Maps and ArcGIS), but integrating its full functionality into MapLibre still requires a lot of configuration.&lt;/p>
+&lt;h2 id="what-i-built">What I built&lt;/h2>
+&lt;p>I developed &lt;strong>maplibre-gl-terradraw&lt;/strong>, a MapLibre plugin that adds a pre-configured drawing feature with a single line of code:&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>All Terra Draw modes (point, line, polygon, rectangle, circle, freehand, etc.) with pre-configured icons&lt;/li>
+&lt;li>Selecting, editing and deleting features, and downloading drawn features&lt;/li>
+&lt;li>Customizable Terra Draw options and styles&lt;/li>
+&lt;li>&lt;strong>Measure control&lt;/strong> to measure line distances and polygon areas, and to query elevation from raster DEM sources (MapLibre Terrain, TerrainRGB and Terrarium)&lt;/li>
+&lt;/ul>
+&lt;p>I also contribute to Terra Draw itself and maintain hands-on workshop materials for developers.&lt;/p>
+&lt;h2 id="talks--workshops">Talks &amp;amp; workshops&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20250718_foss4g2025/">FOSS4G Europe 2025 Mostar: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251118_foss4g2025_terradraw_workshop/">FOSS4G 2025 Auckland: Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251119_foss4g2025_maplibre-gl-terradraw/">FOSS4G 2025 Auckland: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">FOSS4G 2026 Hiroshima: Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">FOSS4G 2026 Hiroshima: Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tech-stack">Tech stack&lt;/h2>
+&lt;p>TypeScript, MapLibre GL JS, Terra Draw, Vite&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/en/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> December 2021 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP), SDG Integration Team, Bureau for Policy and Programme Support&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Consultant → Full Stack GIS Developer&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>UNDP has developed a corporate data strategy to accelerate its transformation into a data-driven organization, and geospatial data plays an important role in it. However, the large-scale adoption of geospatial data had been obstructed by data silos across country offices, lack of interoperability, and limited infrastructure and know-how. GeoHub was developed as a part of the Data Futures Exchange (DFx) to solve these issues.&lt;/p>
+&lt;h2 id="what-is-geohub">What is GeoHub?&lt;/h2>
+&lt;p>GeoHub is a centralized ecosystem of geospatial data and services to support development work. It allows users without geospatial skills — UNDP staff and policymakers — to:&lt;/p>
+&lt;ul>
+&lt;li>search, visualize and download a wide array of datasets, including satellite imagery and spatio-temporal model data&lt;/li>
+&lt;li>upload their own datasets through a data upload pipeline&lt;/li>
+&lt;li>compute dynamic statistics and run raster analytics&lt;/li>
+&lt;li>create maps and share them with the community easily&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture">Architecture&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> SvelteKit and MapLibre GL JS web applications&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> PostgreSQL/PostGIS, titiler, pg_tileserv and other FOSS4G software deployed on Azure Kubernetes Service (AKS)&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Azure App Service, Blob Storage, PubSub&lt;/li>
+&lt;li>&lt;strong>Data:&lt;/strong> Cloud Optimized GeoTIFF, vector tiles and STAC catalogues&lt;/li>
+&lt;li>All source code is published on GitHub under an open-source license&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-features-i-developed">Main features I developed&lt;/h2>
+&lt;ul>
+&lt;li>Landing page to direct users to each part of GeoHub&lt;/li>
+&lt;li>Social login (GitHub authentication and UN B2C authentication)&lt;/li>
+&lt;li>Data upload pipeline&lt;/li>
+&lt;li>User permission management for datasets and maps&lt;/li>
+&lt;li>UI/UX improvements for data visualization with MapLibre&lt;/li>
+&lt;li>Raster analytical features (titiler algorithms)&lt;/li>
+&lt;li>Static image API to generate static map images from a saved MapLibre style&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>See also &lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>, a crisis assessment tool integrated with GeoHub.&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item></channel></rss>

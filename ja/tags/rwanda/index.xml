@@ -13,7 +13,37 @@
 &lt;p>ルワンダのカウンターパートのイノセントさんが北九州市で研修を受けていたときに実施したインタビューについて&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.44.pdf" target="_blank" rel="noopener">こちら&lt;/a>から会報をご覧いただけます。&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>期間: 2017年10月 〜 2018年11月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.44.pdf" target="_blank" rel="noopener">こちら&lt;/a>から会報をご覧いただけます。&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年6月 〜 2019年12月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GIS専門家（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RWASOMプロジェクトは、ルワンダの地方給水施設の運営維持管理能力の強化を目的としたプロジェクトです。給水施設の運営維持管理には、施設の位置や状態に関する信頼できる情報が不可欠ですが、全国規模では整備されていませんでした。GIS専門家として、地方給水管理のためのGISデータベースとデータ共有プラットフォームの構築を担当しました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>研修:&lt;/strong> ルワンダ人の同僚を対象に、FOSS4Gアプリケーション（QGIS, QField）を用いたデータ収集・データ共有の研修を実施しました。&lt;/li>
+&lt;li>&lt;strong>全国マッピング:&lt;/strong> ルワンダ人の同僚と協力し、QFieldとGarmin GPSを用いて全国すべての地方給水システムのマッピングを完了させました。&lt;/li>
+&lt;li>&lt;strong>GISデータベース:&lt;/strong> 地方給水管理のためのPostGISデータベースを設計・構築しました。&lt;/li>
+&lt;li>&lt;strong>データ共有プラットフォーム:&lt;/strong> 関係者がデータにアクセスできるよう、Lizmap/QGIS Serverによるデータ共有プラットフォームを開発しました。&lt;/li>
+&lt;li>&lt;strong>持続性:&lt;/strong> ライセンス費用なしでWASACが運用を続けられるよう、オープンソースソフトウェアのみを使用しました。データはその後ベクタータイルとして&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>で公開されています。&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: ルワンダの地方給水管理のためのデータ収集とデータ共有の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: ルワンダの地方給水管理におけるQGIS, QField, ベクタータイルの活用&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: ルワンダにおけるFOSS4Gを用いた地方給水マッピング&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, 地理空間データ収集, 研修&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2017年10月 〜 2018年11月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> 開発コンサルタント（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>ンゾベ-ントラ幹線送水管は、ンゾベ浄水場からントラ配水池へ浄水を送る、ルワンダの首都キガリ市の主要な送水ラインの一つです。本準備調査は、人口が増加するキガリ市の給水を改善するため、幹線送水管の増強・強化計画を策定するために実施されました。&lt;/p>
+&lt;h2 id="担当業務">担当業務&lt;/h2>
+&lt;ul>
+&lt;li>既存の給水施設および管路の地理空間データの収集・整理&lt;/li>
+&lt;li>EPANETによる水理解析を含む、水インフラの設計・計画の支援&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>地理空間データ収集, EPANET, 給水, 水インフラの設計・計画, QGIS&lt;/p></description></item></channel></rss>

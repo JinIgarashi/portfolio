@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | JIN IGARASHI</title><link>https://jin-igarashi.me/en/talk/</link><atom:link href="https://jin-igarashi.me/en/talk/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Recent &amp; Upcoming Talks</title><link>https://jin-igarashi.me/en/talk/</link></image><item><title>[FOSS4G2025 Europe] maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js</title><link>https://jin-igarashi.me/en/talk/20250718_foss4g2025/</link><pubDate>Fri, 18 Jul 2025 15:00:00 +0000</pubDate><guid>https://jin-igarashi.me/en/talk/20250718_foss4g2025/</guid><description>&lt;p>This talk introduces a new drawing plugin for MapLibre: &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | JIN IGARASHI</title><link>https://jin-igarashi.me/en/talk/</link><atom:link href="https://jin-igarashi.me/en/talk/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Recent &amp; Upcoming Talks</title><link>https://jin-igarashi.me/en/talk/</link></image><item><title>[FOSS4G 2026 Hiroshima] Terra Draw - bring drawing feature to all map applications</title><link>https://jin-igarashi.me/en/talk/20260903_foss4g2026_terradraw/</link><pubDate>Thu, 03 Sep 2026 14:30:00 +0900</pubDate><guid>https://jin-igarashi.me/en/talk/20260903_foss4g2026_terradraw/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>, Hiroshima, Japan&lt;/p>
+&lt;p>&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> is a drawing library with unified interfaces for most mapping libraries. This talk updated the current state of Terra Draw and &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a>.&lt;/p>
+&lt;p>Implementing drawing functionality across diverse mapping libraries is complex, because each library has its own API. Terra Draw, created four years ago, standardizes drawing capabilities for major libraries including Leaflet, OpenLayers, Google Maps, Mapbox GL JS and MapLibre GL JS.&lt;/p>
+&lt;p>The talk covered:&lt;/p>
+&lt;ul>
+&lt;li>fundamental drawing modes such as points, lines and polygons&lt;/li>
+&lt;li>advanced features such as snapping and rotation&lt;/li>
+&lt;li>&lt;strong>maplibre-gl-terradraw&lt;/strong>, a plugin I maintain, which enables straightforward integration of sophisticated drawing tools into MapLibre applications&lt;/li>
+&lt;/ul>
+&lt;p>the abstract is available &lt;a href="https://talks.osgeo.org/foss4g-2026/talk/SHKRZZ/" target="_blank" rel="noopener">this page&lt;/a>&lt;/p></description></item><item><title>[FOSS4G 2026 Hiroshima] MAPME Initiative: Open Geospatial Resources for Development Impact</title><link>https://jin-igarashi.me/en/talk/20260901_foss4g2026_mapme/</link><pubDate>Tue, 01 Sep 2026 15:45:00 +0900</pubDate><guid>https://jin-igarashi.me/en/talk/20260901_foss4g2026_mapme/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>, Hiroshima, Japan&lt;/p>
+&lt;p>This lightning talk, co-presented with Alison Lenaerts, introduced the &lt;strong>MAPME Initiative&lt;/strong> (Monitoring, Assessment, and Planning for Measurable Effectiveness), a community-driven initiative promoting access to open GIS resources for planning, monitoring and evaluation in international development.&lt;/p>
+&lt;p>The initiative is built on four pillars:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Community:&lt;/strong> a collaborative community sharing knowledge on geospatial methods for development&lt;/li>
+&lt;li>&lt;strong>Open tools:&lt;/strong> open analytical tools for monitoring and impact evaluation, such as the &lt;a href="https://github.com/mapme-initiative/mapme.biodiversity" target="_blank" rel="noopener">mapme.biodiversity&lt;/a> package&lt;/li>
+&lt;li>&lt;strong>Projects:&lt;/strong> real-world collaborative projects applying geospatial methods&lt;/li>
+&lt;li>&lt;strong>Geo4Impact:&lt;/strong> an event promoting innovation around open GIS for sustainable development&lt;/li>
+&lt;/ul>
+&lt;p>The talk showcased the open-source tools, demonstrated how geospatial data drives development impact, and explained how participants can contribute.&lt;/p>
+&lt;p>the abstract is available &lt;a href="https://talks.osgeo.org/foss4g-2026/talk/VGCM7M/" target="_blank" rel="noopener">this page&lt;/a>&lt;/p></description></item><item><title>[FOSS4G 2026 Hiroshima] Terra Draw Workshop - Bring drawing features to your web map applications</title><link>https://jin-igarashi.me/en/talk/20260831_foss4g2026_terradraw_workshop/</link><pubDate>Mon, 31 Aug 2026 14:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/talk/20260831_foss4g2026_terradraw_workshop/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>, Hiroshima, Japan&lt;/p>
+&lt;p>&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> is a cross-platform drawing library for MapLibre, Leaflet, OpenLayers, Mapbox, Google Maps and ArcGIS, which enables developers to add drawing capabilities to web map applications.&lt;/p>
+&lt;p>This beginner-level workshop provided both an introduction and practical experience:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Introduction:&lt;/strong> Terra Draw&amp;rsquo;s capabilities and its benefits for map-based applications.&lt;/li>
+&lt;li>&lt;strong>Hands-on:&lt;/strong> coding exercises using MapLibre GL JS as the main example, covering
+&lt;ul>
+&lt;li>installation and setup&lt;/li>
+&lt;li>advanced features such as styling, events and data integration&lt;/li>
+&lt;li>the &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a> plugin&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>Participants used their laptops with Node.js LTS and VSCode, or GitHub Codespaces. Basic JavaScript knowledge was helpful but not required.&lt;/p>
+&lt;ul>
+&lt;li>Workshop material: &lt;a href="https://workshops.terradraw.water-gis.com/workshops/foss4g2026/" target="_blank" rel="noopener">workshops.terradraw.water-gis.com/workshops/foss4g2026&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>the abstract is available &lt;a href="https://talks.osgeo.org/foss4g-2026-workshop/talk/K7EYFD/" target="_blank" rel="noopener">this page&lt;/a>&lt;/p></description></item><item><title>[CNG Japan] UNDP RAPIDA</title><link>https://jin-igarashi.me/en/talk/20260824_cng_japan_rapida/</link><pubDate>Mon, 24 Aug 2026 14:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/talk/20260824_cng_japan_rapida/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://cloudnativegeo.org/events/cng-japan/" target="_blank" rel="noopener">CNG Japan&lt;/a>, JAMSTEC Yokohama Institute for Earth Sciences, Yokohama, Japan&lt;/p>
+&lt;p>CNG Japan is a half-day community meetup of the Cloud-Native Geospatial Forum for practitioners working in and around Japan.&lt;/p>
+&lt;p>This talk introduced &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">RAPIDA&lt;/a>, a semi-automated geospatial analysis tool for rapid crisis response that I developed at UNDP. When a crisis such as a natural disaster happens, RAPIDA quickly assesses the exposure of people, buildings, electrical grid, roads, land use and the economy within an area of interest by computing zonal statistics from curated global geospatial datasets, and publishes the results to UNDP GeoHub.&lt;/p></description></item><item><title>[FOSS4G 2025 Auckland] maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js</title><link>https://jin-igarashi.me/en/talk/20251119_foss4g2025_maplibre-gl-terradraw/</link><pubDate>Wed, 19 Nov 2025 16:00:00 +1300</pubDate><guid>https://jin-igarashi.me/en/talk/20251119_foss4g2025_maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://2025.foss4g.org" target="_blank" rel="noopener">FOSS4G 2025 Auckland&lt;/a>, Auckland, New Zealand&lt;/p>
+&lt;p>This talk introduced &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a>, a new drawing plugin for MapLibre and a modern replacement for the unmaintained &lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a>.&lt;/p>
+&lt;p>The plugin is built on &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> and designed specifically for MapLibre, providing a pre-configured drawing feature with a single line of code:&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;p>With this control, users get:&lt;/p>
+&lt;ul>
+&lt;li>multiple drawing modes — point, line, polygon, rectangle, circle and more&lt;/li>
+&lt;li>selecting, deleting and downloading drawn features&lt;/li>
+&lt;li>a &lt;strong>measure control&lt;/strong> to calculate the distance of lines and the area of polygons, and to query elevation from raster DEM sources&lt;/li>
+&lt;/ul>
+&lt;p>In the talk, I demonstrated the core functionalities and how easily drawing features can be integrated into MapLibre applications.&lt;/p>
+&lt;p>the abstract is available &lt;a href="https://talks.osgeo.org/foss4g-2025/talk/FJYFLZ/" target="_blank" rel="noopener">this page&lt;/a>&lt;/p></description></item><item><title>[FOSS4G 2025 Auckland] Terra Draw - cross-platform drawing library for all map applications Workshop</title><link>https://jin-igarashi.me/en/talk/20251118_foss4g2025_terradraw_workshop/</link><pubDate>Tue, 18 Nov 2025 09:00:00 +1300</pubDate><guid>https://jin-igarashi.me/en/talk/20251118_foss4g2025_terradraw_workshop/</guid><description>&lt;p>&lt;strong>Event:&lt;/strong> &lt;a href="https://2025.foss4g.org" target="_blank" rel="noopener">FOSS4G 2025 Auckland&lt;/a>, Auckland, New Zealand&lt;/p>
+&lt;p>&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> is a drawing library for cross-platform mapping libraries such as MapLibre, Leaflet, OpenLayers, Mapbox, Google Maps and ArcGIS. It provides a unified API, so developers can build drawing features with the same code across different web mapping libraries.&lt;/p>
+&lt;p>This 3-hour workshop consisted of two parts:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Introduction:&lt;/strong> a presentation on what Terra Draw is and what it can do for map applications.&lt;/li>
+&lt;li>&lt;strong>Hands-on:&lt;/strong> coding exercises integrating Terra Draw with MapLibre GL JS, including
+&lt;ul>
+&lt;li>installation and setup of Terra Draw&lt;/li>
+&lt;li>advanced functionalities such as layer styling and events&lt;/li>
+&lt;li>the &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a> plugin to add a pre-configured drawing control in one line&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>The workshop also showed how Terra Draw can be used with other mapping libraries, demonstrating its adaptability across platforms. Participants brought laptops with Node.js v22 LTS and VSCode.&lt;/p>
+&lt;ul>
+&lt;li>Workshop material: &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">workshops.terradraw.water-gis.com&lt;/a>&lt;/li>
+&lt;li>Example code and template: &lt;a href="https://github.com/watergis/terradraw-workshop-template" target="_blank" rel="noopener">watergis/terradraw-workshop-template&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>the abstract is available &lt;a href="https://talks.osgeo.org/foss4g-2025/talk/7S9CLN/" target="_blank" rel="noopener">this page&lt;/a>&lt;/p></description></item><item><title>[FOSS4G Europe 2025 Mostar] maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js</title><link>https://jin-igarashi.me/en/talk/20250718_foss4g2025/</link><pubDate>Fri, 18 Jul 2025 15:00:00 +0000</pubDate><guid>https://jin-igarashi.me/en/talk/20250718_foss4g2025/</guid><description>&lt;p>This talk introduces a new drawing plugin for MapLibre: &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">maplibre-gl-terradraw&lt;/a>.&lt;/p>
 &lt;p>Historically, both Mapbox and MapLibre have relied on an older plugin, &lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a>, to provide drawing functionality in &lt;strong>maplibre-gl-js&lt;/strong>. However, &lt;strong>mapbox-gl-draw&lt;/strong> is no longer actively maintained, making it increasingly difficult to use with MapLibre.&lt;/p>
 &lt;p>As an alternative, &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> offers advanced drawing features for multiple mapping libraries, including &lt;strong>Mapbox&lt;/strong>, &lt;strong>MapLibre&lt;/strong>, &lt;strong>OpenLayers&lt;/strong>, &lt;strong>Leaflet&lt;/strong>, &lt;strong>Google Maps&lt;/strong>, and &lt;strong>ArcGIS&lt;/strong>, all within a unified user interface. Compared to &lt;strong>mapbox-gl-draw&lt;/strong>, &lt;strong>Terra Draw&lt;/strong> is significantly easier to use. However, integrating its full functionality into MapLibre still requires extensive configuration.&lt;/p>
 &lt;p>To simplify this process, I developed &lt;strong>maplibre-gl-terradraw&lt;/strong>, a new plugin that enables a pre-configured drawing feature with a single line of code using &lt;code>map.addControl&lt;/code>.&lt;/p>

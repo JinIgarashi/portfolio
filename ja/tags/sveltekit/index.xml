@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SvelteKit | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/sveltekit/</link><atom:link href="https://jin-igarashi.me/ja/tags/sveltekit/index.xml" rel="self" type="application/rss+xml"/><description>SvelteKit</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>SvelteKit</title><link>https://jin-igarashi.me/ja/tags/sveltekit/</link></image><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/ja/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年12月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）政策・プログラム支援局 SDG Integration Team&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISコンサルタント → フルスタックGISデベロッパー&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>UNDPはデータドリブンな組織への変革を加速するために組織全体のデータ戦略を策定しており、その中で地理空間データは重要な役割を担っています。しかし、各国事務所に分散したデータのサイロ化、相互運用性の欠如、インフラやノウハウの不足などにより、地理空間データの大規模な活用は進んでいませんでした。GeoHubはこれらの課題を解決するため、Data Futures Exchange（DFx）の一部として開発されました。&lt;/p>
+&lt;h2 id="geohubとは">GeoHubとは&lt;/h2>
+&lt;p>GeoHubは、開発分野の業務を支援するための地理空間データとサービスの統合的なエコシステムです。GISの専門知識を持たないUNDP職員や政策立案者が、以下のことを簡単に行えます。&lt;/p>
+&lt;ul>
+&lt;li>衛星画像や時空間モデルデータを含む多様なデータセットの検索・可視化・ダウンロード&lt;/li>
+&lt;li>データアップロードパイプラインによる独自データの登録&lt;/li>
+&lt;li>動的な統計の算出やラスタ解析の実行&lt;/li>
+&lt;li>地図の作成とコミュニティへの共有&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ">アーキテクチャ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>フロントエンド:&lt;/strong> SvelteKitとMapLibre GL JSによるWebアプリケーション&lt;/li>
+&lt;li>&lt;strong>バックエンド:&lt;/strong> Azure Kubernetes Service（AKS）上にデプロイしたPostgreSQL/PostGIS、titiler、pg_tileservなどのFOSS4Gソフトウェア&lt;/li>
+&lt;li>&lt;strong>クラウド:&lt;/strong> Azure App Service、Blob Storage、PubSub&lt;/li>
+&lt;li>&lt;strong>データ:&lt;/strong> Cloud Optimized GeoTIFF、ベクタータイル、STACカタログ&lt;/li>
+&lt;li>ソースコードはすべてオープンソースライセンスでGitHubに公開&lt;/li>
+&lt;/ul>
+&lt;h2 id="主に開発した機能">主に開発した機能&lt;/h2>
+&lt;ul>
+&lt;li>GeoHubの各ページへ誘導するランディングページ&lt;/li>
+&lt;li>ソーシャルログイン（GitHub認証、UN B2C認証）&lt;/li>
+&lt;li>データアップロードパイプライン&lt;/li>
+&lt;li>データセット・地図のユーザー権限管理&lt;/li>
+&lt;li>MapLibreによるデータ可視化のUI/UX改善&lt;/li>
+&lt;li>ラスタ解析機能（titilerアルゴリズム）&lt;/li>
+&lt;li>保存したMapLibreスタイルから静的地図画像を生成するStatic Image API&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoHubと連携する危機評価ツール&lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>もご覧ください。&lt;/p>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item></channel></rss>

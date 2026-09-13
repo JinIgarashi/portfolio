@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/javascript/</link><atom:link href="https://jin-igarashi.me/ja/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><description>JavaScript</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>JavaScript</title><link>https://jin-igarashi.me/ja/tags/javascript/</link></image><item><title>maplibre-gl-terradraw &amp; Terra Draw</title><link>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年9月 〜 現在&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">GitHub (watergis/maplibre-gl-terradraw)&lt;/a> · &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> · &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">Terra Drawワークショップ&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>MapboxとMapLibreでは長い間、描画機能に&lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a>が使われてきました。しかし現在は活発にメンテナンスされておらず、MapLibreで使うことが難しくなってきています。&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a>は主要なWeb地図ライブラリ（MapLibre、Mapbox、Leaflet、OpenLayers、Google Maps、ArcGIS）に対して統一されたAPIを持つ描画ライブラリですが、その機能をMapLibreで最大限に活用するには多くの設定が必要です。&lt;/p>
+&lt;h2 id="開発したもの">開発したもの&lt;/h2>
+&lt;p>1行のコードで設定済みの描画機能を追加できるMapLibreプラグイン &lt;strong>maplibre-gl-terradraw&lt;/strong> を開発しました。&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>アイコン設定済みのTerra Drawの全描画モード（ポイント、ライン、ポリゴン、矩形、円、フリーハンドなど）&lt;/li>
+&lt;li>地物の選択・編集・削除、描画した地物のダウンロード&lt;/li>
+&lt;li>Terra Drawのオプションやスタイルのカスタマイズ&lt;/li>
+&lt;li>&lt;strong>計測コントロール&lt;/strong>: ラインの距離やポリゴンの面積の計測、ラスタDEM（MapLibre Terrain、TerrainRGB、Terrarium）からの標高取得&lt;/li>
+&lt;/ul>
+&lt;p>Terra Draw本体へのコントリビュートや、開発者向けハンズオンワークショップ教材のメンテナンスも行っています。&lt;/p>
+&lt;h2 id="発表ワークショップ">発表・ワークショップ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20250718_foss4g2025/">FOSS4G Europe 2025 Mostar: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251118_foss4g2025_terradraw_workshop/">FOSS4G 2025 Auckland: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251119_foss4g2025_maplibre-gl-terradraw/">FOSS4G 2025 Auckland: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">FOSS4G 2026 Hiroshima: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">FOSS4G 2026 Hiroshima: Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>TypeScript, MapLibre GL JS, Terra Draw, Vite&lt;/p></description></item></channel></rss>

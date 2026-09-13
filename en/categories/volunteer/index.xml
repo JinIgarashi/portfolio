@@ -1,10 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/en/categories/volunteer/</link><atom:link href="https://jin-igarashi.me/en/categories/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Tue, 01 Apr 2014 08:45:17 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/en/categories/volunteer/</link></image><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>Period: April 2014 to September 2016&lt;/p>
-&lt;p>Client: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>Worked as a GIS specialist funded by JICA and conducted the following activities.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/en/categories/volunteer/</link><atom:link href="https://jin-igarashi.me/en/categories/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/en/categories/volunteer/</link></image><item><title>FOSS4G 2026 Hiroshima Local Organizing Committee</title><link>https://jin-igarashi.me/en/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> October 2025 – September 2026&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> FOSS4G 2026 Hiroshima Local Organizing Committee (OSGeo)&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>, &lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">Organizers&lt;/a>&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>FOSS4G (Free and Open Source Software for Geospatial) is the global annual conference of the Open Source Geospatial Foundation (OSGeo). The 2026 edition was held in Hiroshima, Japan. I served as a volunteer member of the Local Organizing Committee (LOC) to prepare and run the conference.&lt;/p>
+&lt;h2 id="roles">Roles&lt;/h2>
 &lt;ul>
-&lt;li>Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>Designed and developed GIS database &amp;amp; WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.&lt;/li>
-&lt;li>Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.&lt;/li>
-&lt;li>Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.&lt;/li>
-&lt;li>Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;strong>PR / Communication:&lt;/strong> promoted the conference and communicated with the community&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate:&lt;/strong> supported conference participants and delegates&lt;/li>
+&lt;/ul>
+&lt;h2 id="talks-at-the-conference">Talks at the conference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2014 – September 2016&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> Narok Water and Sewerage Services Co., Ltd. (NARWASSCO), Kenya&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Specialist (JICA Volunteer)&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Narok Water and Sewerage Services Co., Ltd. is the water service provider for Narok and Ololulung&amp;rsquo;a towns in Kenya. Like many water utilities in Eastern Africa, it faced high Non-Revenue Water (NRW), and there were no accurate maps of its water distribution network and customers. I was dispatched as a GIS specialist by the Japan International Cooperation Agency (JICA) to introduce GIS for water asset and NRW management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Network mapping:&lt;/strong> Mapped the entire water distribution network, approximately 300 km of pipelines in total, in Narok and Ololulung&amp;rsquo;a towns using Trimble GPS, ArcPad and QGIS.&lt;/li>
+&lt;li>&lt;strong>GIS database &amp;amp; WebGIS:&lt;/strong> Designed and developed a GIS database and WebGIS using PostGIS, MapServer and Leaflet. The system is linked to the billing system, which helps improve revenue collection.&lt;/li>
+&lt;li>&lt;strong>NRW management:&lt;/strong> Created DMAs (District Metered Areas) to analyze and improve Non-Revenue Water management.&lt;/li>
+&lt;li>&lt;strong>Capacity building:&lt;/strong> Conducted training to transfer technical knowledge to Kenyan colleagues. The GIS system has been continuously used since it was developed.&lt;/li>
+&lt;li>&lt;strong>Consulting for other utilities:&lt;/strong> Consulted on GIS work for 7 water service providers in Kenya: Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water and Mavoko Water.&lt;/li>
+&lt;/ul>
+&lt;h2 id="afterwards">Afterwards&lt;/h2>
+&lt;p>I have kept a personal partnership with Narok Water as a volunteer. The GIS was later modernized with &lt;a href="../202002-narok-vectortile-project/">open-source vector tiles&lt;/a> (&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>), and the experience was presented at FOSS4G 2019 Bucharest and FOSS4G 2021.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: Case study of Non-Revenue Water management of Narok Water in Kenya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Data collection for water infrastructure, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item></channel></rss>

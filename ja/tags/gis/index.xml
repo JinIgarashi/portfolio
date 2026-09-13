@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GIS | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/gis/</link><atom:link href="https://jin-igarashi.me/ja/tags/gis/index.xml" rel="self" type="application/rss+xml"/><description>GIS</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Sat, 18 Apr 2020 10:55:15 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>GIS</title><link>https://jin-igarashi.me/ja/tags/gis/</link></image><item><title>[WaQuAC-NET Newsletter Vol44]ミャンマーのヤンゴンとマンダレーの水道視察と、ルワンダのカウンターパートのイノセントさんのインタビュー</title><link>https://jin-igarashi.me/ja/publication/waquac-vol44/</link><pubDate>Sat, 18 Apr 2020 10:55:15 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol44/</guid><description>&lt;p>会報44号において以下の２本の記事を投稿しました。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GIS | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/gis/</link><atom:link href="https://jin-igarashi.me/ja/tags/gis/index.xml" rel="self" type="application/rss+xml"/><description>GIS</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>GIS</title><link>https://jin-igarashi.me/ja/tags/gis/</link></image><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/ja/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年11月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a>（BSD-3-Clause）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RAPIDAは、危機への迅速な対応のための半自動の地理空間分析ツールです。自然災害などの危機が発生した際に、厳選されたグローバルな地理空間データセットから対象地域のゾーン統計を計算し、人口・資産・経済への影響（エクスポージャー）を素早く評価します。結果はUNDP GeoHubを通じて共有でき、意思決定者がすぐに活用できます。&lt;/p>
+&lt;h2 id="機能">機能&lt;/h2>
+&lt;ul>
+&lt;li>OpenStreetMapとOCHAから行政界データを取得・整備&lt;/li>
+&lt;li>対象地域について複数の要素を評価:
+&lt;ul>
+&lt;li>&lt;strong>人口:&lt;/strong> WorldPop（constrained, UN-adjusted）&lt;/li>
+&lt;li>&lt;strong>建物:&lt;/strong> Google、Microsoft、OpenStreetMapの建物フットプリントを統合&lt;/li>
+&lt;li>&lt;strong>送配電網:&lt;/strong> 予測モデルによるグローバルな配電網&lt;/li>
+&lt;li>&lt;strong>道路:&lt;/strong> GRIPグローバル道路データセット&lt;/li>
+&lt;li>&lt;strong>土地利用:&lt;/strong> Sentinel-2画像とGoogle Dynamic Worldモデル&lt;/li>
+&lt;li>&lt;strong>社会経済:&lt;/strong> 剥奪指数（Deprivation Index）、相対的富裕指数（RWI）、GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>UNDPのAzureストレージでのプロジェクト管理と&lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>への公開&lt;/li>
+&lt;li>ノートブックや可視化のためのJupyterHubとの連携&lt;/li>
+&lt;li>使いやすいコマンドラインインターフェース: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/ja/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年12月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）政策・プログラム支援局 SDG Integration Team&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISコンサルタント → フルスタックGISデベロッパー&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>UNDPはデータドリブンな組織への変革を加速するために組織全体のデータ戦略を策定しており、その中で地理空間データは重要な役割を担っています。しかし、各国事務所に分散したデータのサイロ化、相互運用性の欠如、インフラやノウハウの不足などにより、地理空間データの大規模な活用は進んでいませんでした。GeoHubはこれらの課題を解決するため、Data Futures Exchange（DFx）の一部として開発されました。&lt;/p>
+&lt;h2 id="geohubとは">GeoHubとは&lt;/h2>
+&lt;p>GeoHubは、開発分野の業務を支援するための地理空間データとサービスの統合的なエコシステムです。GISの専門知識を持たないUNDP職員や政策立案者が、以下のことを簡単に行えます。&lt;/p>
+&lt;ul>
+&lt;li>衛星画像や時空間モデルデータを含む多様なデータセットの検索・可視化・ダウンロード&lt;/li>
+&lt;li>データアップロードパイプラインによる独自データの登録&lt;/li>
+&lt;li>動的な統計の算出やラスタ解析の実行&lt;/li>
+&lt;li>地図の作成とコミュニティへの共有&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ">アーキテクチャ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>フロントエンド:&lt;/strong> SvelteKitとMapLibre GL JSによるWebアプリケーション&lt;/li>
+&lt;li>&lt;strong>バックエンド:&lt;/strong> Azure Kubernetes Service（AKS）上にデプロイしたPostgreSQL/PostGIS、titiler、pg_tileservなどのFOSS4Gソフトウェア&lt;/li>
+&lt;li>&lt;strong>クラウド:&lt;/strong> Azure App Service、Blob Storage、PubSub&lt;/li>
+&lt;li>&lt;strong>データ:&lt;/strong> Cloud Optimized GeoTIFF、ベクタータイル、STACカタログ&lt;/li>
+&lt;li>ソースコードはすべてオープンソースライセンスでGitHubに公開&lt;/li>
+&lt;/ul>
+&lt;h2 id="主に開発した機能">主に開発した機能&lt;/h2>
+&lt;ul>
+&lt;li>GeoHubの各ページへ誘導するランディングページ&lt;/li>
+&lt;li>ソーシャルログイン（GitHub認証、UN B2C認証）&lt;/li>
+&lt;li>データアップロードパイプライン&lt;/li>
+&lt;li>データセット・地図のユーザー権限管理&lt;/li>
+&lt;li>MapLibreによるデータ可視化のUI/UX改善&lt;/li>
+&lt;li>ラスタ解析機能（titilerアルゴリズム）&lt;/li>
+&lt;li>保存したMapLibreスタイルから静的地図画像を生成するStatic Image API&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoHubと連携する危機評価ツール&lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>もご覧ください。&lt;/p>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol44]ミャンマーのヤンゴンとマンダレーの水道視察と、ルワンダのカウンターパートのイノセントさんのインタビュー</title><link>https://jin-igarashi.me/ja/publication/waquac-vol44/</link><pubDate>Sat, 18 Apr 2020 10:55:15 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol44/</guid><description>&lt;p>会報44号において以下の２本の記事を投稿しました。&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>ヤンゴンとマンダレーの水道施設を視察した際に感じたこと&lt;/p>
@@ -9,24 +72,84 @@
 &lt;/ol>
 &lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.44.pdf" target="_blank" rel="noopener">こちら&lt;/a>から会報をご覧いただけます。&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol41] GISと水道について</title><link>https://jin-igarashi.me/ja/publication/waquac-vol41/</link><pubDate>Tue, 16 Jul 2019 23:01:52 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol41/</guid><description>&lt;p>WAQUAC-NETの活動の中でGISと水道について発表をしました。&lt;/p>
 &lt;p>&lt;a href="https://water-gis.com/files/20190716_waquac_presentation.pdf" target="_blank" rel="noopener">こちら&lt;/a>から発表資料をご覧いただけます。&lt;/p>
-&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.41.pdf" target="_blank" rel="noopener">こちら&lt;/a>から投稿内容もご覧下さい.&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol33 ] ナロックでのGIS活動について</title><link>https://jin-igarashi.me/ja/publication/waquac-vol33/</link><pubDate>Sat, 15 Jul 2017 22:53:04 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol33/</guid><description>&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.33.pdf" target="_blank" rel="noopener">こちら&lt;/a>のサイトからご覧ください。&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
-&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.41.pdf" target="_blank" rel="noopener">こちら&lt;/a>から投稿内容もご覧下さい.&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年6月 〜 2019年12月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GIS専門家（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RWASOMプロジェクトは、ルワンダの地方給水施設の運営維持管理能力の強化を目的としたプロジェクトです。給水施設の運営維持管理には、施設の位置や状態に関する信頼できる情報が不可欠ですが、全国規模では整備されていませんでした。GIS専門家として、地方給水管理のためのGISデータベースとデータ共有プラットフォームの構築を担当しました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
 &lt;ul>
-&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
-&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
-&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
-&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
-&lt;/ul></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>期間: 20094月 〜 2017年3月&lt;/p>
-&lt;p>以下のようなGISを中心とするシステムの開発を行いました&lt;/p>
+&lt;li>&lt;strong>研修:&lt;/strong> ルワンダ人の同僚を対象に、FOSS4Gアプリケーション（QGIS, QField）を用いたデータ収集・データ共有の研修を実施しました。&lt;/li>
+&lt;li>&lt;strong>全国マッピング:&lt;/strong> ルワンダ人の同僚と協力し、QFieldとGarmin GPSを用いて全国すべての地方給水システムのマッピングを完了させました。&lt;/li>
+&lt;li>&lt;strong>GISデータベース:&lt;/strong> 地方給水管理のためのPostGISデータベースを設計・構築しました。&lt;/li>
+&lt;li>&lt;strong>データ共有プラットフォーム:&lt;/strong> 関係者がデータにアクセスできるよう、Lizmap/QGIS Serverによるデータ共有プラットフォームを開発しました。&lt;/li>
+&lt;li>&lt;strong>持続性:&lt;/strong> ライセンス費用なしでWASACが運用を続けられるよう、オープンソースソフトウェアのみを使用しました。データはその後ベクタータイルとして&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>で公開されています。&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
 &lt;ul>
-&lt;li>HDマップの開発 (ArcGIS Server, Python, Django REST framework).&lt;/li>
-&lt;li>船舶の運行をモニタリングするシステムの技術調査 (Leafletjs).&lt;/li>
-&lt;li>不動産登記の地図情報システムにかかる技術調査 (Mapserver, OpenLayers, Oracle).&lt;/li>
-&lt;li>Androidでのヘルスケアアプリの開発 (Java).&lt;/li>
-&lt;li>MapInfoを使ったエリアマーケティングアプリ.&lt;/li>
-&lt;li>配送管理システムの開発 (VB.NET, SQL Server, MS Access).&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: ルワンダの地方給水管理のためのデータ収集とデータ共有の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: ルワンダの地方給水管理におけるQGIS, QField, ベクタータイルの活用&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: ルワンダにおけるFOSS4Gを用いた地方給水マッピング&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, 地理空間データ収集, 研修&lt;/p></description></item><item><title>[WaQuAC-NET Newsletter Vol33 ] ナロックでのGIS活動について</title><link>https://jin-igarashi.me/ja/publication/waquac-vol33/</link><pubDate>Sat, 15 Jul 2017 22:53:04 +0900</pubDate><guid>https://jin-igarashi.me/ja/publication/waquac-vol33/</guid><description>&lt;p>&lt;a href="http://www.waquac.net/pdf/newsletter_vol.33.pdf" target="_blank" rel="noopener">こちら&lt;/a>のサイトからご覧ください。&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>&lt;strong>配属先:&lt;/strong> Narok Water and Sewerage Services Co., Ltd.（NARWASSCO：ナロック上下水道公社）, ケニア&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISスペシャリスト（JICA青年海外協力隊）&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>ナロック上下水道公社は、ケニアのナロックおよびオロルルンガの町に給水する水道事業体です。東アフリカの多くの水道事業体と同様に無収水（NRW）率が高く、配水管網や顧客の正確な地図も整備されていませんでした。国際協力機構（JICA）の青年海外協力隊のGISスペシャリストとして派遣され、水道資産管理と無収水対策のためのGISの導入を行いました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>配水管網のマッピング:&lt;/strong> Trimble GPS、ArcPad、QGISを用いて、ナロックとオロルルンガの配水管網全体（総延長約300km）をマッピングしました。&lt;/li>
+&lt;li>&lt;strong>GISデータベースとWebGIS:&lt;/strong> PostGIS、MapServer、Leafletを用いてGISデータベースとWebGISを設計・開発しました。料金システムと連携し、料金徴収の改善に貢献しています。&lt;/li>
+&lt;li>&lt;strong>無収水対策:&lt;/strong> 無収水の分析・削減のためにDMA（District Metered Area：配水ブロック）を作成しました。&lt;/li>
+&lt;li>&lt;strong>人材育成:&lt;/strong> ケニア人の同僚に技術移転を行うための研修を実施しました。構築したGISは現在も継続して活用されています。&lt;/li>
+&lt;li>&lt;strong>他の水道事業体へのコンサルティング:&lt;/strong> ケニア国内の7つの水道事業体（Nyeri Water、Kabarnet Water、Kapsabet Water、Nakuru Water、Nakuru Rural Water、Naivasha Water、Mavoko Water）に対し、GIS業務のコンサルティングを行いました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="その後">その後&lt;/h2>
+&lt;p>帰国後もボランティアとしてナロック上下水道公社との個人的なパートナーシップを続けています。GISはその後&lt;a href="../202002-narok-vectortile-project/">オープンソースのベクタータイル&lt;/a>（&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>）で刷新され、活動の成果はFOSS4G 2019 BucharestやFOSS4G 2021で発表しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: ケニア・ナロック水道公社の無収水管理の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: 無収水に対するFOSS4G活用のインパクト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>水インフラのデータ収集, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2009年4月 〜 2017年3月（2014年4月〜2016年9月はケニアでの活動のため休職）&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 株式会社富士通ソーシアルサイエンスラボラトリ&lt;/p>
+&lt;p>ソフトウェアエンジニアとしてキャリアをスタートし、様々な業務システムの設計・開発に携わりました。その多くがGIS関連のシステムであり、GISエンジニアとしてのキャリアの基礎となりました。&lt;/p>
+&lt;h2 id="主なシステム">主なシステム&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>システム&lt;/th>
+&lt;th>使用技術&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>自動運転車向け高精度（HD）地図の開発&lt;/td>
+&lt;td>ArcGIS Server, Python, Django REST framework&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>シンガポールにおける船舶の動きをマッピング・シミュレーションするシステム&lt;/td>
+&lt;td>Leaflet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>法務省の不動産登記システム向けWebGIS&lt;/td>
+&lt;td>MapServer, OpenLayers, Oracle&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ヘルスケア管理のためのAndroidアプリケーション&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>エリアマーケティングシステム&lt;/td>
+&lt;td>MapInfo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ダイクストラ法による経路探索を用いた物流・配送管理システム&lt;/td>
+&lt;td>VB.NET, SQL Server, MS Access&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>VB.NET, Java, Python, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle&lt;/p></description></item></channel></rss>

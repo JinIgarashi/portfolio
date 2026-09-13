@@ -1,14 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JICA | JIN IGARASHI</title><link>https://jin-igarashi.me/en/categories/jica/</link><atom:link href="https://jin-igarashi.me/en/categories/jica/index.xml" rel="self" type="application/rss+xml"/><description>JICA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Thu, 01 Nov 2018 22:11:16 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>JICA</title><link>https://jin-igarashi.me/en/categories/jica/</link></image><item><title>Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand</title><link>https://jin-igarashi.me/en/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201811-thai_cors/</guid><description>&lt;p>Period: November 2018 to November 2019&lt;/p>
-&lt;p>Client: The Gevernment of Thailand&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>Period: June 2018 to December 2019&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>Conducted training workshops for data collection and sharing with FOSS4G applications, then designed &amp;amp; created GIS database and data sharing platform for rural water supply management in RWASOM project. Collaborated with Rwandan colleagues to complete mapping all of water supply systems in the country. The system in Rwanda uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS.&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>Period: October 2017 to November 2018&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>Period: April 2014 to September 2016&lt;/p>
-&lt;p>Client: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>Worked as a GIS specialist funded by JICA and conducted the following activities.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JICA | JIN IGARASHI</title><link>https://jin-igarashi.me/en/categories/jica/</link><atom:link href="https://jin-igarashi.me/en/categories/jica/index.xml" rel="self" type="application/rss+xml"/><description>JICA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Thu, 01 Nov 2018 22:11:16 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>JICA</title><link>https://jin-igarashi.me/en/categories/jica/</link></image><item><title>Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand</title><link>https://jin-igarashi.me/en/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201811-thai_cors/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> November 2018 – November 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> The Government of Thailand&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> Consultant, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>GNSS (Global Navigation Satellite System) positioning with CORS (Continuously Operating Reference Stations) enables highly accurate positioning, which is the basis of applications such as surveying, precision agriculture and autonomous driving. This survey collected information for establishing an experimental field for GNSS system development in Thailand, including a CORS data centre.&lt;/p>
+&lt;h2 id="my-contribution">My contribution&lt;/h2>
 &lt;ul>
-&lt;li>Mapped the entire water distribution network (approximately 300km length of pipeline in Total) in Narok and Ololulung’a town (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>Designed and developed GIS database &amp;amp; WebGIS (PostGIS, Mapserver, Leafletjs). The system links to billing system, it helps improve their revenue collections.&lt;/li>
-&lt;li>Created the DMAs (District Metered Areas) for analyzing and improving Non-Revenue water management.&lt;/li>
-&lt;li>Conducted training to transfer technical knowledge to Kenyan colleagues, then GIS system is continuously being used up to now since it has been developed.&lt;/li>
-&lt;li>Consulted GIS work for 7 water services providers (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) in Kenya.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>Surveyed and organized information on the establishment of the CORS data centre.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>GNSS/CORS, geospatial information systems, system survey&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 2018 – December 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Expert, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The RWASOM project aimed to strengthen the capacity for operation and maintenance of rural water supply systems in Rwanda. Reliable information on where water supply facilities are located and in what condition they are is essential for their operation and maintenance, but it was not available nationwide. I joined the project as a GIS expert to establish a GIS database and data sharing platform for rural water supply management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Training:&lt;/strong> Conducted training workshops on data collection and data sharing with FOSS4G applications (QGIS, QField) for Rwandan colleagues.&lt;/li>
+&lt;li>&lt;strong>Nationwide mapping:&lt;/strong> Collaborated with Rwandan colleagues to complete the mapping of all rural water supply systems in the country using QField and Garmin GPS.&lt;/li>
+&lt;li>&lt;strong>GIS database:&lt;/strong> Designed and created a PostGIS database for rural water supply management.&lt;/li>
+&lt;li>&lt;strong>Data sharing platform:&lt;/strong> Developed a data sharing platform using Lizmap/QGIS Server so that the data can be accessed by stakeholders.&lt;/li>
+&lt;li>&lt;strong>Sustainability:&lt;/strong> Used only open-source software so that WASAC can keep operating the system without license costs. The data was later published as vector tiles at &lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: Case study of data collection &amp;amp; data sharing for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: An implementation of FOSS4G - QGIS, QField and Vector Tiles for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: Rural water supply mapping by using FOSS4G application in Rwanda&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, geospatial data collection, training&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> October 2017 – November 2018&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> Consultant, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The Nzove-Ntora principal transmission pipeline carries treated water from the Nzove Water Treatment Plant to the Ntora reservoir, and is one of the main water supply lines for Kigali City, the capital of Rwanda. This preparatory survey was conducted to plan the upgrade and strengthening of the transmission pipeline, in order to improve the water supply to the growing city.&lt;/p>
+&lt;h2 id="my-contribution">My contribution&lt;/h2>
+&lt;ul>
+&lt;li>Collected and organized geospatial data of the existing water supply facilities and pipelines.&lt;/li>
+&lt;li>Supported the design and planning of the water infrastructure, including hydraulic analysis with EPANET.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Geospatial data collection, EPANET, water supply, design/planning of water infrastructure, QGIS&lt;/p></description></item><item><title>The GIS project in Narok Water, Kenya</title><link>https://jin-igarashi.me/en/project/201404narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201404narok-water/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> April 2014 – September 2016&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> Narok Water and Sewerage Services Co., Ltd. (NARWASSCO), Kenya&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Specialist (JICA Volunteer)&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Narok Water and Sewerage Services Co., Ltd. is the water service provider for Narok and Ololulung&amp;rsquo;a towns in Kenya. Like many water utilities in Eastern Africa, it faced high Non-Revenue Water (NRW), and there were no accurate maps of its water distribution network and customers. I was dispatched as a GIS specialist by the Japan International Cooperation Agency (JICA) to introduce GIS for water asset and NRW management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Network mapping:&lt;/strong> Mapped the entire water distribution network, approximately 300 km of pipelines in total, in Narok and Ololulung&amp;rsquo;a towns using Trimble GPS, ArcPad and QGIS.&lt;/li>
+&lt;li>&lt;strong>GIS database &amp;amp; WebGIS:&lt;/strong> Designed and developed a GIS database and WebGIS using PostGIS, MapServer and Leaflet. The system is linked to the billing system, which helps improve revenue collection.&lt;/li>
+&lt;li>&lt;strong>NRW management:&lt;/strong> Created DMAs (District Metered Areas) to analyze and improve Non-Revenue Water management.&lt;/li>
+&lt;li>&lt;strong>Capacity building:&lt;/strong> Conducted training to transfer technical knowledge to Kenyan colleagues. The GIS system has been continuously used since it was developed.&lt;/li>
+&lt;li>&lt;strong>Consulting for other utilities:&lt;/strong> Consulted on GIS work for 7 water service providers in Kenya: Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water and Mavoko Water.&lt;/li>
+&lt;/ul>
+&lt;h2 id="afterwards">Afterwards&lt;/h2>
+&lt;p>I have kept a personal partnership with Narok Water as a volunteer. The GIS was later modernized with &lt;a href="../202002-narok-vectortile-project/">open-source vector tiles&lt;/a> (&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>), and the experience was presented at FOSS4G 2019 Bucharest and FOSS4G 2021.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: Case study of Non-Revenue Water management of Narok Water in Kenya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Data collection for water infrastructure, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item></channel></rss>

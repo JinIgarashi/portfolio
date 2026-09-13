@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python | JIN IGARASHI</title><link>https://jin-igarashi.me/en/tags/python/</link><atom:link href="https://jin-igarashi.me/en/tags/python/index.xml" rel="self" type="application/rss+xml"/><description>Python</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Python</title><link>https://jin-igarashi.me/en/tags/python/</link></image><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/en/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/en/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> November 2024 – August 2025&lt;/p>
+&lt;p>&lt;strong>Organization:&lt;/strong> United Nations Development Programme (UNDP)&lt;/p>
+&lt;p>&lt;strong>Links:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a> (BSD-3-Clause)&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>RAPIDA is a semi-automated geospatial analysis tool for rapid crisis response. When a crisis such as a natural disaster happens, it quickly assesses the exposure of people, assets and the economy within an area of interest by computing zonal statistics from curated global geospatial datasets. The results can be shared through UNDP GeoHub so that decision makers can use them right away.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Fetches and curates administrative boundaries from OpenStreetMap and OCHA&lt;/li>
+&lt;li>Assesses multiple exposure components over an area of interest:
+&lt;ul>
+&lt;li>&lt;strong>Population:&lt;/strong> WorldPop (constrained, UN-adjusted)&lt;/li>
+&lt;li>&lt;strong>Buildings:&lt;/strong> merged Google, Microsoft and OpenStreetMap building footprints&lt;/li>
+&lt;li>&lt;strong>Electrical grid:&lt;/strong> predictive global distribution networks&lt;/li>
+&lt;li>&lt;strong>Roads:&lt;/strong> GRIP global roads dataset&lt;/li>
+&lt;li>&lt;strong>Land use:&lt;/strong> Sentinel-2 imagery with the Google Dynamic World model&lt;/li>
+&lt;li>&lt;strong>Socioeconomic:&lt;/strong> deprivation index, relative wealth index and GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Project management on UNDP Azure storage and publishing to &lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>&lt;/li>
+&lt;li>Integration with JupyterHub for notebooks and visualization&lt;/li>
+&lt;li>Rich command line interface: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tech-stack">Tech stack&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item></channel></rss>

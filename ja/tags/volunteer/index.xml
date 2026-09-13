@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Volunteer | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/tags/volunteer/</link><atom:link href="https://jin-igarashi.me/ja/tags/volunteer/index.xml" rel="self" type="application/rss+xml"/><description>Volunteer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0900</lastBuildDate><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Volunteer</title><link>https://jin-igarashi.me/ja/tags/volunteer/</link></image><item><title>FOSS4G 2026 広島 現地実行委員会（LOC）</title><link>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2025年10月 〜 2026年9月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> FOSS4G 2026 広島 現地実行委員会（OSGeo）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>、&lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">運営組織&lt;/a>&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>FOSS4G（Free and Open Source Software for Geospatial）は、OSGeo財団（Open Source Geospatial Foundation）が毎年開催する地理空間オープンソースソフトウェアの国際カンファレンスです。2026年は広島で開催されました。現地実行委員会（LOC）のボランティアメンバーとして、カンファレンスの準備と運営に携わりました。&lt;/p>
+&lt;h2 id="担当">担当&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PR / Communication（広報）:&lt;/strong> カンファレンスの広報やコミュニティへの情報発信&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate（参加者対応）:&lt;/strong> カンファレンス参加者・代表者のサポート&lt;/li>
+&lt;/ul>
+&lt;h2 id="カンファレンスでの発表">カンファレンスでの発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw ワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

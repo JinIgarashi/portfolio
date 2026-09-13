@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/project/</link><atom:link href="https://jin-igarashi.me/ja/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jin-igarashi.me/ja/project/</link></image><item><title>Inputモバイルアプリの日本語翻訳</title><link>https://jin-igarashi.me/ja/project/202101-input/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202101-input/</guid><description>&lt;p>2021年1月からiOSとAndroidで使えるモバイルアプリの&lt;a href="https://inputapp.io" target="_blank" rel="noopener">Input&lt;/a>を英語から日本語に翻訳する作業を始めました。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | JIN IGARASHI</title><link>https://jin-igarashi.me/ja/project/</link><atom:link href="https://jin-igarashi.me/ja/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja-JP</language><copyright>©Jin IGARASHI 2026</copyright><image><url>https://jin-igarashi.me/media/icon_hua67609e7cec176748a23eb15cc956f1a_21755_512x512_fill_lanczos_center_2.png</url><title>Projects</title><link>https://jin-igarashi.me/ja/project/</link></image><item><title>FOSS4G 2026 広島 現地実行委員会（LOC）</title><link>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202510-foss4g2026-loc/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2025年10月 〜 2026年9月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> FOSS4G 2026 広島 現地実行委員会（OSGeo）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://2026.foss4g.org" target="_blank" rel="noopener">FOSS4G 2026 Hiroshima&lt;/a>、&lt;a href="https://2026.foss4g.org/en/about/organizers/" target="_blank" rel="noopener">運営組織&lt;/a>&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>FOSS4G（Free and Open Source Software for Geospatial）は、OSGeo財団（Open Source Geospatial Foundation）が毎年開催する地理空間オープンソースソフトウェアの国際カンファレンスです。2026年は広島で開催されました。現地実行委員会（LOC）のボランティアメンバーとして、カンファレンスの準備と運営に携わりました。&lt;/p>
+&lt;h2 id="担当">担当&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PR / Communication（広報）:&lt;/strong> カンファレンスの広報やコミュニティへの情報発信&lt;/li>
+&lt;li>&lt;strong>Participant / Delegate（参加者対応）:&lt;/strong> カンファレンス参加者・代表者のサポート&lt;/li>
+&lt;/ul>
+&lt;h2 id="カンファレンスでの発表">カンファレンスでの発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">Terra Draw ワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260901_foss4g2026_mapme/">MAPME Initiative: Open Geospatial Resources for Development Impact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>maplibre-gl-terradraw &amp; Terra Draw</title><link>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202409-maplibre-gl-terradraw/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年9月 〜 現在&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/watergis/maplibre-gl-terradraw" target="_blank" rel="noopener">GitHub (watergis/maplibre-gl-terradraw)&lt;/a> · &lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a> · &lt;a href="https://workshops.terradraw.water-gis.com/" target="_blank" rel="noopener">Terra Drawワークショップ&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>MapboxとMapLibreでは長い間、描画機能に&lt;a href="https://github.com/mapbox/mapbox-gl-draw" target="_blank" rel="noopener">mapbox-gl-draw&lt;/a>が使われてきました。しかし現在は活発にメンテナンスされておらず、MapLibreで使うことが難しくなってきています。&lt;a href="https://github.com/JamesLMilner/terra-draw" target="_blank" rel="noopener">Terra Draw&lt;/a>は主要なWeb地図ライブラリ（MapLibre、Mapbox、Leaflet、OpenLayers、Google Maps、ArcGIS）に対して統一されたAPIを持つ描画ライブラリですが、その機能をMapLibreで最大限に活用するには多くの設定が必要です。&lt;/p>
+&lt;h2 id="開発したもの">開発したもの&lt;/h2>
+&lt;p>1行のコードで設定済みの描画機能を追加できるMapLibreプラグイン &lt;strong>maplibre-gl-terradraw&lt;/strong> を開発しました。&lt;/p>
+&lt;pre>&lt;code class="language-js">map.addControl(new MaplibreTerradrawControl())
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>アイコン設定済みのTerra Drawの全描画モード（ポイント、ライン、ポリゴン、矩形、円、フリーハンドなど）&lt;/li>
+&lt;li>地物の選択・編集・削除、描画した地物のダウンロード&lt;/li>
+&lt;li>Terra Drawのオプションやスタイルのカスタマイズ&lt;/li>
+&lt;li>&lt;strong>計測コントロール&lt;/strong>: ラインの距離やポリゴンの面積の計測、ラスタDEM（MapLibre Terrain、TerrainRGB、Terrarium）からの標高取得&lt;/li>
+&lt;/ul>
+&lt;p>Terra Draw本体へのコントリビュートや、開発者向けハンズオンワークショップ教材のメンテナンスも行っています。&lt;/p>
+&lt;h2 id="発表ワークショップ">発表・ワークショップ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20250718_foss4g2025/">FOSS4G Europe 2025 Mostar: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251118_foss4g2025_terradraw_workshop/">FOSS4G 2025 Auckland: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20251119_foss4g2025_maplibre-gl-terradraw/">FOSS4G 2025 Auckland: maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260831_foss4g2026_terradraw_workshop/">FOSS4G 2026 Hiroshima: Terra Drawワークショップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20260903_foss4g2026_terradraw/">FOSS4G 2026 Hiroshima: Terra Draw - bring drawing feature to all map applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>TypeScript, MapLibre GL JS, Terra Draw, Vite&lt;/p></description></item><item><title>UNDP RAPIDA</title><link>https://jin-igarashi.me/ja/project/202411-undp-rapida/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202411-undp-rapida/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2024年11月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://github.com/UNDP-Data/rapida" target="_blank" rel="noopener">GitHub (UNDP-Data/rapida)&lt;/a>（BSD-3-Clause）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RAPIDAは、危機への迅速な対応のための半自動の地理空間分析ツールです。自然災害などの危機が発生した際に、厳選されたグローバルな地理空間データセットから対象地域のゾーン統計を計算し、人口・資産・経済への影響（エクスポージャー）を素早く評価します。結果はUNDP GeoHubを通じて共有でき、意思決定者がすぐに活用できます。&lt;/p>
+&lt;h2 id="機能">機能&lt;/h2>
+&lt;ul>
+&lt;li>OpenStreetMapとOCHAから行政界データを取得・整備&lt;/li>
+&lt;li>対象地域について複数の要素を評価:
+&lt;ul>
+&lt;li>&lt;strong>人口:&lt;/strong> WorldPop（constrained, UN-adjusted）&lt;/li>
+&lt;li>&lt;strong>建物:&lt;/strong> Google、Microsoft、OpenStreetMapの建物フットプリントを統合&lt;/li>
+&lt;li>&lt;strong>送配電網:&lt;/strong> 予測モデルによるグローバルな配電網&lt;/li>
+&lt;li>&lt;strong>道路:&lt;/strong> GRIPグローバル道路データセット&lt;/li>
+&lt;li>&lt;strong>土地利用:&lt;/strong> Sentinel-2画像とGoogle Dynamic Worldモデル&lt;/li>
+&lt;li>&lt;strong>社会経済:&lt;/strong> 剥奪指数（Deprivation Index）、相対的富裕指数（RWI）、GDP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>UNDPのAzureストレージでのプロジェクト管理と&lt;a href="../202112-undp-geohub/">GeoHub&lt;/a>への公開&lt;/li>
+&lt;li>ノートブックや可視化のためのJupyterHubとの連携&lt;/li>
+&lt;li>使いやすいコマンドラインインターフェース: &lt;code>init&lt;/code>, &lt;code>auth&lt;/code>, &lt;code>admin&lt;/code>, &lt;code>create&lt;/code>, &lt;code>assess&lt;/code>, &lt;code>list&lt;/code>, &lt;code>download&lt;/code>, &lt;code>upload&lt;/code>, &lt;code>publish&lt;/code>, &lt;code>delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;/h2>
+&lt;p>Python, GDAL, rasterio, exactextract, GeoPandas, Click, Rich, Azure Blob Storage, JupyterHub&lt;/p></description></item><item><title>ケニア・ナロックにおける都市衛生のライフサイクルコスト（CACTUS）</title><link>https://jin-igarashi.me/ja/project/202206-cactus-narok-sanitation/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202206-cactus-narok-sanitation/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年 〜 2022年（修士論文）&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 英国リーズ大学 土木工学部&lt;/p>
+&lt;p>&lt;strong>プロジェクト:&lt;/strong> CACTUS（Climate and Costs in Urban Sanitation）、ビル＆メリンダ・ゲイツ財団の資金提供&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>水・衛生・健康工学の理学修士（MSc (Eng) Water, Sanitation and Health Engineering、Distinction取得）の修士論文として、CACTUSプロジェクトの一環で都市衛生システムのライフサイクルコストを研究しました。ケニアのナロック市を事例に、封じ込め、汲み取り、運搬、処理、再利用・処分という衛生バリューチェーン全体にわたる都市衛生システムのコストを推計しました。&lt;/p>
+&lt;p>本研究は、以前&lt;a href="../201404-narok-water/">GISスペシャリスト&lt;/a>として勤務したナロック上下水道公社との長年のパートナーシップをもとに実施しました。&lt;/p>
+&lt;h2 id="成果">成果&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../publication/naroktown-sfd/">ケニア・ナロック市のShit-flow diagram（SFD）Liteレポート&lt;/a> — sfd.susana.orgで公開。市の最新の衛生状況を示しています（2022年10月）&lt;/li>
+&lt;li>&lt;a href="../../publication/narok-cactus-paper/">Does &amp;ldquo;Low Cost&amp;rdquo; Urban Sanitation Exist? Lessons from a Global Data Set&lt;/a> — Igarashi, J. ほか（2023）, &lt;em>Environmental Science &amp;amp; Technology&lt;/em>, &lt;a href="https://doi.org/10.1021/acs.est.3c05731" target="_blank" rel="noopener">DOI: 10.1021/acs.est.3c05731&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>衛生コスト分析, 衛生バリューチェーン, 現地調査・データ収集, SFD&lt;/p></description></item><item><title>UNDP GeoHub</title><link>https://jin-igarashi.me/ja/project/202112-undp-geohub/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202112-undp-geohub/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2021年12月 〜 2025年8月&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 国連開発計画（UNDP）政策・プログラム支援局 SDG Integration Team&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISコンサルタント → フルスタックGISデベロッパー&lt;/p>
+&lt;p>&lt;strong>リンク:&lt;/strong> &lt;a href="https://geohub.data.undp.org" target="_blank" rel="noopener">GeoHub&lt;/a> · &lt;a href="https://github.com/UNDP-Data/geohub" target="_blank" rel="noopener">GitHub (UNDP-Data/geohub)&lt;/a>&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>UNDPはデータドリブンな組織への変革を加速するために組織全体のデータ戦略を策定しており、その中で地理空間データは重要な役割を担っています。しかし、各国事務所に分散したデータのサイロ化、相互運用性の欠如、インフラやノウハウの不足などにより、地理空間データの大規模な活用は進んでいませんでした。GeoHubはこれらの課題を解決するため、Data Futures Exchange（DFx）の一部として開発されました。&lt;/p>
+&lt;h2 id="geohubとは">GeoHubとは&lt;/h2>
+&lt;p>GeoHubは、開発分野の業務を支援するための地理空間データとサービスの統合的なエコシステムです。GISの専門知識を持たないUNDP職員や政策立案者が、以下のことを簡単に行えます。&lt;/p>
+&lt;ul>
+&lt;li>衛星画像や時空間モデルデータを含む多様なデータセットの検索・可視化・ダウンロード&lt;/li>
+&lt;li>データアップロードパイプラインによる独自データの登録&lt;/li>
+&lt;li>動的な統計の算出やラスタ解析の実行&lt;/li>
+&lt;li>地図の作成とコミュニティへの共有&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ">アーキテクチャ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>フロントエンド:&lt;/strong> SvelteKitとMapLibre GL JSによるWebアプリケーション&lt;/li>
+&lt;li>&lt;strong>バックエンド:&lt;/strong> Azure Kubernetes Service（AKS）上にデプロイしたPostgreSQL/PostGIS、titiler、pg_tileservなどのFOSS4Gソフトウェア&lt;/li>
+&lt;li>&lt;strong>クラウド:&lt;/strong> Azure App Service、Blob Storage、PubSub&lt;/li>
+&lt;li>&lt;strong>データ:&lt;/strong> Cloud Optimized GeoTIFF、ベクタータイル、STACカタログ&lt;/li>
+&lt;li>ソースコードはすべてオープンソースライセンスでGitHubに公開&lt;/li>
+&lt;/ul>
+&lt;h2 id="主に開発した機能">主に開発した機能&lt;/h2>
+&lt;ul>
+&lt;li>GeoHubの各ページへ誘導するランディングページ&lt;/li>
+&lt;li>ソーシャルログイン（GitHub認証、UN B2C認証）&lt;/li>
+&lt;li>データアップロードパイプライン&lt;/li>
+&lt;li>データセット・地図のユーザー権限管理&lt;/li>
+&lt;li>MapLibreによるデータ可視化のUI/UX改善&lt;/li>
+&lt;li>ラスタ解析機能（titilerアルゴリズム）&lt;/li>
+&lt;li>保存したMapLibreスタイルから静的地図画像を生成するStatic Image API&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20230629_foss4g2023_undpgeohub/">FOSS4G 2023 Prizren: UNDP&amp;rsquo;s one stop shop for cloud based geospatial data visualisation and analytical tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20230628_foss4g2023_svelte/">FOSS4G 2023 Prizren: Development of maplibre applications in sveltekit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20240705_foss4g2024/">FOSS4G Europe 2024 Tartu: Leave no one behind - UNDP GeoHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoHubと連携する危機評価ツール&lt;a href="../202411-undp-rapida/">RAPIDA&lt;/a>もご覧ください。&lt;/p>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>MapLibre, Mapbox, Svelte/SvelteKit, Node.js (JavaScript/TypeScript), Python, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (AKS, App Service, Blob Storage, PubSub)&lt;/p></description></item><item><title>Inputモバイルアプリの日本語翻訳</title><link>https://jin-igarashi.me/ja/project/202101-input/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202101-input/</guid><description>&lt;p>2021年1月からiOSとAndroidで使えるモバイルアプリの&lt;a href="https://inputapp.io" target="_blank" rel="noopener">Input&lt;/a>を英語から日本語に翻訳する作業を始めました。&lt;/p>
 &lt;p>日本ではiPhone/iPadを使うユーザーが非常に多いにも関わらず、長い間QGISのモバイルソリューションは不在のままでした。ようやくInputアプリを日本のコミュニティ向けに日本語に翻訳できました。これにより、日本のユーザーはQFieldかInputと複数の選択肢をモバイルで持てるようになりました。&lt;/p></description></item><item><title>水道局向けベクタータイルマップオープンソースプロジェクト</title><link>https://jin-igarashi.me/ja/project/202002-narok-vectortile-project/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/202002-narok-vectortile-project/</guid><description>&lt;p>ベクタータイルを簡単に作成し、ホストできる&lt;a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">オープンソースのツール&lt;/a>を開発しました。&lt;/p>
 &lt;p>現在時点で、以下の３つの水道事業体でこのツールは使用されています。&lt;/p>
 &lt;ol>
@@ -8,26 +122,107 @@
 &lt;/ol>
 &lt;p>このツールはSQLを使用してダイレクトにPostGISからベクタータイルを作成しますので、あらゆるデザインのPostGISに容易に適用できます。もし既にPostGISを使用している場合は迅速に開発に着手できます。仮にデータベースをまだお持ちでない場合でもご相談いただければ、データベースの設計とベクタータイルへの設定をサポートさせていただきます。&lt;/p></description></item><item><title>QFieldの日本語翻訳</title><link>https://jin-igarashi.me/ja/project/201909-qfield/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201909-qfield/</guid><description>&lt;p>2019年9月からAndroidのモバイルマッピングアプリである&lt;a href="https://qfield.org" target="_blank" rel="noopener">QField&lt;/a>の英語から日本語への翻訳を担当し始めました。&lt;/p>
 &lt;p>FOSS4G 2019 Bucharestのコードスプリントで、Matthias (OpenGIS.ch) さんとお会いしたのがきっかけでQFieldプロジェクトに関わることになりました。 QFieldはとても優れたAndroidのモバイルマッピングアプリで、QGISとの互換性も申し分ないです。日本語への翻訳を通して、日本人のより多くの方にもQFieldを現場で使っていただけたらと感じています。&lt;/p>
-&lt;p>&lt;a href="https://qfield.org/docs/ja/" target="_blank" rel="noopener">こちら&lt;/a>のページで私の翻訳してドキュメントをご覧いただけます。&lt;/p></description></item><item><title>全地球航法衛星システムの整備による社会実験フィールドの構築に関する情報収集・確認調査</title><link>https://jin-igarashi.me/ja/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201811-thai_cors/</guid><description>&lt;p>期間: 201811月 〜 2019年11月&lt;/p>
-&lt;p>カウンターパート: タイ国政府&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>期間: 2018年6月 to 2019年12月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>データ収集やオープンソースのGISを活用したデータ共有などのトレーニングを実施。またGISデータベースの構築とデータ共有プラットフォームを開発した。データ収集ではルワンダ人カウンターパートと協力しルワンダ全土の配水システムのデータ収集を完了させた。PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSなどを活用している。&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>期間: 2017年10月 〜 2018年11月&lt;/p>
-&lt;p>カウンターパート: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>期間: 2014年4月 〜 2016年9月&lt;/p>
-&lt;p>配属先: NAROK WATER AND SEWERAGE SERVICES CO., LTD., KENYA&lt;/p>
-&lt;p>JICAの青年海外協力隊として以下の活動を実施&lt;/p>
+&lt;p>&lt;a href="https://qfield.org/docs/ja/" target="_blank" rel="noopener">こちら&lt;/a>のページで私の翻訳してドキュメントをご覧いただけます。&lt;/p></description></item><item><title>全地球航法衛星システムの整備による社会実験フィールドの構築に関する情報収集・確認調査</title><link>https://jin-igarashi.me/ja/project/201811-thai_cors/</link><pubDate>Thu, 01 Nov 2018 22:11:16 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201811-thai_cors/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年11月 〜 2019年11月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> タイ国政府&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> 開発コンサルタント（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>CORS（電子基準点）を用いたGNSS（全球測位衛星システム）測位は高精度な位置情報を提供し、測量や精密農業、自動運転などの基盤となります。本調査では、CORSデータセンターを含む、タイ王国におけるGNSSシステム開発のための実験フィールドの整備に関する情報を収集しました。&lt;/p>
+&lt;h2 id="担当業務">担当業務&lt;/h2>
 &lt;ul>
-&lt;li>管轄するナロックとオロルルンガの全ての配水システム (約300km) のマッピング (Trimble GPS, ArcPAD, QGIS).&lt;/li>
-&lt;li>GISデータベース及びWebGISの設計開発 (PostGIS, Mapserver, Leafletjs)。料金システムへの連携機能の開発&lt;/li>
-&lt;li>DMA (District Metered Areas) を作成し、無収水削減支援&lt;/li>
-&lt;li>GIS関係の技術指導。現在でも継続的にGISは活用されています。&lt;/li>
-&lt;li>ケニア国内の７つの水道局 (Nyeri water, Kabarnet water, Kapsabet water, Nakuru water, Nakuru rural water, Naivasha water and Mavoko water) に対するGIS業務にかかるコンサルティング&lt;/li>
-&lt;/ul></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>期間: 20094月 〜 2017年3月&lt;/p>
-&lt;p>以下のようなGISを中心とするシステムの開発を行いました&lt;/p>
+&lt;li>CORSデータセンターの整備に関する情報の調査・整理&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>GNSS/CORS, 地理空間情報システム, システム調査&lt;/p></description></item><item><title>ルワンダ国地方給水運営維持管理能力強化プロジェクト(RWASOM)</title><link>https://jin-igarashi.me/ja/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2018年6月 〜 2019年12月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GIS専門家（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>RWASOMプロジェクトは、ルワンダの地方給水施設の運営維持管理能力の強化を目的としたプロジェクトです。給水施設の運営維持管理には、施設の位置や状態に関する信頼できる情報が不可欠ですが、全国規模では整備されていませんでした。GIS専門家として、地方給水管理のためのGISデータベースとデータ共有プラットフォームの構築を担当しました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
 &lt;ul>
-&lt;li>HDマップの開発 (ArcGIS Server, Python, Django REST framework).&lt;/li>
-&lt;li>船舶の運行をモニタリングするシステムの技術調査 (Leafletjs).&lt;/li>
-&lt;li>不動産登記の地図情報システムにかかる技術調査 (Mapserver, OpenLayers, Oracle).&lt;/li>
-&lt;li>Androidでのヘルスケアアプリの開発 (Java).&lt;/li>
-&lt;li>MapInfoを使ったエリアマーケティングアプリ.&lt;/li>
-&lt;li>配送管理システムの開発 (VB.NET, SQL Server, MS Access).&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>&lt;strong>研修:&lt;/strong> ルワンダ人の同僚を対象に、FOSS4Gアプリケーション（QGIS, QField）を用いたデータ収集・データ共有の研修を実施しました。&lt;/li>
+&lt;li>&lt;strong>全国マッピング:&lt;/strong> ルワンダ人の同僚と協力し、QFieldとGarmin GPSを用いて全国すべての地方給水システムのマッピングを完了させました。&lt;/li>
+&lt;li>&lt;strong>GISデータベース:&lt;/strong> 地方給水管理のためのPostGISデータベースを設計・構築しました。&lt;/li>
+&lt;li>&lt;strong>データ共有プラットフォーム:&lt;/strong> 関係者がデータにアクセスできるよう、Lizmap/QGIS Serverによるデータ共有プラットフォームを開発しました。&lt;/li>
+&lt;li>&lt;strong>持続性:&lt;/strong> ライセンス費用なしでWASACが運用を続けられるよう、オープンソースソフトウェアのみを使用しました。データはその後ベクタータイルとして&lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>で公開されています。&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連する発表">関連する発表&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: ルワンダの地方給水管理のためのデータ収集とデータ共有の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: ルワンダの地方給水管理におけるQGIS, QField, ベクタータイルの活用&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: ルワンダにおけるFOSS4Gを用いた地方給水マッピング&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, 地理空間データ収集, 研修&lt;/p></description></item><item><title>ルワンダ国キガリ市ンゾベーノトラ送水幹線強化計画協力準備調査</title><link>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2017年10月 〜 2018年11月&lt;/p>
+&lt;p>&lt;strong>カウンターパート:&lt;/strong> Water and Sanitation Corporation Ltd.（WASAC：ルワンダ上下水道公社）&lt;/p>
+&lt;p>&lt;strong>資金:&lt;/strong> 国際協力機構（JICA）&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> 開発コンサルタント（国際航業株式会社）&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>ンゾベ-ントラ幹線送水管は、ンゾベ浄水場からントラ配水池へ浄水を送る、ルワンダの首都キガリ市の主要な送水ラインの一つです。本準備調査は、人口が増加するキガリ市の給水を改善するため、幹線送水管の増強・強化計画を策定するために実施されました。&lt;/p>
+&lt;h2 id="担当業務">担当業務&lt;/h2>
+&lt;ul>
+&lt;li>既存の給水施設および管路の地理空間データの収集・整理&lt;/li>
+&lt;li>EPANETによる水理解析を含む、水インフラの設計・計画の支援&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>地理空間データ収集, EPANET, 給水, 水インフラの設計・計画, QGIS&lt;/p></description></item><item><title>ナロック水道局でのGISプロジェクト</title><link>https://jin-igarashi.me/ja/project/201404-narok-water/</link><pubDate>Tue, 01 Apr 2014 08:45:17 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/201404-narok-water/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2014年4月 〜 2016年9月&lt;/p>
+&lt;p>&lt;strong>配属先:&lt;/strong> Narok Water and Sewerage Services Co., Ltd.（NARWASSCO：ナロック上下水道公社）, ケニア&lt;/p>
+&lt;p>&lt;strong>役割:&lt;/strong> GISスペシャリスト（JICA青年海外協力隊）&lt;/p>
+&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>ナロック上下水道公社は、ケニアのナロックおよびオロルルンガの町に給水する水道事業体です。東アフリカの多くの水道事業体と同様に無収水（NRW）率が高く、配水管網や顧客の正確な地図も整備されていませんでした。国際協力機構（JICA）の青年海外協力隊のGISスペシャリストとして派遣され、水道資産管理と無収水対策のためのGISの導入を行いました。&lt;/p>
+&lt;h2 id="活動内容">活動内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>配水管網のマッピング:&lt;/strong> Trimble GPS、ArcPad、QGISを用いて、ナロックとオロルルンガの配水管網全体（総延長約300km）をマッピングしました。&lt;/li>
+&lt;li>&lt;strong>GISデータベースとWebGIS:&lt;/strong> PostGIS、MapServer、Leafletを用いてGISデータベースとWebGISを設計・開発しました。料金システムと連携し、料金徴収の改善に貢献しています。&lt;/li>
+&lt;li>&lt;strong>無収水対策:&lt;/strong> 無収水の分析・削減のためにDMA（District Metered Area：配水ブロック）を作成しました。&lt;/li>
+&lt;li>&lt;strong>人材育成:&lt;/strong> ケニア人の同僚に技術移転を行うための研修を実施しました。構築したGISは現在も継続して活用されています。&lt;/li>
+&lt;li>&lt;strong>他の水道事業体へのコンサルティング:&lt;/strong> ケニア国内の7つの水道事業体（Nyeri Water、Kabarnet Water、Kapsabet Water、Nakuru Water、Nakuru Rural Water、Naivasha Water、Mavoko Water）に対し、GIS業務のコンサルティングを行いました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="その後">その後&lt;/h2>
+&lt;p>帰国後もボランティアとしてナロック上下水道公社との個人的なパートナーシップを続けています。GISはその後&lt;a href="../202002-narok-vectortile-project/">オープンソースのベクタータイル&lt;/a>（&lt;a href="https://narok.water-gis.com" target="_blank" rel="noopener">narok.water-gis.com&lt;/a>）で刷新され、活動の成果はFOSS4G 2019 BucharestやFOSS4G 2021で発表しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190828_foss4g2019_kenya/">FOSS4G 2019: ケニア・ナロック水道公社の無収水管理の事例&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_nanyuki/">FOSS4G 2021: 無収水に対するFOSS4G活用のインパクト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>水インフラのデータ収集, WebGIS, PostgreSQL/PostGIS, MapServer, Leaflet, QGIS, EPANET&lt;/p></description></item><item><title>富士通Gでのシステム開発経験</title><link>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</link><pubDate>Wed, 01 Apr 2009 22:15:19 +0900</pubDate><guid>https://jin-igarashi.me/ja/project/200904-fujitsu_ssl/</guid><description>&lt;p>&lt;strong>期間:&lt;/strong> 2009年4月 〜 2017年3月（2014年4月〜2016年9月はケニアでの活動のため休職）&lt;/p>
+&lt;p>&lt;strong>所属:&lt;/strong> 株式会社富士通ソーシアルサイエンスラボラトリ&lt;/p>
+&lt;p>ソフトウェアエンジニアとしてキャリアをスタートし、様々な業務システムの設計・開発に携わりました。その多くがGIS関連のシステムであり、GISエンジニアとしてのキャリアの基礎となりました。&lt;/p>
+&lt;h2 id="主なシステム">主なシステム&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>システム&lt;/th>
+&lt;th>使用技術&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>自動運転車向け高精度（HD）地図の開発&lt;/td>
+&lt;td>ArcGIS Server, Python, Django REST framework&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>シンガポールにおける船舶の動きをマッピング・シミュレーションするシステム&lt;/td>
+&lt;td>Leaflet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>法務省の不動産登記システム向けWebGIS&lt;/td>
+&lt;td>MapServer, OpenLayers, Oracle&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ヘルスケア管理のためのAndroidアプリケーション&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>エリアマーケティングシステム&lt;/td>
+&lt;td>MapInfo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ダイクストラ法による経路探索を用いた物流・配送管理システム&lt;/td>
+&lt;td>VB.NET, SQL Server, MS Access&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="スキル">スキル&lt;/h2>
+&lt;p>VB.NET, Java, Python, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle&lt;/p></description></item></channel></rss>

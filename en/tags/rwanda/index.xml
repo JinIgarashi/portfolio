@@ -13,7 +13,37 @@
 &lt;p>An interview to my Rwandan counterpart - Mr. Innocent while he participated the training in Kitakyushu, Japan&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>Please see my posts in the newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.44_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>Period: June 2018 to December 2019&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p>
-&lt;p>Conducted training workshops for data collection and sharing with FOSS4G applications, then designed &amp;amp; created GIS database and data sharing platform for rural water supply management in RWASOM project. Collaborated with Rwandan colleagues to complete mapping all of water supply systems in the country. The system in Rwanda uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS.&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>Period: October 2017 to November 2018&lt;/p>
-&lt;p>Client: Water and Sanitation Corporation Ltd, Rwanda&lt;/p></description></item></channel></rss>
+&lt;p>Please see my posts in the newsletter from &lt;a href="http://www.waquac.net/english/pdf/newsletter_vol.44_en.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item><item><title>The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM project)</title><link>https://jin-igarashi.me/en/project/201806-rwasom/</link><pubDate>Fri, 01 Jun 2018 22:09:24 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201806-rwasom/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 2018 – December 2019&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> GIS Expert, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The RWASOM project aimed to strengthen the capacity for operation and maintenance of rural water supply systems in Rwanda. Reliable information on where water supply facilities are located and in what condition they are is essential for their operation and maintenance, but it was not available nationwide. I joined the project as a GIS expert to establish a GIS database and data sharing platform for rural water supply management.&lt;/p>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Training:&lt;/strong> Conducted training workshops on data collection and data sharing with FOSS4G applications (QGIS, QField) for Rwandan colleagues.&lt;/li>
+&lt;li>&lt;strong>Nationwide mapping:&lt;/strong> Collaborated with Rwandan colleagues to complete the mapping of all rural water supply systems in the country using QField and Garmin GPS.&lt;/li>
+&lt;li>&lt;strong>GIS database:&lt;/strong> Designed and created a PostGIS database for rural water supply management.&lt;/li>
+&lt;li>&lt;strong>Data sharing platform:&lt;/strong> Developed a data sharing platform using Lizmap/QGIS Server so that the data can be accessed by stakeholders.&lt;/li>
+&lt;li>&lt;strong>Sustainability:&lt;/strong> Used only open-source software so that WASAC can keep operating the system without license costs. The data was later published as vector tiles at &lt;a href="https://rural.water-gis.com" target="_blank" rel="noopener">rural.water-gis.com&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="related-talks">Related talks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="../../talk/20190830_foss4g2019_rwanda/">FOSS4G 2019: Case study of data collection &amp;amp; data sharing for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20211001_foss4g2021_wasac/">FOSS4G 2021: An implementation of FOSS4G - QGIS, QField and Vector Tiles for rural water supply management in Rwanda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../../talk/20220826_foss4g2022/">FOSS4G 2022: Rural water supply mapping by using FOSS4G application in Rwanda&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPS, geospatial data collection, training&lt;/p></description></item><item><title>Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda</title><link>https://jin-igarashi.me/en/project/201710-nzove-ntora/</link><pubDate>Sun, 01 Oct 2017 22:05:50 +0900</pubDate><guid>https://jin-igarashi.me/en/project/201710-nzove-ntora/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> October 2017 – November 2018&lt;/p>
+&lt;p>&lt;strong>Client:&lt;/strong> Water and Sanitation Corporation Ltd. (WASAC), Rwanda&lt;/p>
+&lt;p>&lt;strong>Funded by:&lt;/strong> Japan International Cooperation Agency (JICA)&lt;/p>
+&lt;p>&lt;strong>Role:&lt;/strong> Consultant, Kokusai Kogyo Co., Ltd.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>The Nzove-Ntora principal transmission pipeline carries treated water from the Nzove Water Treatment Plant to the Ntora reservoir, and is one of the main water supply lines for Kigali City, the capital of Rwanda. This preparatory survey was conducted to plan the upgrade and strengthening of the transmission pipeline, in order to improve the water supply to the growing city.&lt;/p>
+&lt;h2 id="my-contribution">My contribution&lt;/h2>
+&lt;ul>
+&lt;li>Collected and organized geospatial data of the existing water supply facilities and pipelines.&lt;/li>
+&lt;li>Supported the design and planning of the water infrastructure, including hydraulic analysis with EPANET.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>Geospatial data collection, EPANET, water supply, design/planning of water infrastructure, QGIS&lt;/p></description></item></channel></rss>
