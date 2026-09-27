@@ -2,7 +2,7 @@
 title: "UNDP GeoHub"
 subtitle: ""
 summary: "UNDP's open-source platform for geospatial data visualization, analysis and sharing."
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["WebGIS", "UNDP"]
 categories: []
 date: 2021-12-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 4
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Website
     url: https://geohub.data.undp.org/
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/UNDP-Data/geohub
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/undp-geohub.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -32,4 +26,4 @@ GeoHub is a centralized ecosystem of geospatial data and services at UNDP. Users
 
 **Tech stack:** SvelteKit, MapLibre GL JS, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure
 
-**Related:** [UNDP GeoHub project](../../project/202112-undp-geohub/)
+**Related:** [UNDP GeoHub project](../../projects/202112-undp-geohub/)

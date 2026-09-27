@@ -2,7 +2,7 @@
 title: "Narok Water WebGIS"
 subtitle: ""
 summary: "WebGIS of the water supply network for Narok Water and Sewerage Services Co., Ltd. (NARWASSCO) in Kenya."
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["WebGIS", "Water", "Kenya"]
 categories: []
 date: 2014-09-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 1
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Website
     url: https://maps.narwassco.co.ke
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/narwassco
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/narok-water-webgis.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -32,4 +26,4 @@ The WebGIS I have developed and maintained for Narok Water since my time as a JI
 
 **Tech stack:** PostgreSQL/PostGIS, vector tiles, MapLibre GL JS, SvelteKit, GitHub Pages
 
-**Related:** [The GIS project in Narok Water](../../project/201404narok-water/) · [Open Source Project for Water Vector Tile app](../../project/202002-narok-vectortile-project/)
+**Related:** [The GIS project in Narok Water](../../projects/201404narok-water/) · [Open Source Project for Water Vector Tile app](../../projects/202002-narok-vectortile-project/)

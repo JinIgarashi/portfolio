@@ -1,0 +1,23 @@
+# Navigation Links
+#   To link a homepage section, specify the URL as `/#` followed by the section `id`.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: /#about
+    weight: 10
+  - name: Portfolio
+    url: /#portfolio
+    weight: 25
+  - name: Projects
+    url: /#projects
+    weight: 30
+  - name: Talks
+    url: /#talks
+    weight: 35
+  - name: Publications
+    url: /#publications
+    weight: 40
+  - name: CV
+    url: https://jin-igarashi.me/files/cv_jin_igarashi.pdf
+    weight: 70

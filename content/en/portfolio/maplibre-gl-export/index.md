@@ -2,7 +2,7 @@
 title: "maplibre-gl-export"
 subtitle: ""
 summary: "A MapLibre GL JS plugin to export maps as PDF and images."
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["Library", "MapLibre"]
 categories: []
 date: 2021-03-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 10
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Demo
     url: https://maplibre-gl-export.water-gis.com
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/watergis/maplibre-gl-export
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/maplibre-gl-export.webp
+    icon: brands/github
 
 projects: []
 ---

@@ -2,7 +2,7 @@
 title: "Narok Water WebGIS"
 subtitle: ""
 summary: "ケニア・ナロク上下水道公社（NARWASSCO）の給水ネットワーク WebGIS。"
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["WebGIS", "Water", "Kenya"]
 categories: []
 date: 2014-09-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 1
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Webサイト
     url: https://maps.narwassco.co.ke
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/narwassco
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/narok-water-webgis.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -32,4 +26,4 @@ JICA 海外協力隊として赴任して以来、開発・運用を続けてい
 
 **技術スタック:** PostgreSQL/PostGIS, ベクトルタイル, MapLibre GL JS, SvelteKit, GitHub Pages
 
-**関連:** [ナロク上下水道公社の GIS プロジェクト](../../project/201404-narok-water/) · [水道ベクトルタイルアプリのオープンソースプロジェクト](../../project/202002-narok-vectortile-project/)
+**関連:** [ナロク上下水道公社の GIS プロジェクト](../../projects/201404-narok-water/) · [水道ベクトルタイルアプリのオープンソースプロジェクト](../../projects/202002-narok-vectortile-project/)

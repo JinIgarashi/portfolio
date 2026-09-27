@@ -2,7 +2,7 @@
 title: "UNDP RAPIDA"
 subtitle: ""
 summary: "危機対応のための半自動地理空間分析ツール（Python ライブラリ・CLI）。"
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["Library", "UNDP"]
 categories: []
 date: 2024-11-01T00:00:00+09:00
@@ -11,15 +11,10 @@ weight: 5
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: GitHub
     url: https://github.com/UNDP-Data/rapida
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/undp-rapida.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -28,4 +23,4 @@ RAPIDA は、厳選されたグローバルデータを用いて、対象地域�
 
 **技術スタック:** Python, GDAL, rasterio, GeoPandas, Click, Azure Blob Storage, JupyterHub
 
-**関連:** [UNDP RAPIDA プロジェクト](../../project/202411-undp-rapida/)
+**関連:** [UNDP RAPIDA プロジェクト](../../projects/202411-undp-rapida/)

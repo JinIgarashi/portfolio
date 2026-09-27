@@ -1,0 +1,35 @@
+# Languages
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+en:
+  locale: en-us
+  contentDir: content/en
+  weight: 1
+
+ja:
+  locale: ja-JP
+  contentDir: content/ja
+  weight: 2
+  title: JIN IGARASHI
+  params:
+    description: 水分野を中心に活動するGISエンジニアのポートフォリオです
+  menu:
+    main:
+      - name: ホーム
+        url: /#about
+        weight: 10
+      - name: ポートフォリオ
+        url: /#portfolio
+        weight: 25
+      - name: プロジェクト
+        url: /#projects
+        weight: 30
+      - name: 講演
+        url: /#talks
+        weight: 35
+      - name: 執筆活動
+        url: /#publications
+        weight: 40
+      - name: CV
+        url: https://jin-igarashi.me/files/cv_jin_igarashi.pdf
+        weight: 70

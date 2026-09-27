@@ -1,0 +1,323 @@
+# Japanese overrides for data/authors/me.yaml
+name:
+  display: 五十嵐 仁
+  given: 仁
+  family: 五十嵐
+  alternate: Jin IGARASHI
+role: シニアソフトウェアエンジニア（GIS）
+bio: |
+  GIS（地理情報システム）、情報技術、水および衛生分野を専門とするシニアソフトウェアエンジニアであり、日本および東アフリカで13年以上の実務経験を持つ。イギリスのリーズ大学にて、水・衛生・健康工学の理学修士号（MSc（Eng））を優秀な成績で取得。
+
+  修士課程の論文では、ビル＆メリンダ・ゲイツ財団の資金提供を受けたCACTUS（都市衛生における気候とコスト）プロジェクトの一環として、都市衛生システムのライフサイクルコストに関する研究を行った。ケニアのナロック市を事例として、衛生バリューチェーン全体における都市衛生システムのコストを推定する研究を実施。また、2024年1月から2026年8月までヨーク大学にてコンピュータサイエンス（人工知能）の修士課程をオンラインのパートタイム学生として履修し修了した。
+
+  キャリアのスタートは、日本の富士通にてGISアプリケーションの開発に携わる。その後、JICA（国際協力機構）のプロジェクトのGIS専門家として東アフリカ（ケニアおよびルワンダ）で水資産管理および無収水（NRW）管理に従事。この期間中、GitHub上でオープンソースソフトウェアを開発し、水資産管理のための地理空間アプリケーションを持続的に運用できるアプローチを確立。また、ケニアおよびルワンダの水道事業体と個人的なパートナーシップを維持し、ボランティアとしてWASH（Water, Sanitation and Hygiene：水・衛生・衛生管理）分野の支援を継続している。
+
+  JICAプロジェクト終了後、ソフトウェアエンジニアリング業界に戻り、日本のさまざまな企業で地理空間ソフトウェアの開発に従事。その後、2021年にリーズ大学の修士課程に入学。2021年12月から2025年8月までUNDP（国連開発計画）にて、新しいWebベースのオープンソース地理空間アプリケーションの開発を開始。GISの専門知識を持たないUNDP職員や政策立案者が、空間データセットを容易に可視化・分析できるツールの開発に取り組んでいました。2025年9月からFracta社にてソフトウェアエンジニアとして主に日本やアメリカの水道事業体向けのソフトウェアの開発・メンテナンスを行っています。
+
+  オープンソースの地理空間コミュニティでも積極的に活動しており、2019年から毎年FOSS4Gで登壇している。FOSS4G 2023 Prizren、FOSS4G Europe 2024・2025、FOSS4G 2025 Auckland、FOSS4G 2026 広島では、UNDP GeoHub、Terra Draw、maplibre-gl-terradrawに関する発表やハンズオンワークショップを行った。
+
+  情報技術とWASH分野での経験を活かし、WASH分野におけるイノベーションを推進することに情熱を注いでいる。
+
+affiliations:
+  - name: Fracta
+    url: https://fracta-jp.com
+  - name: GIS for Water
+    url: https://water-gis.com
+  - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
+    url: http://www.waquac.net/english
+
+interests:
+  - 地理情報システム (GIS)
+  - 水衛生、衛生啓発 (WaSH)
+  - 無収水管理（NRW)
+  - マイナーな外国語（マサイ語、スワヒリ語など）
+
+education:
+  - degree: MSc Computer Science with Artificial Intelligence
+    institution: 英国ヨーク大学
+    year: 2024年1月から2026年8月
+  - degree: MSc Water, Sanitation and Health Engineering (水衛生工学修士)
+    institution: 英国リーズ大学
+    year: "2022"
+  - degree: 文学部歴史学科東洋史専攻
+    institution: 東海大学
+    year: "2009"
+  - degree: 対外漢語教育学院普通進修生
+    institution: 北京大学（中国）
+    year: "2007"
+
+experience:
+  - role: "ソフトウェアエンジニア"
+    org: "Fracta"
+    icon: custom/fracta
+    start: "2025-09-01"
+    summary: |
+      📍 リモート（日本から勤務） · 🔗 <https://fracta-jp.com/>
+
+      Fractaは、人工知能（AI）を活用して上下水道管路の劣化リスクを評価し、管路の維持管理を支援するサービスを、主にアメリカと日本の水道事業体向けに提供しているソフトウェア企業です。
+
+      - エンジニアチームに所属し、フルスタックのソフトウェアエンジニアとして勤務
+      - フロントエンドからバックエンド、データベースまで、新機能の開発、バグ修正、システムの保守を担当
+      - 上下水道事業体向けの地図を中心としたユーザーインターフェースの開発
+
+      **スキル:** Mapbox, Node.js (JavaScript), Python, Vue.js, Django, PostgreSQL/PostGIS, AWS
+  - role: "フルスタックGISデベロッパー"
+    org: "国連開発計画（UNDP）"
+    icon: custom/undp
+    start: "2021-12-01"
+    end: "2025-08-31"
+    summary: |
+      📍 ニューヨーク（イギリス/日本からリモート勤務） · 🔗 <https://www.undp.org>
+
+      UNDP政策・プログラム支援局（Bureau for Policy and Programme Support）のSDG Integration Teamにて、Data Futures Exchange（DFx）の一部である[UNDP GeoHub](https://geohub.data.undp.org)の開発を担当しました。2024年10月まではイギリスから、2024年11月からは日本からリモートで勤務しました。
+
+      - GISの専門知識を持たないUNDP職員や政策立案者向けに、高度なデータ可視化・分析・共有ツールを提供するオープンソースソフトウェア「GeoHub」を開発
+      - SvelteKitとMapLibreによるフロントエンド、およびAzure Kubernetes Service上で稼働するFOSS4Gのバックエンド（PostgreSQL/PostGIS, titiler, pg_tileserv）を構築
+      - データアップロードパイプライン、データセット・地図の権限管理、ソーシャルログイン、ラスタ解析機能（titilerアルゴリズム）、STAC連携、静的地図画像APIなどを実装
+      - 災害・危機への迅速な対応のための半自動地理空間評価ツール[RAPIDA](https://github.com/UNDP-Data/rapida)を開発（2024年11月〜2025年8月）
+      - ソースコードはすべてオープンソースライセンスでGitHubに公開し、FOSS4G 2023およびFOSS4G Europe 2024で発表
+
+      契約の履歴:
+
+      - 個人コンサルタント – GISコンサルタント（パートタイム）2021年12月〜2022年9月
+      - IPSA-9短期 – GIS Developer（フルタイム）2022年9月〜2023年7月
+      - IPSA-9 – フルスタックGIS Developer（フルタイム）2023年8月〜2025年8月
+
+      **スキル:** MapLibre, Mapbox, Node.js (JavaScript), Python, Svelte/SvelteKit, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (App Service, Blob Storage, PubSub, Kubernetes など)
+  - role: "ソフトウェアエンジニア"
+    org: "株式会社Geolonia"
+    icon: custom/geolonia
+    start: "2021-08-01"
+    end: "2022-03-31"
+    summary: |
+      📍 日本（リモート） · 🔗 <https://geolonia.com>
+
+      非常勤・リモートでオープンソースのGISアプリケーション開発に従事しました。
+
+      - オープンな逆ジオコーディングのオープンソースソフトウェアの開発
+      - MapLibreの地図スタイルを作成・管理するCLIツール[unit/charites](https://github.com/unvt/charites)の開発
+
+      **スキル:** MapLibre, ジオコーディング, 逆ジオコーディング, 地図スタイリング
+  - role: "ソフトウェアエンジニア"
+    org: "株式会社オーシャンアイズ"
+    start: "2021-06-01"
+    end: "2021-11-30"
+    summary: |
+      📍 日本（リモート） · 🔗 <https://oceaneyes.co.jp>
+
+      フリーランスとして、既存のWebGISシステムの改善と新機能の開発を行いました。
+
+      - Vue.js上の地図をLeafletからMapbox GL JSへ移行
+      - Webサイトの様々な新機能を開発
+      - ソースコードを容易かつ持続的に管理するためのCI/CDを構築
+
+      **スキル:** Node.js (JavaScript), Mapbox, Leaflet, Vue.js
+  - role: "ソフトウェアエンジニア"
+    org: "株式会社MIERUNE"
+    icon: custom/mierune
+    start: "2020-10-01"
+    end: "2021-08-15"
+    summary: |
+      📍 北海道, 日本 · 🔗 <https://mierune.co.jp>
+
+      GISスペシャリストとして、FOSS4G（Free & Open Source Software for Geospatial）を活用したWebGISシステムの開発を行いました。
+
+      - オープンソースの地理空間ソフトウェアを用いた受託WebGISアプリケーションの開発
+      - Photon（オープンソースのジオコーダー）とElasticsearchを用いたジオコーディングサービスの構築
+      - Djangoによるバックエンド開発とクラウドへのデプロイ
+      - オープンソースGISのコミュニティ活動への参加
+
+      **スキル:** AWS, Google Cloud, Kubernetes, ジオコーディング, Elasticsearch, Django, Python
+  - role: "ソフトウェアエンジニア"
+    org: "株式会社ONE COMPATH（ワン・コンパス）"
+    start: "2020-01-17"
+    end: "2020-09-30"
+    summary: |
+      📍 東京, 日本 · 🔗 <https://onecompath.com>
+
+      日本で最も利用されているWeb地図サービスの一つである「マピオン」の開発・運用を担当しました。
+
+      - Amazon Web Services（AWS）上でMapbox Vector TilesとMapServerを用いた地図配信システムの開発と運用改善
+      - PostgreSQL/PostGISによる地図データの管理
+
+      **スキル:** AWS, Mapbox, MapServer, PostgreSQL/PostGIS
+  - role: "開発コンサルタント"
+    org: "国際航業株式会社"
+    icon: custom/kkc
+    start: "2017-04-01"
+    end: "2019-12-31"
+    summary: |
+      📍 東京, 日本 · 🔗 <https://www.kkc.co.jp>
+
+      国際協力機構（JICA）の以下のODA案件に従事しました。
+
+      - [ルワンダ国地方給水運営維持管理能力強化プロジェクト（RWASOM）](projects/201806-rwasom/)（2018年6月〜2019年12月）
+      - [タイ王国GNSSシステム開発のための実験フィールド整備に係る調査](projects/201811-thai_cors/)（2018年11月〜2019年11月）
+      - [ルワンダ国キガリ市ンゾベ-ントラ幹線送水管強化計画準備調査](projects/201710-nzove-ntora/)（2017年10月〜2018年11月）
+
+      RWASOMプロジェクトでは、FOSS4Gアプリケーションを用いたデータ収集・データ共有の研修を実施し、地方給水管理のためのGISデータベースとデータ共有プラットフォームを設計・構築しました。ルワンダ人の同僚と協力し、全国すべての給水システムのマッピングを完了させました。システムにはPostGIS, Lizmap/QGIS Server, QGIS Desktop, QField, Garmin GPSを使用しています。
+
+      **スキル:** 地理空間データ収集, EPANET, 給水, 水インフラの設計・計画, QGIS, PostGIS
+  - role: "GISスペシャリスト（青年海外協力隊）"
+    org: "NAROK WATER AND SEWERAGE SERVICES CO., LTD."
+    icon: custom/jica
+    start: "2014-04-01"
+    end: "2016-09-30"
+    summary: |
+      📍 ケニア共和国ナロック · 🔗 <https://www.narwassco.co.ke>
+
+      JICA青年海外協力隊のGISスペシャリストとして派遣され、以下の活動を行いました。
+
+      - ナロックとオロルルンガの配水管網全体（総延長約300km）をマッピング（Trimble GPS, ArcPad, QGIS）
+      - GISデータベースとWebGISを設計・開発（PostGIS, MapServer, Leaflet）。料金システムと連携し、料金徴収の改善に貢献
+      - 無収水（NRW）の分析・削減のためのDMA（District Metered Area：配水ブロック）を作成
+      - ケニア人の同僚への技術移転のための研修を実施。構築したGISは現在も継続して活用されている
+      - ケニア国内の7つの水道事業体（Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water, Mavoko Water）に対しGIS業務のコンサルティングを実施
+
+      **スキル:** 水インフラのデータ収集, WebGIS, PostgreSQL/PostGIS, EPANET
+  - role: "ソフトウェアエンジニア"
+    org: "株式会社富士通ソーシアルサイエンスラボラトリ"
+    icon: custom/fujitsu
+    start: "2009-04-01"
+    end: "2017-03-31"
+    summary: |
+      📍 川崎, 日本 · 🔗 <https://www.fujitsu.com/jp/group/ssl>
+
+      GISを中心とした以下のシステムの設計・開発を行いました。2014年4月から2016年9月まではケニアでの活動のため休職し、その後復職しました。
+
+      - 自動運転車向け高精度（HD）地図の開発（ArcGIS Server, Python, Django REST framework）
+      - シンガポールにおける船舶の動きをマッピング・シミュレーションするシステム（Leaflet）
+      - 法務省の不動産登記システム向けWebGISシステム（MapServer, OpenLayers, Oracle）
+      - ヘルスケア管理のためのAndroidアプリケーション（Java）
+      - MapInfoを用いたエリアマーケティングシステム
+      - ダイクストラ法による経路探索を用いた物流・配送管理システム（VB.NET, SQL Server, MS Access）
+
+      **スキル:** VB.NET, Java, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle
+
+awards:
+  - title: "FOSS4G Hiroshima 2026 attendance certificate"
+    awarder: "OSGeo Japan"
+    date: "2026-08-30"
+    url: "https://2026.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20260905_FOSS4G2026_certificate.pdf"
+    icon: hero/trophy
+  - title: "MSc(Eng) Water, Sanitation and Health Engineering"
+    awarder: "University of Leeds"
+    date: "2022-11-24"
+    url: "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202211_msc_jin_igarashi.pdf"
+    summary: "Statement of MSc award and academic transcript"
+    icon: hero/trophy
+  - title: "Giswater introduction paritipation certificate"
+    awarder: "OSGEO"
+    date: "2022-08-23"
+    url: "https://2022.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20220823_FOSS4G_giswater_workshop_Participation certificate.pdf"
+    icon: hero/trophy
+  - title: "FOSS4G 2022 Firenze paritipation certificate"
+    awarder: "OSGEO"
+    date: "2022-08-22"
+    url: "https://2022.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20220822_FOSS4G2022_Participation certificate.pdf"
+    icon: hero/trophy
+  - title: "Designing a Multidimensional Poverty Index"
+    awarder: "United Nations Development Programme (UNDP) and the Oxford Poverty and Human Development Initiative (OPHI)"
+    date: "2022-03-14"
+    url: "https://www.learningfornature.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202204_MPI.pdf"
+    icon: hero/trophy
+  - title: "Prevention of sexual harassment and abuse of authority (2021 version)"
+    awarder: "UN & UN agencies"
+    date: "2021-11-30"
+    url: "https://agora.unicef.org/course/info.php?id=28780"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_PSHAA.pdf"
+    icon: hero/trophy
+  - title: "Prevention of sexual exploitation and abuse (PSEA)"
+    awarder: "UNICEF"
+    date: "2021-11-30"
+    url: "https://agora.unicef.org/course/info.php?id=7380"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_PSEA.pdf"
+    icon: hero/trophy
+  - title: "BSAFE"
+    awarder: "United Nations Department of Safety and Security"
+    date: "2021-11-30"
+    url: "https://training.dss.un.org/thematicarea/category?id=6"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_BSAFE.pdf"
+    icon: hero/trophy
+  - title: "IELTS Overall 6.5 (CEFR B2)"
+    awarder: "British Council"
+    date: "2021-03-20"
+    url: "https://www.eiken.or.jp/ielts/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20210320_IELTS.pdf"
+    icon: hero/trophy
+  - title: "PCM手法（モニタリング・評価）"
+    awarder: "FASID - 一般財団法人国際開発機構"
+    date: "2017-06-23"
+    url: "https://www.fasid.or.jp/pcm/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/201706_pcm_me.pdf"
+    icon: hero/trophy
+  - title: "PCM手法（計画・立案）"
+    awarder: "FASID - 一般財団法人国際開発機構"
+    date: "2017-05-18"
+    url: "https://www.fasid.or.jp/pcm/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/201705_pcm_pp.pdf"
+    icon: hero/trophy
+  - title: "基本情報技術者試験"
+    awarder: "IPA - 情報処理推進機構"
+    date: "2009-11-16"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200911_fitee.pdf"
+    icon: hero/trophy
+  - title: "ITパスポート"
+    awarder: "IPA - 情報処理推進機構"
+    date: "2009-05-26"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200905_it_passport.pdf"
+    icon: hero/trophy
+  - title: "HSK 高等9級"
+    awarder: "HSK - 漢語水平考試"
+    date: "2007-04-16"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200705_HSK.pdf"
+    icon: hero/trophy
+
+skills:
+  - name: "WATER"
+    items:
+      - label: "Water, Sanitation and Hygiene promotion (WaSH)"
+      - label: "Non-Revenue Water Management"
+      - label: "Hydraulic modeling - EPANET"
+      - label: "Asset Management"
+  - name: "GIS"
+    items:
+      - label: "QGIS"
+      - label: "QField"
+      - label: "Mergin Maps"
+      - label: "ArcGIS"
+  - name: "GISサーバー"
+    items:
+      - label: "QGIS Server/Lizmap"
+      - label: "MapServer"
+      - label: "GeoServer"
+      - label: "Mapbox/Maplibre Vector Tile"
+      - label: "Tiling server (titiler / pg_tileserv)"
+      - label: "国連ベクトルタイルツールキット"
+      - label: "ArcGIS Server"
+  - name: "プログラミング言語"
+    items:
+      - label: "Python"
+      - label: "JavaScript / TypeScript"
+      - label: "Svelte/Sveltekit"
+      - label: "Java"
+      - label: "クラウド (Azure, AWS)"
+  - name: "データベース"
+    items:
+      - label: "PostgreSQL/PostGIS"
+      - label: "SQL Server"
+      - label: "Oracle"
+      - label: "MS Access"
+  - name: "言語"
+    items:
+      - label: "日本語"
+      - label: "英語"
+      - label: "中国語"
+      - label: "スワヒリ語"
+      - label: "マサイ語"
+      - label: "韓国語"

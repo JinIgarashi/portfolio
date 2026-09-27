@@ -2,7 +2,7 @@
 title: "postgis2epanet"
 subtitle: ""
 summary: "Generates EPANET INP files for all rural water supply systems in Rwanda from a PostGIS database."
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["Library", "Water", "Rwanda"]
 categories: []
 date: 2019-06-01T00:00:00+09:00
@@ -11,15 +11,10 @@ weight: 6
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: GitHub
     url: https://github.com/WASAC/postgis2epanet
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/postgis2epanet.webp
+    icon: brands/github
 
 projects: []
 ---
