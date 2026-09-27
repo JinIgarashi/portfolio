@@ -1,0 +1,48 @@
+// Custom styles (imported by the Wowchemy theme after its own styles).
+
+// Portfolio filter buttons: make inactive buttons light so the active one stands out.
+.project-filters .btn-group .btn.btn-primary {
+  color: $sta-primary;
+  background-color: #fff;
+  border: 1px solid $sta-primary;
+  box-shadow: none;
+
+  &:hover {
+    background-color: rgba($sta-primary, 0.1);
+  }
+
+  &.active,
+  &:active {
+    color: #fff;
+    background-color: $sta-primary;
+    border-color: $sta-primary;
+  }
+}
+
+.dark .project-filters .btn-group .btn.btn-primary {
+  color: rgb(248, 248, 242);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.35);
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  &.active,
+  &:active {
+    color: #fff;
+    background-color: $sta-primary;
+    border-color: $sta-primary;
+  }
+}
+
+// Portfolio cards: always reserve two lines for the summary, truncating longer text with an ellipsis.
+#portfolio .project-card .card-text .article-style p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.65;
+  height: calc(2 * 1.65em);
+}

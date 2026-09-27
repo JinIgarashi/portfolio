@@ -23,13 +23,17 @@
     url = "#posts"
     weight = 2
   [[ja.menu.main]]
+    name = "ポートフォリオ"
+    url = "#portfolio"
+    weight = 3
+  [[ja.menu.main]]
     name = "プロジェクト"
     url = "#projects"
-    weight = 3
+    weight = 4
   [[ja.menu.main]]
     name = "執筆活動"
     url = "#publications"
-    weight = 4
+    weight = 5
   [[ja.menu.main]]
     name = "CV"
     url = "../files/cv_jin_igarashi.pdf"
