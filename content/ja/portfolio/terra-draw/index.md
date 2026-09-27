@@ -2,7 +2,7 @@
 title: "Terra Draw"
 subtitle: ""
 summary: "Web 地図のためのクロスプラットフォーム作図ライブラリ。開発への貢献に加え、プラグインやワークショップを通じて普及に取り組んでいます。"
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["Library", "MapLibre", "Terra Draw"]
 categories: []
 date: 2024-09-01T00:00:00+09:00
@@ -11,23 +11,16 @@ weight: 8
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Webサイト
     url: https://terradraw.io/
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/JamesLMilner/terra-draw
-    icon_pack: fab
-    icon: github
+    icon: brands/github
   - name: ワークショップ
     url: https://workshops.terradraw.water-gis.com/
-    icon_pack: fas
-    icon: chalkboard-teacher
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/terra-draw.webp
+    icon: hero/presentation-chart-bar
 
 projects: []
 ---
@@ -39,4 +32,4 @@ projects: []
 
 **技術スタック:** TypeScript, Terra Draw, MapLibre GL JS
 
-**関連:** [maplibre-gl-terradraw & Terra Draw プロジェクト](../../project/202409-maplibre-gl-terradraw/) · [FOSS4G 2026 広島: Terra Draw - bring drawing feature to all map applications](../../talk/20260903_foss4g2026_terradraw/) · [FOSS4G 2026 広島: Terra Draw ワークショップ](../../talk/20260831_foss4g2026_terradraw_workshop/)
+**関連:** [maplibre-gl-terradraw & Terra Draw プロジェクト](../../projects/202409-maplibre-gl-terradraw/) · [FOSS4G 2026 広島: Terra Draw - bring drawing feature to all map applications](../../events/20260903_foss4g2026_terradraw/) · [FOSS4G 2026 広島: Terra Draw ワークショップ](../../events/20260831_foss4g2026_terradraw_workshop/)

@@ -2,7 +2,7 @@
 title: "maplibre-gl-terradraw"
 subtitle: ""
 summary: "Terra Draw を利用した MapLibre GL JS 用の作図・計測プラグイン。"
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["Library", "MapLibre", "Terra Draw"]
 categories: []
 date: 2024-09-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 9
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: デモ
     url: https://terradraw.water-gis.com/
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/watergis/maplibre-gl-terradraw
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/maplibre-gl-terradraw.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -32,4 +26,4 @@ projects: []
 
 **技術スタック:** TypeScript, MapLibre GL JS, Terra Draw, Vite
 
-**関連:** [maplibre-gl-terradraw & Terra Draw プロジェクト](../../project/202409-maplibre-gl-terradraw/)
+**関連:** [maplibre-gl-terradraw & Terra Draw プロジェクト](../../projects/202409-maplibre-gl-terradraw/)

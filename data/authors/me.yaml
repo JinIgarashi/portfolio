@@ -1,0 +1,336 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Jin IGARASHI
+  given: Jin
+  family: IGARASHI
+  alternate: 五十嵐 仁
+role: Senior Software Engineer (GIS)
+bio: |
+  Jin IGARASHI is Senior software engineer specializing in GIS, information technology, water, and sanitation fields with over 13 years of work experience in Japan and Eastern Africa. Holds an MSc (Eng) in Water, Sanitation, and Health Engineering degree with distinction from the University of Leeds, United Kingdom.
+
+  During my master’s dissertation, I researched the full lifecycle costs of urban sanitation systems under the CACTUS (Climate and Costs in Urban Sanitation) project funded by the Bill and Melinda Gates Foundation. A case study for Narok town, Kenya was conducted to estimate the cost of the urban sanitation system over the sanitation value chain. Furthermore, completed an MSc in Computer Science Artificial Intelligence at the University of York from January 2024 to August 2026 as a part-time student.
+
+  Began my career developing various GIS applications at Fujitsu in Japan. Subsequently, worked in Eastern Africa (Kenya and Rwanda) on water asset management and Non-Revenue Water (NRW) management as a GIS specialist in Japan International Cooperation Agency (JICA) projects. During this time, I established a sustainable approach to maintaining geospatial applications for managing water assets by developing open-source software on GitHub. I maintain personal partnerships with water utilities in Kenya and Rwanda to continue supporting their WASH efforts as a volunteer.
+
+  Transitioned back to the software engineering industry after JICA projects, focusing on developing geospatial software in various companies in Japan before being enrolled at the University of Leeds for my master in 2021. I worked for UNDP from December 2021 to August 2025. In UNDP, I developed new web-based open-source geospatial applications to assist non-geospatial skilled UNDP staff and policymakers in easily visualizing and analyzing spatial datasets. Since September 2025, I started new role at Fracta to develop and maintain software for water utilities mainly in USA and Japan.
+
+  I am also an active member of the open-source geospatial community. I have spoken at FOSS4G conferences every year since 2019, including talks and hands-on workshops on UNDP GeoHub, Terra Draw and maplibre-gl-terradraw at FOSS4G 2023 Prizren, FOSS4G Europe 2024 & 2025, FOSS4G 2025 Auckland and FOSS4G 2026 Hiroshima.
+
+  I am passionate about driving innovation in the WASH field due to my background in information technologies and WASH experience.
+
+affiliations:
+  - name: Fracta
+    url: https://fracta.ai
+  - name: GIS for Water
+    url: https://water-gis.com
+  - name: WaQuAC-Net (Water Quality Asian Cooperation Network)
+    url: http://www.waquac.net/english
+
+links:
+  - icon: at-symbol
+    url: mailto:hello@jin-igarashi.me
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/JinIgarashi
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/jinigarashi
+  - icon: brands/x
+    url: https://twitter.com/j_igarashi
+
+interests:
+  - Geographic Information System (GIS)
+  - Water, Sanitation and Hygiene promotion (WaSH)
+  - Non-Revenue Water (NRW) management
+  - Minor foreign language - Maasai, Swahili, etc.
+
+education:
+  - degree: MSc Computer Science with Artificial Intelligence
+    institution: University of York, United Kingdom
+    year: Jan 2024 - Aug 2026
+  - degree: MSc Water, Sanitation and Health Engineering
+    institution: University of Leeds, United Kingdom
+    year: "2022"
+  - degree: Bachelor of Arts in Chinese and Korean history
+    institution: Tokai University, Japan
+    year: "2009"
+  - degree: Chinese language, School of Chinese as a Second Language
+    institution: Peking University, China
+    year: "2007"
+
+experience:
+  - role: "Software Engineer"
+    org: "Fracta"
+    icon: custom/fracta
+    start: "2025-09-01"
+    summary: |
+      📍 Remote (work from Japan) · 🔗 <https://fracta.ai>
+
+      Fracta is a software company using artificial intelligence to assess the risk of water and sewer pipeline failures and to support pipeline maintenance planning for utilities worldwide, mainly in the USA and Japan.
+
+      - Work in the engineering team as a full-stack software engineer.
+      - Develop new features, fix bugs and maintain the system from the web frontend to the backend and database.
+      - Work on map-based user interfaces for water and sewer utilities.
+
+      **Skills:** Mapbox, Node.js (JavaScript), Python, Vue.js, Django, PostgreSQL/PostGIS, AWS
+  - role: "Full Stack GIS Developer"
+    org: "United Nations Development Programme (UNDP)"
+    icon: custom/undp
+    start: "2021-12-01"
+    end: "2025-08-31"
+    summary: |
+      📍 New York (Work remotely from UK/Japan) · 🔗 <https://www.undp.org>
+
+      Developed the [UNDP GeoHub](https://geohub.data.undp.org) platform, a part of the Data Futures Exchange (DFx), in the SDG Integration Team, Bureau for Policy and Programme Support. Worked remotely from the United Kingdom (until October 2024) and Japan (from November 2024).
+
+      - Developed GeoHub, new open-source software that provides advanced data visualization, analysis and sharing tools to UNDP staff and policymakers without geospatial skills.
+      - Built the SvelteKit & MapLibre frontend and the FOSS4G backend (PostgreSQL/PostGIS, titiler, pg_tileserv) running on Azure Kubernetes Service.
+      - Implemented a data upload pipeline, dataset/map permission management, social login, raster analytics (titiler algorithms), STAC integration and a static map image API.
+      - Developed [RAPIDA](https://github.com/UNDP-Data/rapida), a semi-automated geospatial assessment tool for rapid crisis response (November 2024 – August 2025).
+      - Published all source code on GitHub under open-source licenses and presented the work at FOSS4G 2023 and FOSS4G Europe 2024.
+
+      Contract history:
+
+      - Individual contractor – GIS Consultant (part time), December 2021 – September 2022
+      - IPSA-9 Short term – GIS Developer (full time), September 2022 – July 2023
+      - IPSA-9 – Full Stack GIS Developer (full time), August 2023 – August 2025
+
+      **Skills:** MapLibre, Mapbox, Node.js (JavaScript), Python, Svelte/SvelteKit, PostgreSQL/PostGIS, titiler, pg_tileserv, STAC, Azure (App Service, Blob Storage, PubSub, Kubernetes, etc.)
+  - role: "Software Engineer"
+    org: "Geolonia Inc."
+    icon: custom/geolonia
+    start: "2021-08-01"
+    end: "2022-03-31"
+    summary: |
+      📍 Japan (Remote) · 🔗 <https://geolonia.com>
+
+      Worked part-time and remotely with Geolonia to develop open-source GIS applications.
+
+      - Developed open-source software for open reverse geocoding.
+      - Contributed to [unit/charites](https://github.com/unvt/charites), a CLI tool for writing and managing MapLibre map styles.
+
+      **Skills:** MapLibre, geocoding, reverse geocoding, map styling
+  - role: "Software Engineer"
+    org: "Ocean Eyes Co., Ltd."
+    start: "2021-06-01"
+    end: "2021-11-30"
+    summary: |
+      📍 Japan (Remote) · 🔗 <https://oceaneyes.co.jp/en>
+
+      Enhanced the existing WebGIS system and developed new features as a freelancer.
+
+      - Migrated the web map from Leaflet to Mapbox GL JS on Vue.js.
+      - Developed various new features on the website.
+      - Established CI/CD to manage the source code repository easily and sustainably.
+
+      **Skills:** Node.js (JavaScript), Mapbox, Leaflet, Vue.js
+  - role: "Software Engineer"
+    org: "MIERUNE Inc."
+    icon: custom/mierune
+    start: "2020-10-01"
+    end: "2021-08-15"
+    summary: |
+      📍 Hokkaido, Japan · 🔗 <https://mierune.co.jp>
+
+      Developed WebGIS systems using FOSS4G (Free & Open Source Software for Geospatial) as a GIS specialist.
+
+      - Developed WebGIS applications for clients with open-source geospatial software.
+      - Built geocoding services with Photon (open-source geocoder) and Elasticsearch.
+      - Developed backend systems with Django and deployed them to the cloud.
+      - Joined several open-source GIS community activities.
+
+      **Skills:** AWS, Google Cloud, Kubernetes, geocoding, Elasticsearch, Django, Python
+  - role: "Software Engineer"
+    org: "ONE COMPATH CO., LTD."
+    start: "2020-01-17"
+    end: "2020-09-30"
+    summary: |
+      📍 Tokyo, Japan · 🔗 <https://onecompath.com>
+
+      Developed and operated "MAPION", one of the most popular web map services in Japan.
+
+      - Developed and improved the operation of the map delivery system using Mapbox Vector Tiles and MapServer on Amazon Web Services (AWS).
+      - Maintained map data in PostgreSQL/PostGIS.
+
+      **Skills:** AWS, Mapbox, MapServer, PostgreSQL/PostGIS
+  - role: "Consultant"
+    org: "KOKUSAI KOGYO CO., LTD."
+    icon: custom/kkc
+    start: "2017-04-01"
+    end: "2019-12-31"
+    summary: |
+      📍 Tokyo, Japan · 🔗 <https://www.kkc.co.jp/english/index.html>
+
+      Conducted the following projects funded by the Japan International Cooperation Agency (JICA).
+
+      - [The Project for Strengthening Operation and Maintenance of Rural Water Supply Systems in Rwanda (RWASOM)](projects/201806-rwasom/) (06/2018 – 12/2019)
+      - [Survey for the Establishment of the Experimental Field for the GNSS System Development in the Kingdom of Thailand](projects/201811-thai_cors/) (11/2018 – 11/2019)
+      - [Preparatory Survey for the Project for Strengthening Nzove-Ntora Principal Water Transmission Pipeline in Kigali City, Rwanda](projects/201710-nzove-ntora/) (10/2017 – 11/2018)
+
+      In the RWASOM project, conducted training workshops for data collection and sharing with FOSS4G applications, then designed and created the GIS database and data sharing platform for rural water supply management. Collaborated with Rwandan colleagues to complete the mapping of all water supply systems in the country. The system uses PostGIS, Lizmap/QGIS Server, QGIS Desktop, QField and Garmin GPS.
+
+      **Skills:** geospatial data collection, EPANET, water supply, design/planning of water infrastructure, QGIS, PostGIS
+  - role: "GIS Specialist (JICA Volunteer)"
+    org: "NAROK WATER AND SEWERAGE SERVICES CO., LTD."
+    icon: custom/jica
+    start: "2014-04-01"
+    end: "2016-09-30"
+    summary: |
+      📍 Narok, Kenya · 🔗 <https://www.narwassco.co.ke>
+
+      Worked as a GIS specialist funded by JICA and conducted the following activities.
+
+      - Mapped the entire water distribution network (approximately 300 km of pipelines in total) in Narok and Ololulung'a towns (Trimble GPS, ArcPad, QGIS).
+      - Designed and developed a GIS database and WebGIS (PostGIS, MapServer, Leaflet). The system is linked to the billing system and helps improve revenue collection.
+      - Created DMAs (District Metered Areas) for analyzing and improving Non-Revenue Water management.
+      - Conducted training to transfer technical knowledge to Kenyan colleagues; the GIS system has been continuously used since it was developed.
+      - Consulted on GIS work for 7 water service providers in Kenya (Nyeri Water, Kabarnet Water, Kapsabet Water, Nakuru Water, Nakuru Rural Water, Naivasha Water and Mavoko Water).
+
+      **Skills:** data collection for water infrastructure, WebGIS, PostgreSQL/PostGIS, EPANET
+  - role: "Software Engineer"
+    org: "FUJITSU SOCIAL SCIENCE LABORATORY, LTD."
+    icon: custom/fujitsu
+    start: "2009-04-01"
+    end: "2017-03-31"
+    summary: |
+      📍 Kanagawa, Japan · 🔗 <https://www.fujitsu.com/jp/group/ssl/en/>
+
+      Designed and developed the following systems, most of them related to GIS. Took a leave of absence while working in Kenya between April 2014 and September 2016, then returned to the company.
+
+      - HD map development for autonomous vehicles (ArcGIS Server, Python, Django REST framework)
+      - A system for mapping and simulating the movement of ships in Singapore (Leaflet)
+      - A WebGIS system for the Real Property Registration system of the Ministry of Justice of Japan (MapServer, OpenLayers, Oracle)
+      - An Android application for health care management (Java)
+      - An area marketing system using MapInfo
+      - A logistics and distribution management system with Dijkstra's routing algorithm (VB.NET, SQL Server, MS Access)
+
+      **Skills:** VB.NET, Java, OpenLayers, Leaflet, MapServer, ArcGIS Server, SQL Server, MS Access, Oracle
+
+awards:
+  - title: "FOSS4G Hiroshima 2026 attendance certificate"
+    awarder: "OSGeo Japan"
+    date: "2026-08-30"
+    url: "https://2026.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20260905_FOSS4G2026_certificate.pdf"
+    icon: hero/trophy
+  - title: "MSc(Eng) Water, Sanitation and Health Engineering"
+    awarder: "University of Leeds"
+    date: "2022-11-24"
+    url: "https://courses.leeds.ac.uk/g062/water-sanitation-and-health-engineering-msc-eng-"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202211_msc_jin_igarashi.pdf"
+    summary: "Statement of MSc award and academic transcript"
+    icon: hero/trophy
+  - title: "Giswater introduction paritipation certificate"
+    awarder: "OSGEO"
+    date: "2022-08-23"
+    url: "https://2022.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20220823_FOSS4G_giswater_workshop_Participation certificate.pdf"
+    icon: hero/trophy
+  - title: "FOSS4G 2022 Firenze paritipation certificate"
+    awarder: "OSGEO"
+    date: "2022-08-22"
+    url: "https://2022.foss4g.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20220822_FOSS4G2022_Participation certificate.pdf"
+    icon: hero/trophy
+  - title: "Designing a Multidimensional Poverty Index"
+    awarder: "United Nations Development Programme (UNDP) and the Oxford Poverty and Human Development Initiative (OPHI)"
+    date: "2022-03-14"
+    url: "https://www.learningfornature.org/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202204_MPI.pdf"
+    icon: hero/trophy
+  - title: "Prevention of sexual harassment and abuse of authority (2021 version)"
+    awarder: "UN & UN agencies"
+    date: "2021-11-30"
+    url: "https://agora.unicef.org/course/info.php?id=28780"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_PSHAA.pdf"
+    icon: hero/trophy
+  - title: "Prevention of sexual exploitation and abuse (PSEA)"
+    awarder: "UNICEF"
+    date: "2021-11-30"
+    url: "https://agora.unicef.org/course/info.php?id=7380"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_PSEA.pdf"
+    icon: hero/trophy
+  - title: "BSAFE"
+    awarder: "United Nations Department of Safety and Security"
+    date: "2021-11-30"
+    url: "https://training.dss.un.org/thematicarea/category?id=6"
+    certificate_url: "https://jin-igarashi.me/files/certificates/202111_BSAFE.pdf"
+    icon: hero/trophy
+  - title: "IELTS Overall 6.5 (CEFR B2)"
+    awarder: "British Council"
+    date: "2021-03-20"
+    url: "https://www.eiken.or.jp/ielts/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/20210320_IELTS.pdf"
+    icon: hero/trophy
+  - title: "PCM Monitoring Evaluation"
+    awarder: "FASID - Fundation for Advanced Studies on International Development"
+    date: "2017-06-23"
+    url: "https://www.fasid.or.jp/pcm/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/201706_pcm_me.pdf"
+    icon: hero/trophy
+  - title: "PCM Participatory Planing"
+    awarder: "FASID - Fundation for Advanced Studies on International Development"
+    date: "2017-05-18"
+    url: "https://www.fasid.or.jp/pcm/"
+    certificate_url: "https://jin-igarashi.me/files/certificates/201705_pcm_pp.pdf"
+    icon: hero/trophy
+  - title: "Fundamental Information Technology Engineer Examination"
+    awarder: "IPA - Information Technology Promotion Agency, Japan"
+    date: "2009-11-16"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200911_fitee.pdf"
+    icon: hero/trophy
+  - title: "Information Technology Passport Examination"
+    awarder: "IPA - Information Technology Promotion Agency, Japan"
+    date: "2009-05-26"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200905_it_passport.pdf"
+    icon: hero/trophy
+  - title: "HSK Grade 9"
+    awarder: "HSK - Chinese Proficiency Test"
+    date: "2007-04-16"
+    certificate_url: "https://jin-igarashi.me/files/certificates/200705_HSK.pdf"
+    icon: hero/trophy
+
+skills:
+  - name: "WATER"
+    items:
+      - label: "Water, Sanitation and Hygiene promotion (WaSH)"
+      - label: "Non-Revenue Water Management"
+      - label: "Hydraulic modeling - EPANET"
+      - label: "Asset Management"
+  - name: "GIS"
+    items:
+      - label: "QGIS"
+      - label: "QField"
+      - label: "Mergin Maps"
+      - label: "ArcGIS"
+  - name: "GIS Server"
+    items:
+      - label: "QGIS Server/Lizmap"
+      - label: "MapServer"
+      - label: "GeoServer"
+      - label: "Mapbox/Maplibre Vector Tile"
+      - label: "Tiling server (titiler / pg_tileserv)"
+      - label: "United Nation Vector Tile Toolkits"
+      - label: "ArcGIS Server"
+  - name: "PROGRAMING"
+    items:
+      - label: "Python"
+      - label: "JavaScript / TypeScript"
+      - label: "Svelte/Sveltekit"
+      - label: "Java"
+      - label: "Cloud (Azure, AWS)"
+  - name: "DATABASE"
+    items:
+      - label: "PostgreSQL/PostGIS"
+      - label: "SQL Server"
+      - label: "Oracle"
+      - label: "MS Access"
+  - name: "LANGUAGE"
+    items:
+      - label: "Japanese"
+      - label: "English"
+      - label: "Chinese"
+      - label: "Swahili"
+      - label: "Maasai"
+      - label: "Korean"

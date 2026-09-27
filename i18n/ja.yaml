@@ -1,0 +1,20 @@
+# Japanese strings missing from the HugoBlox theme translations
+
+- id: about_me
+  translation: 自己紹介
+- id: backlinks
+  translation: バックリンク
+- id: docs
+  translation: ドキュメント
+- id: experience
+  translation: 職歴
+- id: faq
+  translation: よくある質問
+- id: portfolio_link_default
+  translation: リンク
+- id: poweredby_button
+  translation: 'あなたのサイトも作る →'
+- id: questions
+  translation: 質問
+- id: read_more
+  translation: 続きを読む

@@ -2,7 +2,7 @@
 title: "Nanyuki Water WebGIS"
 subtitle: ""
 summary: "ケニア・ナニュキ上下水道公社（NAWASCO）の給水ネットワーク WebGIS。"
-authors: ["Jin Igarashi"]
+authors: ["me"]
 tags: ["WebGIS", "Water", "Kenya"]
 categories: []
 date: 2020-09-01T00:00:00+09:00
@@ -11,19 +11,13 @@ weight: 2
 featured: false
 draft: false
 
-# Link buttons shown on the portfolio card and page.
 links:
   - name: Webサイト
     url: https://new.nawascogis.co.ke
-    icon_pack: fas
-    icon: globe
+    icon: hero/globe-alt
   - name: GitHub
     url: https://github.com/nawasco
-    icon_pack: fab
-    icon: github
-
-# Thumbnail shared by all languages (static/images/portfolios/).
-thumbnail: images/portfolios/nanyuki-water-webgis.webp
+    icon: brands/github
 
 projects: []
 ---
@@ -32,4 +26,4 @@ projects: []
 
 **技術スタック:** PostgreSQL/PostGIS, ベクトルタイル, MapLibre GL JS, SvelteKit
 
-**関連:** [FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water](../../talk/20211001_foss4g2021_nanyuki/)
+**関連:** [FOSS4G 2021: The impact of application of FOSS4G on Non-Revenue Water](../../events/20211001_foss4g2021_nanyuki/)
